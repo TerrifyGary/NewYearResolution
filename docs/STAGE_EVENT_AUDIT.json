@@ -1,0 +1,274 @@
+{
+  "version": "0.7.0",
+  "friendPools": {
+    "preschool": {
+      "count": 3,
+      "titles": [
+        "下雨天的積木城堡",
+        "交換小貼紙",
+        "公園裡的尋寶"
+      ]
+    },
+    "primary": {
+      "count": 3,
+      "titles": [
+        "放學繞進文具店",
+        "圖書館的秘密基地",
+        "操場最後一圈"
+      ]
+    },
+    "junior": {
+      "count": 5,
+      "titles": [
+        "一起逛文具展",
+        "考完試吃碗豆花",
+        "聽一場學生音樂會",
+        "自行車道的午後",
+        "交換最近喜歡的漫畫"
+      ]
+    },
+    "senior": {
+      "count": 5,
+      "titles": [
+        "麥當勞裡的讀書約",
+        "放學後的球場",
+        "存了很久的演唱會",
+        "週末一起逛夜市",
+        "街舞社成果發表"
+      ]
+    },
+    "campus": {
+      "count": 10,
+      "titles": [
+        "宿舍旁的牛肉麵",
+        "咖啡館裡交換近況",
+        "週末電影與宵夜",
+        "文具展的小旅行",
+        "郊山步道半日走",
+        "搭帳篷看星星",
+        "湖上的 SUP 初體驗",
+        "客廳裡的遊戲之夜",
+        "逛獨立書店與二手市集",
+        "一起學做晚餐"
+      ]
+    },
+    "adult": {
+      "count": 12,
+      "titles": [
+        "下班後去逛文具展",
+        "一場等很久的音樂會",
+        "一起看演唱會",
+        "河堤邊散步",
+        "週五晚餐的老位子",
+        "社區咖啡體驗課",
+        "郊山步道半日走",
+        "搭帳篷看星星",
+        "湖上的 SUP 初體驗",
+        "客廳裡的遊戲之夜",
+        "逛獨立書店與二手市集",
+        "一起學做晚餐"
+      ]
+    },
+    "retired": {
+      "count": 2,
+      "titles": [
+        "花市與早午餐",
+        "公園裡的一盤棋"
+      ]
+    }
+  },
+  "personalityScenes": {
+    "primary": 16,
+    "junior": 16,
+    "senior": 16,
+    "university": 16,
+    "master": 16,
+    "work": 16,
+    "promotion": 16
+  },
+  "questionBanks": {
+    "primary": 4,
+    "junior": 4,
+    "senior": 4,
+    "university": 4,
+    "master": 4,
+    "work": 4,
+    "promotion": 4
+  },
+  "clubs": {
+    "junior": {
+      "catalog": 11,
+      "additionalLegacyOptions": 4,
+      "total": 15
+    },
+    "senior": {
+      "catalog": 16,
+      "additionalLegacyOptions": 4,
+      "total": 20
+    },
+    "university": {
+      "catalog": 22,
+      "additionalLegacyOptions": 4,
+      "total": 26
+    }
+  },
+  "careers": {
+    "partTime": 6,
+    "fullTime": 13
+  },
+  "businesses": 5,
+  "agencyCombinations": {
+    "total": 972,
+    "counts": {
+      "3": 628,
+      "4": 344
+    }
+  },
+  "examples": [
+    {
+      "stage": "出生",
+      "age": 0,
+      "notes": "One synthetic fixture; scheduled events, not a total stage-story count or a probability estimate.",
+      "scheduled": [
+        "story:照顧日常",
+        "story:新的味道"
+      ]
+    },
+    {
+      "stage": "幼稚園",
+      "age": 4,
+      "notes": "One synthetic fixture; scheduled events, not a total stage-story count or a probability estimate.",
+      "scheduled": [
+        "friend:social:play",
+        "story:身邊的小事",
+        "illness:gastroenteritis"
+      ]
+    },
+    {
+      "stage": "國小",
+      "age": 10,
+      "notes": "One synthetic fixture; scheduled events, not a total stage-story count or a probability estimate.",
+      "scheduled": [
+        "life:profile:primary:2022:0",
+        "friend:social:school",
+        "story:身邊的小事",
+        "illness:enterovirus",
+        "life:personality-scene",
+        "story:暑假裡的一天（示意日期）",
+        "life:tutoring"
+      ]
+    },
+    {
+      "stage": "國中",
+      "age": 13,
+      "notes": "One synthetic fixture; scheduled events, not a total stage-story count or a probability estimate.",
+      "scheduled": [
+        "life:profile:junior:2025:0",
+        "life:tutoring",
+        "friend:social:study",
+        "story:身邊的小事",
+        "termexam:term",
+        "illness:stress-overload",
+        "life:personality-scene",
+        "story:暑假裡的一天（示意日期）",
+        "life:school-club",
+        "life:romance",
+        "wellbeing:留意自己的心情"
+      ]
+    },
+    {
+      "stage": "高中",
+      "age": 16,
+      "notes": "One synthetic fixture; scheduled events, not a total stage-story count or a probability estimate.",
+      "scheduled": [
+        "life:profile:senior:2025:0",
+        "life:tutoring",
+        "friend:social:club",
+        "life:part-time",
+        "story:身邊的小事",
+        "termexam:term",
+        "illness:stress-overload",
+        "life:personality-scene",
+        "story:暑假裡的一天（示意日期）",
+        "schoolstory:group",
+        "life:school-club",
+        "life:romance",
+        "wellbeing:留意自己的心情"
+      ]
+    },
+    {
+      "stage": "大學",
+      "age": 20,
+      "notes": "One synthetic fixture; scheduled events, not a total stage-story count or a probability estimate.",
+      "scheduled": [
+        "life:profile:university:2024:0",
+        "friend:social:campus",
+        "life:tuition",
+        "life:part-time",
+        "story:身邊的小事",
+        "illness:stress-overload",
+        "life:personality-scene",
+        "life:course-grades",
+        "story:暑假裡的一天（示意日期）",
+        "life:student-housing",
+        "life:scooter",
+        "club:大學社團招募",
+        "life:hobby-purchase",
+        "life:romance",
+        "wellbeing:留意自己的心情"
+      ]
+    },
+    {
+      "stage": "研究所",
+      "age": 23,
+      "notes": "One synthetic fixture; scheduled events, not a total stage-story count or a probability estimate.",
+      "scheduled": [
+        "life:profile:master:2025:0",
+        "friend:social:adult",
+        "life:tuition",
+        "story:身邊的小事",
+        "illness:stress-overload",
+        "life:course-grades",
+        "life:student-housing",
+        "life:scooter",
+        "life:hobby-purchase",
+        "life:romance",
+        "wellbeing:留意自己的心情"
+      ]
+    },
+    {
+      "stage": "職場",
+      "age": 30,
+      "notes": "One synthetic fixture; scheduled events, not a total stage-story count or a probability estimate.",
+      "scheduled": [
+        "life:profile:work:2022:工程師:2022:0",
+        "friend:social:adult",
+        "story:身邊的小事",
+        "life:work-housing",
+        "life:professional-learning",
+        "illness:stress-overload",
+        "life:business",
+        "life:promotion",
+        "life:career",
+        "life:hobby-purchase",
+        "life:romance",
+        "wellbeing:留意自己的心情",
+        "life:bonus"
+      ]
+    },
+    {
+      "stage": "退休",
+      "age": 70,
+      "notes": "One synthetic fixture; scheduled events, not a total stage-story count or a probability estimate.",
+      "scheduled": [
+        "friend:social:retirement",
+        "life:part-time",
+        "story:身邊的小事",
+        "illness:stress-overload",
+        "life:hobby-purchase",
+        "life:romance",
+        "wellbeing:留意自己的心情"
+      ]
+    }
+  ]
+}

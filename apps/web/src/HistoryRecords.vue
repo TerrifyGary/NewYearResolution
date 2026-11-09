@@ -1,0 +1,16 @@
+<script setup lang="ts">
+import {computed} from 'vue';
+import type {World,Language} from '../../../packages/shared/src/types';
+import {spendingHistory} from '../../../packages/engine/src/history';
+import {schools} from '../../../packages/world-data/src/schools';
+import {juniorSubjects} from '../../../packages/engine/src/subjects';
+import {enrollmentLength} from '../../../packages/engine/src/education';
+const props=defineProps<{state:World;lang:Language}>();
+const p=computed(()=>props.state.people.find(n=>n.id===props.state.playerId)!);
+const spending=computed(()=>spendingHistory(props.state));
+const l=(zh:string,en:string)=>props.lang==='zh'?zh:en;
+const groups=computed(()=>[{name:l('父母與家庭資助歷史','Family support history'),...spending.value.aid},{name:l('自己花費區','Personal spending'),...spending.value.personal},{name:l('家庭開銷：子女','Household spending: children'),...spending.value.family}]);
+const labels:Record<string,[string,string]>={learning:['學習','Learning'],food:['伙食','Food'],clothing:['衣服與用品','Clothing and supplies'],health:['醫療','Health'],living:['生活與其他','Living and other']};
+const stages=computed(()=>p.value.enrollments.filter(e=>e.outcome||props.state.date>=`${e.startYear+enrollmentLength(e)}-07-01`));
+</script>
+<template><section class="history-records"><h2>{{l('歷史區','History')}}</h2><details v-for="e in stages" :key="e.startYear+e.level"><summary>{{e.startYear}} · {{e.schoolName?.[lang]??schools.find(n=>n.id===e.schoolId)?.name??({kindergarten:['幼兒園','Kindergarten'],primary:['國小','Primary'],junior:['國中','Junior high'],senior:['高中','Senior high'],vocational:['高職','Vocational high'],juniorCollege:['五專','Junior college'],university:['大學','University'],master:['碩班','Master’s']})[e.level][lang==='zh'?0:1]}} · {{e.department?.[lang]}}</summary><p>{{l('已完成階段，成績保存在此。','Completed stage; reports retained here.')}}</p><details v-for="r in p.life?.reports?.filter(r=>r.date>=`${e.startYear}-09-01`&&r.date<`${e.startYear+enrollmentLength(e)}-07-01`)" :key="r.date"><summary>{{r.date}}</summary><p v-for="(subject,key) in r.subjects" :key="key">{{juniorSubjects[key][lang]}}：{{subject.score}}</p></details></details><details v-if="p.life?.academicGrades?.length"><summary>{{l('大學修課成績','University coursework grades')}}</summary><p v-for="r in p.life.academicGrades" :key="r.year">{{r.year}} · {{r.department[lang]}} · {{r.score}}</p></details><details v-for="group in groups" :key="group.name"><summary>{{group.name}} · NT$ {{group.total.toLocaleString()}}</summary><div v-for="c in group.categories" :key="c.category"><span>{{labels[c.category][lang==='zh'?0:1]}} · {{c.percent}}% · NT$ {{c.amount.toLocaleString()}}</span><meter min="0" max="100" :value="c.percent" :aria-label="labels[c.category][lang==='zh'?0:1]"/></div><details v-for="year in [...new Set(group.entries.map(e=>e.entry.date.slice(0,4)))].sort().reverse()" :key="year"><summary>{{year}} · NT$ {{group.entries.filter(e=>e.entry.date.startsWith(year)).reduce((v,e)=>v+e.amount,0).toLocaleString()}}</summary><p v-for="row in group.entries.filter(e=>e.entry.date.startsWith(year))" :key="row.entry.id">{{row.entry.date}} · {{row.entry.text[lang]}} · NT$ {{row.amount.toLocaleString()}}</p></details></details></section></template>

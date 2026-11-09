@@ -1,0 +1,3 @@
+<script setup lang="ts">
+import {computed} from 'vue';import type {World,Language} from '../../../packages/shared/src/types';import {spendingHistory} from '../../../packages/engine/src/history';const props=defineProps<{state:World;lang:Language}>();const h=computed(()=>spendingHistory(props.state));
+</script><template><section class="money-grid"><div v-for="(key,i) in (['aid','personal','family'] as const)" :key="key"><span>{{lang==='zh'?['父母與家庭資助歷史','自己花費累計','子女家庭開銷累計'][i]:['Family aid','Personal spending','Child expenses'][i]}}</span><b>NT$ {{h[key].total.toLocaleString()}}</b></div></section></template>

@@ -1,0 +1,19 @@
+// @vitest-environment jsdom
+import {describe,it,expect} from 'vitest';
+import {mount} from '@vue/test-utils';
+import HistoryRecords from '../apps/web/src/HistoryRecords.vue';
+import StudentRecords from '../apps/web/src/StudentRecords.vue';
+import NamingPanel from '../apps/web/src/NamingPanel.vue';
+import FamilyOverview from '../apps/web/src/FamilyOverview.vue';
+import Belongings from '../apps/web/src/Belongings.vue';
+import {createGame,player,recordNpcDeath} from '../packages/engine/src';
+import {termReport} from '../packages/engine/src/life-finance';
+import {awaitingName,partnered} from './family-fixtures';
+describe('compact history and family controls',()=>{
+ it('moves completed-school reports out of the sidebar and retains them in history',()=>{const s=createGame('history-ui',2008);s.year=2026;s.date='2026-09-01';const p=player(s);p.enrollments=[{level:'junior',schoolId:null,startYear:2020,track:'general'},{level:'senior',schoolId:null,startYear:2023,track:'general'},{level:'university',schoolId:'ntnu',startYear:2026,track:'general'}];s.date='2025-03-15';termReport(s,p,()=>.3);s.date='2026-09-01';const side=mount(StudentRecords,{props:{person:p,state:s,lang:'zh'}});expect(side.text()).not.toContain('2025-03-15');const history=mount(HistoryRecords,{props:{state:s,lang:'zh'}});expect(history.text()).toContain('2025-03-15');expect(history.findAll('details').every(d=>!d.element.open)).toBe(true);side.unmount();history.unmount();});
+ it('shows financial proportions and each year in collapsed sections',()=>{const s=createGame('spending-ui');s.ledger=[{id:'aid',date:s.date,personId:s.playerId,relatedPersonId:'father',category:'familyAid',amount:1000,text:{zh:'家庭資助：伙食',en:'Family support: food'}}];const w=mount(HistoryRecords,{props:{state:s,lang:'zh'}});expect(w.text()).toContain('父母與家庭資助歷史');expect(w.text()).toContain('100%');expect(w.text()).toContain('自己花費區');expect(w.text()).toContain('家庭開銷：子女');expect(w.findAll('meter')).toHaveLength(1);w.unmount();});
+ it('offers six names and emits the selected parent for surname confirmation',async()=>{const s=awaitingName(),partner=s.people.find(n=>n.id===player(s).partnerId)!;partner.name='許若棠';const w=mount(NamingPanel,{props:{state:s,lang:'zh',error:''}});expect(w.findAll('.name-suggestions button')).toHaveLength(6);await w.get('#surname-parent').setValue(partner.id);await w.get('#child-name').setValue('星佑');expect(w.get('.name-preview').text()).toContain('許星佑');await w.get('form').trigger('submit');expect(w.emitted('confirm')?.[0]).toEqual(['星佑',partner.id]);w.unmount();});
+ it('displays a parent’s recorded death date and cause even after forming a household',()=>{const s=partnered();recordNpcDeath(s,s.people.find(n=>n.id===player(s).parentIds[0])!,{zh:'疾病',en:'Illness'});const w=mount(FamilyOverview,{props:{state:s,lang:'zh'}});expect(w.get('.origin-record').text()).toContain(s.date);expect(w.get('.origin-record').text()).toContain('疾病');expect(w.text()).toContain('目前家庭資產');w.unmount();});
+ it('inspects a named school uniform and a saved confession letter',async()=>{const s=createGame('inspect-ui',1998);s.year=2026;s.date='2026-01-01';const p=player(s);p.enrollments=[{level:'primary',schoolId:'pcps',track:'general',startYear:2004}];p.inventory=['uniform:primary:2004','love-card:author:2020'];p.life={itemNotes:{'love-card:author:2020':{zh:'若棠：和你一起回家，讓我好期待明天。',en:'Looking forward to tomorrow.'}}};const w=mount(Belongings,{props:{state:s,lang:'zh'}});expect(w.text()).toContain('板橋國小的制服');expect(w.text()).not.toContain('制服採白襯衫');expect(w.text()).not.toContain('primary:2004');await w.findAll('.inspect-item')[0].trigger('click');expect(w.get('[role="dialog"]').text()).toContain('16 年前');await w.get('.close-dialog').trigger('click');await w.findAll('.inspect-item')[1].trigger('click');expect(w.get('[role="dialog"]').text()).toContain('若棠');expect(w.find('.uniform-art').attributes('src')).toContain('uniforms/white-shirt-black');w.unmount();});
+
+});

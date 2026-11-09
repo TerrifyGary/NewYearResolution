@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.DS_Store
+coverage/
+*.log
+
+# Local credentials, editor state and personal save exports
+.env
+.env.*
+!.env.example
+.codex/
+.agents/
+new-year-*.json

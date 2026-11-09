@@ -1,0 +1,24 @@
+import {describe,it,expect} from 'vitest';
+import {createGame,player,options,decide,advance,focuses,discardItem,type World} from '../packages/engine/src';
+import {scheduleChapter,profileType,typeStories,memories,bagWeight,itemWeight,mortgagePayment,mortgageRate} from '../packages/engine/src/chapters';
+import {termReport} from '../packages/engine/src/life-finance';
+import {schoolCandidates} from '../packages/engine/src/education';
+import {districtRows,weightedLocation,population} from '../packages/world-data/src/geography';
+import {lifeEvent} from '../packages/engine/src/life-events';
+import {deserialize,serialize} from '../packages/engine/src/save';
+import {personalityScenes} from '../packages/world-data/src/personality-scenes';
+import {capBand} from '../packages/engine/src/progression';
+function s(){const n=createGame('chapter',2008);n.year=2026;n.date='2026-09-01';n.queue=[];n.cursor=0;n.journal=[];n.phase='story';player(n).enrollments=[{level:'university',schoolId:'ntnu',startYear:2026,track:'general'}];return n;}
+describe('stages, real directories and belongings',()=>{
+ it('weights all 368 districts by a clearly dated official snapshot',()=>{expect(districtRows).toHaveLength(368);expect(population.year).toBe(2025);expect(districtRows.reduce((v,r)=>v+r.weight,0)).toBe(23299132);expect(new Set(Array.from({length:1000},(_,i)=>weightedLocation(i/1000))).size).toBeGreaterThan(200);});
+ it('uses the full Zhongzheng directory and city-wide Kaohsiung high-school pool',()=>{const n=s();n.locationId='zhongzheng';expect(schoolCandidates(n,'primary').length).toBe(8);expect(schoolCandidates(n,'primary').some(r=>r.name.includes('螢橋'))).toBe(true);n.locationId='lingya';expect(schoolCandidates(n,'junior').length).toBeGreaterThan(2);expect(schoolCandidates(n,'senior').length).toBeGreaterThan(20);});
+ it('keeps only social and health goals before primary age',()=>{const n=s();player(n).birthYear=2023;n.phase='focus';expect(focuses(n).map(o=>o.id)).toEqual(['social','health']);});
+ it('requires all four stage questions and preserves them without rerolls',()=>{let n=s();scheduleChapter(n);n=advance(n);for(let i=0;i<4;i++){expect(n.current?.data).toContain('profile:');expect(options(n).map(o=>o.id)).toEqual(['a','b']);n=decide(n,'a');expect(deserialize(serialize(n))).toEqual(n);n=advance(n);}expect(profileType(player(n))).toBe('ENTJ');expect(n.current?.data).toContain('type-story:');expect(n.current?.title.zh).not.toContain('ENTJ');expect(n.current?.title.zh).not.toContain('指揮官');expect(n.current?.text.zh).toContain('大學分組報告');expect(n.current?.text.zh).toContain('自我中心');});
+ it('has 16 distinct personality conflicts',()=>{expect(Object.values(personalityScenes)).toHaveLength(7);for(const rows of Object.values(personalityScenes)){expect(rows).toHaveLength(16);expect(new Set(rows).size).toBe(16);}expect(Object.keys(typeStories)).toHaveLength(16);expect(new Set(Object.values(typeStories).map(v=>v[0])).size).toBe(16);});
+ it('retains the blanket, school materials and graduation keepsakes and lets items go',()=>{let n=s();memories(n);expect(player(n).inventory).toContain('blanket');expect(player(n).inventory.some(i=>i.startsWith('textbook:'))).toBe(true);n=discardItem(n,'blanket');memories(n);expect(player(n).inventory).not.toContain('blanket');expect(itemWeight('uniform:primary')).toBeGreaterThan(itemWeight('four-leaf-clover'));expect(bagWeight(player(n))).toBeGreaterThan(0);});
+ it('does not make every maximum-proficiency score perfect and gives a school rank',()=>{const n=s();player(n).life={subjectPoints:{chinese:20,math:20,english:20,science:20,socialStudies:20}};n.date='2026-10-15';const report=termReport(n,player(n),()=>0);expect(report.subjects.math.score).toBe(75);expect(report.rank).toBeLessThan(40);expect(report.formula).toBe(2);expect(deserialize(serialize(n))).toEqual(n);});
+ it('supports all official CAP level labels while keeping conversion a game rule',()=>{expect([29,26,23,20,17,12,1].map(capBand)).toEqual(['A++','A+','A','B++','B+','B','C']);});
+ it('computes amortization and tracks the reference subsidy steps',()=>{expect(mortgagePayment(4800000,.01775,480)).toBeGreaterThan(13000);expect(mortgagePayment(4800000,.01775,480)).toBeLessThan(15000);expect([1,4,5,6,7].map(mortgageRate)).toEqual([.01775,.019,.02025,.0215,.02275]);});
+ it('enforces family companionship before moving out',()=>{const n=s();n.phase='event';n.current=lifeEvent(n,9,1,'care',{zh:'家人',en:'Family'},{zh:'家人',en:'Family'},'family');expect(options(n).map(o=>o.id)).toEqual(['visit']);});
+ it('records a completed stage only once even after discarding its album',()=>{let n=s();player(n).enrollments=[{level:'primary',schoolId:null,startYear:2014,track:'general'}];memories(n);const id=player(n).inventory.find(i=>i.startsWith('album:'))!;expect(id).toBeDefined();n=discardItem(n,id);memories(n);expect(player(n).inventory).not.toContain(id);});
+});

@@ -1,0 +1,6 @@
+import {t,type World,type Person,type JuniorSubject} from '../../shared/src/types';
+export const juniorSubjects={chinese:t('國文','Chinese'),math:t('數學','Mathematics'),english:t('英文','English'),science:t('自然','Science'),socialStudies:t('社會','Social studies')};
+export function subjectScores(p:Person):Record<JuniorSubject,number>{return p.juniorSubjects??{chinese:p.skills.academic,math:p.skills.academic,english:p.skills.academic,science:p.skills.academic,socialStudies:p.skills.academic};}
+export function subjectAverage(p:Person){return Math.round(Object.values(subjectScores(p)).reduce((a,b)=>a+b,0)/5);}
+export function setJuniorFocus(input:World,value:JuniorSubject|'all'){if(input.phase!=='focus'||!(value==='all'||value in juniorSubjects))throw Error('Subject unavailable');const s=JSON.parse(JSON.stringify(input)) as World,p=s.people.find(p=>p.id===s.playerId)!;p.juniorFocus=value;return s;}
+export function growSubjects(p:Person,amount:number,targeted=false){p.juniorSubjects={...subjectScores(p)};for(const key of Object.keys(juniorSubjects) as JuniorSubject[])if(!targeted||!p.juniorFocus||p.juniorFocus==='all'||p.juniorFocus===key)p.juniorSubjects[key]=Math.min(100,p.juniorSubjects[key]+amount);p.skills.academic=subjectAverage(p);}
