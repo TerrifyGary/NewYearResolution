@@ -1,3 +1,5 @@
+> 2026-11-12：最新進度與未完成項目見 [時間段與學生工作](docs/TIME_BLOCK_AND_STUDENT_WORK.md)、[癌症資料](docs/CANCER_MODEL.md)。
+
 # 新年新希望 / New Year Resolution
 
 以臺灣為背景的雙語文字人生 RPG。從出生、學校、工作走到家庭與晚年，選擇年度目標，經歷有日期的生活事件，以 D20 處理需要檢定的選擇。預設繁體中文，可切換英文。
@@ -25,9 +27,11 @@ npm run preview       # 預覽 dist 靜態網站
 
 完整人生測試會跑八條長人生，整套測試可能需要數分鐘。圖片與公開資料隨專案快取，遊玩不需要 Node 後端、帳號或付費 API。
 
+高中夏季制服可在 [本機圖庫](http://127.0.0.1:5173/uniform-library.html) 瀏覽；最新 [制服地圖整併](docs/UNIFORM_MAP_DIRECTORY.md) 收錄562筆來源、593筆可搜尋身分與100校／129款插畫；[前批制服地圖查找](docs/UNIFORM_MAP.md) 保留437校索引結果；前批 [制服查找紀錄](docs/UNIFORM_RESEARCH.md) 保留校方來源，重建方法見 [制服與畢業後修正](docs/POST_GRADUATION_AND_UNIFORMS.md)。
+
 ## 如何遊玩
 
-- 選出生年1980–2026；每次新開局產生種子，可在進階設定指定種子以重播。
+- 選出生年1980–2026；每次新開局產生種子，可在進階設定指定種子以重播。新人物依性別使用命名偏好與中性姓名池，孩子仍可自行取名。
 - 自主決策前由家人安排生活；幼兒可選人際／健康年度重心，小學起開放學科與專長。
 - 選年度目標後，逐項閱讀日期事件並作決定。自動播放按鈕只處理目前階段，可隨時暫停；問答、取名及背包過重會停下。
 - 普通、音樂與體育升學、五科成績、社團、學費、學貸、住房、打工與職涯逐步開放。
@@ -73,7 +77,7 @@ node node_modules/vite-node/vite-node.mjs scripts/analysis/stage-audit.ts
 - 學測／分科部分2026日期有來源；其他排程、D20分數換算、校排、入學門檻及推薦為遊戲模型。
 - 薪資、費用、事件風險、房價、房貸資格、稅保與退休等多為簡化估值。職涯資料不是即時職缺。
 - 新角色40%同性傾向是使用者指定的遊戲設定，不是現實人口比例。領養不代表模擬完整法定資格、媒合或法院程序。
-- 制服採本作通用插畫；國小女生是黑色吊帶百褶裙，不宣稱已復刻真實校服。
+- 高中夏季制服圖庫保留506校名錄，100校／129款插畫；10校第三方文字與18校來源站示意圖重繪均待校方核對。另有593筆學校搜尋字典，涵蓋制服地圖562筆來源校名；未對應的87筆不直接加入高中分發。406校實樣仍待補，圖庫不再以通用制服填圖，圖示不印校名。國小女生保留黑色吊帶百褶裙，完整歷史款式尚未完成。
 - 玩家死亡率目前只依年齡，尚未連動健康、理智或職業風險。自主公式實際產生3／4歲；舊說明的2–4歲範圍尚待規則修正。
 - 完整臨床疾病／疫苗、法定稅保退休、軍事義務、農曆假日、投資、完整企業營運、遺產分配、Flutter仍待擴充。
 
@@ -108,6 +112,9 @@ UI 不自行擲模擬用亂數，引擎不依賴 Vue。新增功能需保留確�
 
 ## 文件索引
 
+- [姓名與角色性別一致性](docs/NAME_GENERATION.md)
+
+- [畢業後播放、收手求職與高中夏季制服](docs/POST_GRADUATION_AND_UNIFORMS.md)
 - [目前實作與驗證紀錄](docs/IMPLEMENTATION_STATUS.md)
 - [各階段劇情與觸發機率](docs/STAGE_EVENTS.md)
 - [遊戲設計](docs/GAME_DESIGN.md)／[系統](docs/GAME_SYSTEMS.md)／[路線圖](docs/ROADMAP.md)
@@ -117,3 +124,5 @@ UI 不自行擲模擬用亂數，引擎不依賴 Vue。新增功能需保留確�
 - [播放、道具與領養](docs/PLAYBACK_AND_KEEPSAKE_REFINEMENTS.md)
 
 English: a bilingual, Taiwan-based life-simulation text RPG built with Vue and a framework-independent deterministic TypeScript engine. Run `npm ci && npm run dev`; run `npm test` and `npm run build` before contributing. See the linked scope documents for verified data, game estimates, save compatibility and unfinished systems.
+
+碩班到職涯、成年自動遊玩、家庭分開／子女照顧、壓力疲勞滿值恢復與多年目標節奏，見 [2026-11-12實作範圍](docs/GRADUATE_CAREER_AND_ADULT_LIFE.md)。

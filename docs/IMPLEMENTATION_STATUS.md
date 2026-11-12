@@ -1,3 +1,31 @@
+## 2026-11-12 最新修正
+
+見 [學生與人生時間段](TIME_BLOCK_AND_STUDENT_WORK.md) 及 [癌症資料覆蓋與限制](CANCER_MODEL.md)。25 歲起真正跨 2／3／3／4／5 年、帳目與風險逐年處理；此規則取代先前只減少年度目標次數的版本。其他癌別與滑鼠完整試玩尚未完成。
+
+## 2026-11-12：碩班職涯、家庭與成年節奏
+
+見 [本輪實作與驗證](GRADUATE_CAREER_AND_ADULT_LIFE.md)：已完成學位分流職缺、研究所自動報考偏好、職場日常輪替、自動留任與維持家庭、兩階段分開確認／子女照顧與扶養、滿值恢復事件與近期來源，以及30歲後2／3／4／5年規劃間隔。帳目與重要事件仍逐年計算；照顧安排是遊戲評估，非法律裁判。退休制度待下一階段。
+
+## 2026-11-11：制服去字、完整來源校名與新款式
+
+見 [制服地圖校名整併與夏季款式](UNIFORM_MAP_DIRECTORY.md)：562筆來源整併為593筆可搜尋身分；高中職校碼仍為506，現有100校／129款插畫。18校採來源站AI示意重繪、10校採第三方文字，均待校方核對；406校實樣仍待補。圖庫移除通用填圖與指定說明句，SVG不再印校名。參考校名未直接加入分發，存檔與RNG維持不變。
+
+## 2026-11-11：制服地圖續批
+
+See [UNIFORM_MAP.md](UNIFORM_MAP.md). Indexed lookup covered437 starting-pending schools;230 have matched reference pages, not verified uniform designs. Added7 schools /8 SVGs; current76 schools /105 illustrations,430 schools still generic. Four new schools use explicitly labelled third-party descriptions; two use official rules and one school-hosted media. No AI-site image is treated as photographic evidence. Validation:18 relevant tests passed; production build passed; browser checked labels, artwork and lookup filters. Simulation/save/RNG unchanged.
+
+## 2026-11-11：夏季制服擴充
+
+See [UNIFORM_RESEARCH.md](UNIFORM_RESEARCH.md). Searched the original487 pending schools; added50 schools /76 SVGs. Current coverage:506 school identities,69 sourced schools /97 illustrations,437 schools still generic. Search leads remain separate from verified artwork; the gallery offers a CSV research list. Validation:15 relevant tests passed; production build passed; browser checked filtering, new designs and loading all69 cards without broken images. No simulation or save changes.
+
+## 2026-11-11：姓名與角色性別
+
+See [NAME_GENERATION.md](NAME_GENERATION.md). New players, parents and partners use gender-aware and neutral naming pools; child suggestions follow the recorded gender. Custom names and existing saved identities remain intact. Validation: 265 tests passed; production build passed.
+
+## 2026-11-09：畢業後播放與夏季制服
+
+See [POST_GRADUATION_AND_UNIFORMS.md](POST_GRADUATION_AND_UNIFORMS.md). Post-graduation/retirement playback and explicit business exits are implemented. Summer uniform catalog: 506 identities, 19 sourced schools / 21 illustrations, 487 schools still generic. Validation: 250 tests passed; production build passed.
+
 # v0.7 playback and keepsake refinements — 2026-11-09
 
 Current contract: [PLAYBACK_AND_KEEPSAKE_REFINEMENTS.md](PLAYBACK_AND_KEEPSAKE_REFINEMENTS.md). Domain state, deterministic engine, explicit schema7 migration, UI, static asset gallery and documentation are updated.

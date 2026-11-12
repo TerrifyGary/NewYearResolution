@@ -1,10 +1,12 @@
 import type {LifeState} from './life';
 export type {LifeState,Hobby,TermReport} from './life';
 export type Language = 'zh' | 'en';
+export type Gender = 'male' | 'female';
 export type Text = { zh: string; en: string };
 export type Attribute = 'str'|'dex'|'con'|'int'|'wis'|'cha';
 export type Skill = 'academic'|'music'|'coffee'|'social'|'sports';
 export type EducationLevel='kindergarten'|'primary'|'junior'|'senior'|'vocational'|'juniorCollege'|'university'|'master';
+export type PlaybackStage=EducationLevel|'work'|'retired';
 export interface Enrollment {schoolId:string|null; level:EducationLevel; track:'general'|'music'|'sports'; startYear:number; classNumber?:number; seat?:number; animal?:string; department?:Text; group?:Text; outcome?:'graduated'|'withdrawn'; endYear?:number;graduationYear?:number;schoolName?:Text}
 export interface Housing {householdId:string; tenure:'rent'|'owned'|'unknown'; value:number|null; mortgage:number|null; monthlyRent:number|null}
 export type JuniorSubject='chinese'|'math'|'english'|'science'|'socialStudies';
@@ -25,7 +27,7 @@ export interface Person {
  agencyAge:number; employedMonths:number; pensionBalance:number; insuredYears:number;
  history: {year:number; text:Text}[]; deathDate?:string; deathCause?:Text;
  partnerId:string|null; familyName:string|null; fertility:FertilityState;
- gender:'male'|'female'; attractedTo:'male'|'female'; originHouseholdId:string; enrollments:Enrollment[]; specialty:'music'|'sports'; musicTraining?:MusicTraining; sport?:Sport; life?:LifeState; sanity?:number; personality?:{energy:number;openness:number;reasoning:number;planning:number;answers:string[]}; clubs?:('music'|'sports'|'film'|'volunteer')[]; schoolExams?:{year:number;total:number;checks:Check[]}[]; juniorSubjects?:Record<JuniorSubject,number>; juniorFocus?:JuniorSubject|'all'; employment?:{company:Text;position:Text;startYear:number;startDate?:string;monthlySalary?:number};
+ gender:Gender; attractedTo:Gender; originHouseholdId:string; enrollments:Enrollment[]; specialty:'music'|'sports'; musicTraining?:MusicTraining; sport?:Sport; life?:LifeState; sanity?:number; personality?:{energy:number;openness:number;reasoning:number;planning:number;answers:string[]}; clubs?:('music'|'sports'|'film'|'volunteer')[]; schoolExams?:{year:number;total:number;checks:Check[]}[]; juniorSubjects?:Record<JuniorSubject,number>; juniorFocus?:JuniorSubject|'all'; employment?:{company:Text;position:Text;startYear:number;startDate?:string;monthlySalary?:number};
 }
 export interface JournalEntry {id:string; date:string; title:Text; text:Text; tone:number; personId:string; grade:'C'|'D'}
 export interface GameEvent {id:string; date:string; kind:EventKind; title:Text; text:Text; tone:number; grade:'C'|'D'; data?:string}

@@ -1,0 +1,3582 @@
+{
+  "checked": "2026-11-11",
+  "expected": 562,
+  "regions": [
+    {
+      "label": "台北市\n                            75",
+      "regionId": 1,
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/1"
+    },
+    {
+      "label": "新北市\n                            67",
+      "regionId": 2,
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/2"
+    },
+    {
+      "label": "基隆市\n                            14",
+      "regionId": 3,
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/3"
+    },
+    {
+      "label": "桃園市\n                            40",
+      "regionId": 4,
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/4"
+    },
+    {
+      "label": "新竹縣市\n                            22",
+      "regionId": 5,
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/5"
+    },
+    {
+      "label": "苗栗\n                            19",
+      "regionId": 6,
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/6"
+    },
+    {
+      "label": "台中市\n                            53",
+      "regionId": 7,
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/7"
+    },
+    {
+      "label": "南投\n                            16",
+      "regionId": 8,
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/8"
+    },
+    {
+      "label": "彰化\n                            26",
+      "regionId": 9,
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/9"
+    },
+    {
+      "label": "雲林\n                            21",
+      "regionId": 10,
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/10"
+    },
+    {
+      "label": "嘉義縣市\n                            27",
+      "regionId": 11,
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/11"
+    },
+    {
+      "label": "台南市\n                            55",
+      "regionId": 12,
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/12"
+    },
+    {
+      "label": "高雄市\n                            62",
+      "regionId": 13,
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/13"
+    },
+    {
+      "label": "屏東\n                            23",
+      "regionId": 14,
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/14"
+    },
+    {
+      "label": "宜蘭\n                            13",
+      "regionId": 15,
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/15"
+    },
+    {
+      "label": "花蓮\n                            14",
+      "regionId": 16,
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/16"
+    },
+    {
+      "label": "台東\n                            10",
+      "regionId": 17,
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/17"
+    },
+    {
+      "label": "澎湖\n                            2",
+      "regionId": 18,
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/18"
+    },
+    {
+      "label": "金門\n                            2",
+      "regionId": 19,
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/19"
+    },
+    {
+      "label": "馬祖\n                            1",
+      "regionId": 20,
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/20"
+    }
+  ],
+  "pages": [
+    {
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/1",
+      "count": 48
+    },
+    {
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/1?page=2",
+      "count": 27
+    },
+    {
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/2",
+      "count": 48
+    },
+    {
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/2?page=2",
+      "count": 19
+    },
+    {
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/3",
+      "count": 14
+    },
+    {
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/4",
+      "count": 40
+    },
+    {
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/5",
+      "count": 22
+    },
+    {
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/6",
+      "count": 19
+    },
+    {
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/7",
+      "count": 48
+    },
+    {
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/7?page=2",
+      "count": 5
+    },
+    {
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/8",
+      "count": 16
+    },
+    {
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/9",
+      "count": 26
+    },
+    {
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/10",
+      "count": 21
+    },
+    {
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/11",
+      "count": 27
+    },
+    {
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/12",
+      "count": 48
+    },
+    {
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/12?page=2",
+      "count": 7
+    },
+    {
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/13",
+      "count": 48
+    },
+    {
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/13?page=2",
+      "count": 14
+    },
+    {
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/14",
+      "count": 23
+    },
+    {
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/15",
+      "count": 13
+    },
+    {
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/16",
+      "count": 14
+    },
+    {
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/17",
+      "count": 10
+    },
+    {
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/18",
+      "count": 2
+    },
+    {
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/19",
+      "count": 2
+    },
+    {
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/20",
+      "count": 1
+    }
+  ],
+  "schools": [
+    {
+      "label": "中崙高中",
+      "name": "中崙高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/1/schools/1",
+      "regionId": 1
+    },
+    {
+      "label": "中正高中",
+      "name": "中正高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/1/schools/2",
+      "regionId": 1
+    },
+    {
+      "label": "景美女中",
+      "name": "景美女中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/1/schools/3",
+      "regionId": 1
+    },
+    {
+      "label": "私立金甌女中",
+      "name": "私立金甌女中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/1/schools/4",
+      "regionId": 1
+    },
+    {
+      "label": "北一女中",
+      "name": "北一女中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/1/schools/9",
+      "regionId": 1
+    },
+    {
+      "label": "育成高中",
+      "name": "育成高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/1/schools/10",
+      "regionId": 1
+    },
+    {
+      "label": "私立延平中學",
+      "name": "私立延平中學",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/1/schools/11",
+      "regionId": 1
+    },
+    {
+      "label": "私立華岡藝校",
+      "name": "私立華岡藝校",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/1/schools/14",
+      "regionId": 1
+    },
+    {
+      "label": "內湖高中",
+      "name": "內湖高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/1/schools/20",
+      "regionId": 1
+    },
+    {
+      "label": "文德女中",
+      "name": "文德女中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/1/schools/21",
+      "regionId": 1
+    },
+    {
+      "label": "市立大同高中",
+      "name": "市立大同高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/1/schools/32",
+      "regionId": 1
+    },
+    {
+      "label": "私立中興高中",
+      "name": "私立中興高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/1/schools/44",
+      "regionId": 1
+    },
+    {
+      "label": "中山女中",
+      "name": "中山女中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/1/schools/56",
+      "regionId": 1
+    },
+    {
+      "label": "和平高中",
+      "name": "和平高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/1/schools/57",
+      "regionId": 1
+    },
+    {
+      "label": "台北市私立育達高中 臺北市私立育達高級中等學校規劃升學進修",
+      "name": "台北市私立育達高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/1/schools/64",
+      "regionId": 1
+    },
+    {
+      "label": "南湖高中",
+      "name": "南湖高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/1/schools/67",
+      "regionId": 1
+    },
+    {
+      "label": "私立馬偕護校",
+      "name": "私立馬偕護校",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/1/schools/82",
+      "regionId": 1
+    },
+    {
+      "label": "南港高中",
+      "name": "南港高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/1/schools/97",
+      "regionId": 1
+    },
+    {
+      "label": "私立南華高中",
+      "name": "私立南華高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/1/schools/98",
+      "regionId": 1
+    },
+    {
+      "label": "松山家商",
+      "name": "松山家商",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/1/schools/100",
+      "regionId": 1
+    },
+    {
+      "label": "私立喬治高職",
+      "name": "私立喬治高職",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/1/schools/101",
+      "regionId": 1
+    },
+    {
+      "label": "華江高中",
+      "name": "華江高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/1/schools/102",
+      "regionId": 1
+    },
+    {
+      "label": "松山工農",
+      "name": "松山工農",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/1/schools/103",
+      "regionId": 1
+    },
+    {
+      "label": "士林高商",
+      "name": "士林高商",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/1/schools/106",
+      "regionId": 1
+    },
+    {
+      "label": "私立強恕中學",
+      "name": "私立強恕中學",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/1/schools/112",
+      "regionId": 1
+    },
+    {
+      "label": "私立祐德高中",
+      "name": "私立祐德高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/1/schools/122",
+      "regionId": 1
+    },
+    {
+      "label": "台北私立立人高中 停止辦學",
+      "name": "台北私立立人高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/1/schools/193",
+      "regionId": 1
+    },
+    {
+      "label": "私立東山高中",
+      "name": "私立東山高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/1/schools/214",
+      "regionId": 1
+    },
+    {
+      "label": "私立東方工商",
+      "name": "私立東方工商",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/1/schools/263",
+      "regionId": 1
+    },
+    {
+      "label": "私立大同高中",
+      "name": "私立大同高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/1/schools/271",
+      "regionId": 1
+    },
+    {
+      "label": "師大附中",
+      "name": "師大附中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/1/schools/284",
+      "regionId": 1
+    },
+    {
+      "label": "大直高中",
+      "name": "大直高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/1/schools/291",
+      "regionId": 1
+    },
+    {
+      "label": "私立復興實驗高中",
+      "name": "私立復興實驗高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/1/schools/292",
+      "regionId": 1
+    },
+    {
+      "label": "復興高中",
+      "name": "復興高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/1/schools/293",
+      "regionId": 1
+    },
+    {
+      "label": "私立泰北高中",
+      "name": "私立泰北高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/1/schools/296",
+      "regionId": 1
+    },
+    {
+      "label": "永春高中",
+      "name": "永春高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/1/schools/297",
+      "regionId": 1
+    },
+    {
+      "label": "木柵高工",
+      "name": "木柵高工",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/1/schools/298",
+      "regionId": 1
+    },
+    {
+      "label": "私立稻江護家",
+      "name": "私立稻江護家",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/1/schools/299",
+      "regionId": 1
+    },
+    {
+      "label": "萬芳高中",
+      "name": "萬芳高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/1/schools/300",
+      "regionId": 1
+    },
+    {
+      "label": "明倫高中",
+      "name": "明倫高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/1/schools/310",
+      "regionId": 1
+    },
+    {
+      "label": "私立靜修女中",
+      "name": "私立靜修女中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/1/schools/311",
+      "regionId": 1
+    },
+    {
+      "label": "私立滬江高中",
+      "name": "私立滬江高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/1/schools/312",
+      "regionId": 1
+    },
+    {
+      "label": "私立協和祐德高中",
+      "name": "私立協和祐德高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/1/schools/320",
+      "regionId": 1
+    },
+    {
+      "label": "私立景文高中",
+      "name": "私立景文高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/1/schools/345",
+      "regionId": 1
+    },
+    {
+      "label": "私立開南商工",
+      "name": "私立開南商工",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/1/schools/363",
+      "regionId": 1
+    },
+    {
+      "label": "私立達人女中",
+      "name": "私立達人女中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/1/schools/370",
+      "regionId": 1
+    },
+    {
+      "label": "成淵高中",
+      "name": "成淵高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/1/schools/371",
+      "regionId": 1
+    },
+    {
+      "label": "松山高中",
+      "name": "松山高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/1/schools/390",
+      "regionId": 1
+    },
+    {
+      "label": "大安高工",
+      "name": "大安高工",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/1/schools/394",
+      "regionId": 1
+    },
+    {
+      "label": "台北陽明高中",
+      "name": "台北陽明高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/1/schools/395",
+      "regionId": 1
+    },
+    {
+      "label": "私立大誠高中",
+      "name": "私立大誠高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/1/schools/398",
+      "regionId": 1
+    },
+    {
+      "label": "麗山高中",
+      "name": "麗山高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/1/schools/399",
+      "regionId": 1
+    },
+    {
+      "label": "私立衛理女中",
+      "name": "私立衛理女中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/1/schools/409",
+      "regionId": 1
+    },
+    {
+      "label": "私立方濟中學 停止辦學",
+      "name": "私立方濟中學",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/1/schools/410",
+      "regionId": 1
+    },
+    {
+      "label": "南港高工",
+      "name": "南港高工",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/1/schools/413",
+      "regionId": 1
+    },
+    {
+      "label": "私立開平餐飲學校",
+      "name": "私立開平餐飲學校",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/1/schools/414",
+      "regionId": 1
+    },
+    {
+      "label": "私立薇閣高中",
+      "name": "私立薇閣高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/1/schools/415",
+      "regionId": 1
+    },
+    {
+      "label": "私立惇敘工商",
+      "name": "私立惇敘工商",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/1/schools/417",
+      "regionId": 1
+    },
+    {
+      "label": "內湖高工",
+      "name": "內湖高工",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/1/schools/420",
+      "regionId": 1
+    },
+    {
+      "label": "康寧大學臺北校區",
+      "name": "康寧大學臺北校區",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/1/schools/421",
+      "regionId": 1
+    },
+    {
+      "label": "私立稻江高商",
+      "name": "私立稻江高商",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/1/schools/467",
+      "regionId": 1
+    },
+    {
+      "label": "私立幼華高中",
+      "name": "私立幼華高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/1/schools/478",
+      "regionId": 1
+    },
+    {
+      "label": "私立華興中學",
+      "name": "私立華興中學",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/1/schools/488",
+      "regionId": 1
+    },
+    {
+      "label": "大理高中",
+      "name": "大理高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/1/schools/490",
+      "regionId": 1
+    },
+    {
+      "label": "西松高中",
+      "name": "西松高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/1/schools/491",
+      "regionId": 1
+    },
+    {
+      "label": "百齡高中",
+      "name": "百齡高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/1/schools/492",
+      "regionId": 1
+    },
+    {
+      "label": "國立臺北商業大學",
+      "name": "國立臺北商業大學",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/1/schools/507",
+      "regionId": 1
+    },
+    {
+      "label": "私立再興高中",
+      "name": "私立再興高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/1/schools/519",
+      "regionId": 1
+    },
+    {
+      "label": "建國中學",
+      "name": "建國中學",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/1/schools/525",
+      "regionId": 1
+    },
+    {
+      "label": "成功高中",
+      "name": "成功高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/1/schools/526",
+      "regionId": 1
+    },
+    {
+      "label": "台北城市科技大學",
+      "name": "台北城市科技大學",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/1/schools/539",
+      "regionId": 1
+    },
+    {
+      "label": "臺北市私立道明外僑學校",
+      "name": "臺北市私立道明外僑學校",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/1/schools/5038",
+      "regionId": 1
+    },
+    {
+      "label": "私立靜心高中",
+      "name": "私立靜心高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/1/schools/12220",
+      "regionId": 1
+    },
+    {
+      "label": "台北歐洲學校(中學部)",
+      "name": "台北歐洲學校(中學部)",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/1/schools/12826",
+      "regionId": 1
+    },
+    {
+      "label": "和春技術學院 停止辦學",
+      "name": "和春技術學院",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/1/schools/18406",
+      "regionId": 1
+    },
+    {
+      "label": "私立莊敬高職",
+      "name": "私立莊敬高職",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/2/schools/5",
+      "regionId": 2
+    },
+    {
+      "label": "永平高中",
+      "name": "永平高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/2/schools/12",
+      "regionId": 2
+    },
+    {
+      "label": "泰山高中",
+      "name": "泰山高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/2/schools/16",
+      "regionId": 2
+    },
+    {
+      "label": "中和高中",
+      "name": "中和高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/2/schools/29",
+      "regionId": 2
+    },
+    {
+      "label": "秀峰高中",
+      "name": "秀峰高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/2/schools/53",
+      "regionId": 2
+    },
+    {
+      "label": "鶯歌工商",
+      "name": "鶯歌工商",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/2/schools/54",
+      "regionId": 2
+    },
+    {
+      "label": "私立淡江高中",
+      "name": "私立淡江高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/2/schools/62",
+      "regionId": 2
+    },
+    {
+      "label": "私立辭修高中",
+      "name": "私立辭修高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/2/schools/90",
+      "regionId": 2
+    },
+    {
+      "label": "新北清水高中",
+      "name": "新北清水高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/2/schools/109",
+      "regionId": 2
+    },
+    {
+      "label": "明德高中",
+      "name": "明德高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/2/schools/119",
+      "regionId": 2
+    },
+    {
+      "label": "淡水商工",
+      "name": "淡水商工",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/2/schools/172",
+      "regionId": 2
+    },
+    {
+      "label": "私立光仁高中",
+      "name": "私立光仁高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/2/schools/200",
+      "regionId": 2
+    },
+    {
+      "label": "石碇高中",
+      "name": "石碇高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/2/schools/219",
+      "regionId": 2
+    },
+    {
+      "label": "私立及人高中",
+      "name": "私立及人高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/2/schools/220",
+      "regionId": 2
+    },
+    {
+      "label": "板橋高中",
+      "name": "板橋高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/2/schools/221",
+      "regionId": 2
+    },
+    {
+      "label": "金山高中",
+      "name": "金山高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/2/schools/222",
+      "regionId": 2
+    },
+    {
+      "label": "私立康橋高中",
+      "name": "私立康橋高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/2/schools/223",
+      "regionId": 2
+    },
+    {
+      "label": "私立金陵女中",
+      "name": "私立金陵女中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/2/schools/224",
+      "regionId": 2
+    },
+    {
+      "label": "私立竹林高中",
+      "name": "私立竹林高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/2/schools/332",
+      "regionId": 2
+    },
+    {
+      "label": "私立穀保家商",
+      "name": "私立穀保家商",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/2/schools/333",
+      "regionId": 2
+    },
+    {
+      "label": "丹鳳中學",
+      "name": "丹鳳中學",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/2/schools/334",
+      "regionId": 2
+    },
+    {
+      "label": "新店高中",
+      "name": "新店高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/2/schools/335",
+      "regionId": 2
+    },
+    {
+      "label": "新北高中",
+      "name": "新北高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/2/schools/336",
+      "regionId": 2
+    },
+    {
+      "label": "私立能仁家商",
+      "name": "私立能仁家商",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/2/schools/337",
+      "regionId": 2
+    },
+    {
+      "label": "三重高中",
+      "name": "三重高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/2/schools/344",
+      "regionId": 2
+    },
+    {
+      "label": "新北三民高中",
+      "name": "新北三民高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/2/schools/346",
+      "regionId": 2
+    },
+    {
+      "label": "私立格致中學",
+      "name": "私立格致中學",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/2/schools/349",
+      "regionId": 2
+    },
+    {
+      "label": "私立復興商工",
+      "name": "私立復興商工",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/2/schools/350",
+      "regionId": 2
+    },
+    {
+      "label": "瑞芳高工",
+      "name": "瑞芳高工",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/2/schools/360",
+      "regionId": 2
+    },
+    {
+      "label": "三重商工",
+      "name": "三重商工",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/2/schools/365",
+      "regionId": 2
+    },
+    {
+      "label": "私立樹人家商",
+      "name": "私立樹人家商",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/2/schools/372",
+      "regionId": 2
+    },
+    {
+      "label": "新北新莊高中",
+      "name": "新北新莊高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/2/schools/373",
+      "regionId": 2
+    },
+    {
+      "label": "安康高中",
+      "name": "安康高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/2/schools/382",
+      "regionId": 2
+    },
+    {
+      "label": "私立南山高中",
+      "name": "私立南山高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/2/schools/392",
+      "regionId": 2
+    },
+    {
+      "label": "私立中華高中",
+      "name": "私立中華高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/2/schools/411",
+      "regionId": 2
+    },
+    {
+      "label": "華僑實驗高中",
+      "name": "華僑實驗高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/2/schools/446",
+      "regionId": 2
+    },
+    {
+      "label": "私立豫章工商",
+      "name": "私立豫章工商",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/2/schools/472",
+      "regionId": 2
+    },
+    {
+      "label": "私立智光商工",
+      "name": "私立智光商工",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/2/schools/473",
+      "regionId": 2
+    },
+    {
+      "label": "私立醒吾高中",
+      "name": "私立醒吾高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/2/schools/474",
+      "regionId": 2
+    },
+    {
+      "label": "私立崇義高中",
+      "name": "私立崇義高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/2/schools/475",
+      "regionId": 2
+    },
+    {
+      "label": "私立東海高中",
+      "name": "私立東海高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/2/schools/476",
+      "regionId": 2
+    },
+    {
+      "label": "私立崇光女中",
+      "name": "私立崇光女中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/2/schools/477",
+      "regionId": 2
+    },
+    {
+      "label": "中華商事 新北市私立中華高級商業海事職業學校",
+      "name": "中華商事",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/2/schools/481",
+      "regionId": 2
+    },
+    {
+      "label": "林口高中",
+      "name": "林口高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/2/schools/484",
+      "regionId": 2
+    },
+    {
+      "label": "耕莘健康管理專校",
+      "name": "耕莘健康管理專校",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/2/schools/485",
+      "regionId": 2
+    },
+    {
+      "label": "私立開明高職",
+      "name": "私立開明高職",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/2/schools/486",
+      "regionId": 2
+    },
+    {
+      "label": "雙溪高中",
+      "name": "雙溪高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/2/schools/489",
+      "regionId": 2
+    },
+    {
+      "label": "樹林高中",
+      "name": "樹林高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/2/schools/493",
+      "regionId": 2
+    },
+    {
+      "label": "私立聖心女中",
+      "name": "私立聖心女中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/2/schools/494",
+      "regionId": 2
+    },
+    {
+      "label": "私立恆毅高中",
+      "name": "私立恆毅高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/2/schools/495",
+      "regionId": 2
+    },
+    {
+      "label": "海山高中",
+      "name": "海山高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/2/schools/496",
+      "regionId": 2
+    },
+    {
+      "label": "私立南強工商 停止辦學 新北市私立南強高級工商職業學校",
+      "name": "私立南強工商",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/2/schools/497",
+      "regionId": 2
+    },
+    {
+      "label": "私立清傳高商",
+      "name": "私立清傳高商",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/2/schools/498",
+      "regionId": 2
+    },
+    {
+      "label": "錦和高中",
+      "name": "錦和高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/2/schools/499",
+      "regionId": 2
+    },
+    {
+      "label": "新北高工",
+      "name": "新北高工",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/2/schools/504",
+      "regionId": 2
+    },
+    {
+      "label": "竹圍高中",
+      "name": "竹圍高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/2/schools/517",
+      "regionId": 2
+    },
+    {
+      "label": "私立時雨中學",
+      "name": "私立時雨中學",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/2/schools/523",
+      "regionId": 2
+    },
+    {
+      "label": "私立徐匯中學",
+      "name": "私立徐匯中學",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/2/schools/527",
+      "regionId": 2
+    },
+    {
+      "label": "新北光復高中",
+      "name": "新北光復高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/2/schools/529",
+      "regionId": 2
+    },
+    {
+      "label": "景文科技大學",
+      "name": "景文科技大學",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/2/schools/533",
+      "regionId": 2
+    },
+    {
+      "label": "致理科技大學",
+      "name": "致理科技大學",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/2/schools/538",
+      "regionId": 2
+    },
+    {
+      "label": "北大高中",
+      "name": "北大高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/2/schools/541",
+      "regionId": 2
+    },
+    {
+      "label": "裕德實驗高中",
+      "name": "裕德實驗高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/2/schools/3793",
+      "regionId": 2
+    },
+    {
+      "label": "樟樹國際實創高中",
+      "name": "樟樹國際實創高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/2/schools/4734",
+      "regionId": 2
+    },
+    {
+      "label": "康橋國際學校林口校區 高中部",
+      "name": "康橋國際學校林口校區 高中部",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/2/schools/8928",
+      "regionId": 2
+    },
+    {
+      "label": "新北市私立光華高級商業職業進修學校 光華商職",
+      "name": "新北市私立光華高級商業職業進修學校",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/2/schools/17525",
+      "regionId": 2
+    },
+    {
+      "label": "新北市立三重高中國中部",
+      "name": "新北市立三重高中國中部",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/2/schools/19453",
+      "regionId": 2
+    },
+    {
+      "label": "基隆女中",
+      "name": "基隆女中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/3/schools/13",
+      "regionId": 3
+    },
+    {
+      "label": "私立光隆家商 停止辦學",
+      "name": "私立光隆家商",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/3/schools/30",
+      "regionId": 3
+    },
+    {
+      "label": "海大附中 國立臺灣海洋大學附屬基隆海事高級中等學校",
+      "name": "海大附中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/3/schools/50",
+      "regionId": 3
+    },
+    {
+      "label": "暖暖高中",
+      "name": "暖暖高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/3/schools/80",
+      "regionId": 3
+    },
+    {
+      "label": "基隆商工",
+      "name": "基隆商工",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/3/schools/84",
+      "regionId": 3
+    },
+    {
+      "label": "八斗高中",
+      "name": "八斗高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/3/schools/123",
+      "regionId": 3
+    },
+    {
+      "label": "輔大聖心高中",
+      "name": "輔大聖心高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/3/schools/124",
+      "regionId": 3
+    },
+    {
+      "label": "基隆中山高中",
+      "name": "基隆中山高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/3/schools/125",
+      "regionId": 3
+    },
+    {
+      "label": "安樂高中",
+      "name": "安樂高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/3/schools/126",
+      "regionId": 3
+    },
+    {
+      "label": "私立二信高中",
+      "name": "私立二信高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/3/schools/127",
+      "regionId": 3
+    },
+    {
+      "label": "私立培德工家",
+      "name": "私立培德工家",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/3/schools/128",
+      "regionId": 3
+    },
+    {
+      "label": "基隆高中",
+      "name": "基隆高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/3/schools/503",
+      "regionId": 3
+    },
+    {
+      "label": "崇右影藝科技大學",
+      "name": "崇右影藝科技大學",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/3/schools/13809",
+      "regionId": 3
+    },
+    {
+      "label": "經國管理暨健康學院",
+      "name": "經國管理暨健康學院",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/3/schools/13810",
+      "regionId": 3
+    },
+    {
+      "label": "桃園高中",
+      "name": "桃園高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/4/schools/7",
+      "regionId": 4
+    },
+    {
+      "label": "平鎮高中",
+      "name": "平鎮高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/4/schools/8",
+      "regionId": 4
+    },
+    {
+      "label": "中大壢中",
+      "name": "中大壢中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/4/schools/24",
+      "regionId": 4
+    },
+    {
+      "label": "內壢高中",
+      "name": "內壢高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/4/schools/41",
+      "regionId": 4
+    },
+    {
+      "label": "中壢家商",
+      "name": "中壢家商",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/4/schools/45",
+      "regionId": 4
+    },
+    {
+      "label": "中壢高商",
+      "name": "中壢高商",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/4/schools/46",
+      "regionId": 4
+    },
+    {
+      "label": "桃園育達高中",
+      "name": "桃園育達高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/4/schools/65",
+      "regionId": 4
+    },
+    {
+      "label": "私立啟英高中",
+      "name": "私立啟英高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/4/schools/68",
+      "regionId": 4
+    },
+    {
+      "label": "私立六和高中",
+      "name": "私立六和高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/4/schools/69",
+      "regionId": 4
+    },
+    {
+      "label": "私立復旦高中",
+      "name": "私立復旦高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/4/schools/70",
+      "regionId": 4
+    },
+    {
+      "label": "武陵高中",
+      "name": "武陵高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/4/schools/73",
+      "regionId": 4
+    },
+    {
+      "label": "楊梅高中",
+      "name": "楊梅高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/4/schools/74",
+      "regionId": 4
+    },
+    {
+      "label": "桃園陽明高中",
+      "name": "桃園陽明高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/4/schools/78",
+      "regionId": 4
+    },
+    {
+      "label": "大園國際高中",
+      "name": "大園國際高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/4/schools/79",
+      "regionId": 4
+    },
+    {
+      "label": "永豐高中",
+      "name": "永豐高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/4/schools/95",
+      "regionId": 4
+    },
+    {
+      "label": "私立新興高中",
+      "name": "私立新興高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/4/schools/96",
+      "regionId": 4
+    },
+    {
+      "label": "南崁高中",
+      "name": "南崁高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/4/schools/107",
+      "regionId": 4
+    },
+    {
+      "label": "龍潭高中",
+      "name": "龍潭高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/4/schools/113",
+      "regionId": 4
+    },
+    {
+      "label": "路亞國際高中 桃園市路亞國際高級中等學校",
+      "name": "路亞國際高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/4/schools/129",
+      "regionId": 4
+    },
+    {
+      "label": "私立振聲高中",
+      "name": "私立振聲高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/4/schools/134",
+      "regionId": 4
+    },
+    {
+      "label": "私立大華高中",
+      "name": "私立大華高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/4/schools/135",
+      "regionId": 4
+    },
+    {
+      "label": "大溪高中",
+      "name": "大溪高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/4/schools/136",
+      "regionId": 4
+    },
+    {
+      "label": "私立至善高中",
+      "name": "私立至善高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/4/schools/137",
+      "regionId": 4
+    },
+    {
+      "label": "私立方曙商工",
+      "name": "私立方曙商工",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/4/schools/138",
+      "regionId": 4
+    },
+    {
+      "label": "私立治平高中",
+      "name": "私立治平高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/4/schools/303",
+      "regionId": 4
+    },
+    {
+      "label": "私立大興高中",
+      "name": "私立大興高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/4/schools/304",
+      "regionId": 4
+    },
+    {
+      "label": "私立永平工商",
+      "name": "私立永平工商",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/4/schools/324",
+      "regionId": 4
+    },
+    {
+      "label": "私立光啟高中",
+      "name": "私立光啟高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/4/schools/396",
+      "regionId": 4
+    },
+    {
+      "label": "壽山高中",
+      "name": "壽山高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/4/schools/397",
+      "regionId": 4
+    },
+    {
+      "label": "世紀綠能工商 世紀學校財團法人桃園市世紀綠能工商高級中等學校",
+      "name": "世紀綠能工商",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/4/schools/408",
+      "regionId": 4
+    },
+    {
+      "label": "北科附工",
+      "name": "北科附工",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/4/schools/431",
+      "regionId": 4
+    },
+    {
+      "label": "私立清華高中",
+      "name": "私立清華高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/4/schools/445",
+      "regionId": 4
+    },
+    {
+      "label": "新生醫專",
+      "name": "新生醫專",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/4/schools/509",
+      "regionId": 4
+    },
+    {
+      "label": "觀音高中",
+      "name": "觀音高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/4/schools/513",
+      "regionId": 4
+    },
+    {
+      "label": "長庚科技大學",
+      "name": "長庚科技大學",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/4/schools/536",
+      "regionId": 4
+    },
+    {
+      "label": "桃園美國學校",
+      "name": "桃園美國學校",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/4/schools/5039",
+      "regionId": 4
+    },
+    {
+      "label": "加拿大哥倫比亞中學",
+      "name": "加拿大哥倫比亞中學",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/4/schools/5040",
+      "regionId": 4
+    },
+    {
+      "label": "新屋高中",
+      "name": "新屋高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/4/schools/5381",
+      "regionId": 4
+    },
+    {
+      "label": "漢英中學 停止辦學 泉僑學校財團法人桃園市漢英高級中等學校",
+      "name": "漢英中學",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/4/schools/16717",
+      "regionId": 4
+    },
+    {
+      "label": "羅浮高中 桃園市立羅浮高級中等學校",
+      "name": "羅浮高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/4/schools/16719",
+      "regionId": 4
+    },
+    {
+      "label": "私立光復高中",
+      "name": "私立光復高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/5/schools/33",
+      "regionId": 5
+    },
+    {
+      "label": "新竹高商",
+      "name": "新竹高商",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/5/schools/59",
+      "regionId": 5
+    },
+    {
+      "label": "新竹女中",
+      "name": "新竹女中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/5/schools/139",
+      "regionId": 5
+    },
+    {
+      "label": "私立曙光女中",
+      "name": "私立曙光女中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/5/schools/140",
+      "regionId": 5
+    },
+    {
+      "label": "磐石高中",
+      "name": "磐石高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/5/schools/141",
+      "regionId": 5
+    },
+    {
+      "label": "私立世界高中 停止辦學",
+      "name": "私立世界高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/5/schools/142",
+      "regionId": 5
+    },
+    {
+      "label": "私立仰德高中",
+      "name": "私立仰德高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/5/schools/143",
+      "regionId": 5
+    },
+    {
+      "label": "香山高中",
+      "name": "香山高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/5/schools/144",
+      "regionId": 5
+    },
+    {
+      "label": "竹北高中",
+      "name": "竹北高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/5/schools/321",
+      "regionId": 5
+    },
+    {
+      "label": "成德高中",
+      "name": "成德高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/5/schools/323",
+      "regionId": 5
+    },
+    {
+      "label": "竹東高中",
+      "name": "竹東高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/5/schools/325",
+      "regionId": 5
+    },
+    {
+      "label": "台灣新竹忠信學校",
+      "name": "台灣新竹忠信學校",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/5/schools/328",
+      "regionId": 5
+    },
+    {
+      "label": "新竹高中",
+      "name": "新竹高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/5/schools/338",
+      "regionId": 5
+    },
+    {
+      "label": "私立東泰高中",
+      "name": "私立東泰高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/5/schools/339",
+      "regionId": 5
+    },
+    {
+      "label": "私立內思高工",
+      "name": "私立內思高工",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/5/schools/340",
+      "regionId": 5
+    },
+    {
+      "label": "竹科實驗高中",
+      "name": "竹科實驗高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/5/schools/341",
+      "regionId": 5
+    },
+    {
+      "label": "湖口高中",
+      "name": "湖口高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/5/schools/342",
+      "regionId": 5
+    },
+    {
+      "label": "新竹高工",
+      "name": "新竹高工",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/5/schools/343",
+      "regionId": 5
+    },
+    {
+      "label": "私立義民高中",
+      "name": "私立義民高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/5/schools/347",
+      "regionId": 5
+    },
+    {
+      "label": "關西高中",
+      "name": "關西高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/5/schools/348",
+      "regionId": 5
+    },
+    {
+      "label": "六家高中",
+      "name": "六家高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/5/schools/530",
+      "regionId": 5
+    },
+    {
+      "label": "大華科技大學",
+      "name": "大華科技大學",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/5/schools/537",
+      "regionId": 5
+    },
+    {
+      "label": "苗栗農工",
+      "name": "苗栗農工",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/6/schools/23",
+      "regionId": 6
+    },
+    {
+      "label": "卓蘭高中",
+      "name": "卓蘭高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/6/schools/93",
+      "regionId": 6
+    },
+    {
+      "label": "私立大成高中 停止辦學",
+      "name": "私立大成高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/6/schools/94",
+      "regionId": 6
+    },
+    {
+      "label": "私立建臺高中",
+      "name": "私立建臺高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/6/schools/225",
+      "regionId": 6
+    },
+    {
+      "label": "苗栗高中",
+      "name": "苗栗高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/6/schools/226",
+      "regionId": 6
+    },
+    {
+      "label": "私立龍德家商",
+      "name": "私立龍德家商",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/6/schools/227",
+      "regionId": 6
+    },
+    {
+      "label": "縣立苑裡高中",
+      "name": "縣立苑裡高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/6/schools/228",
+      "regionId": 6
+    },
+    {
+      "label": "國立苑裡高中",
+      "name": "國立苑裡高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/6/schools/230",
+      "regionId": 6
+    },
+    {
+      "label": "私立育民工家 停止辦學",
+      "name": "私立育民工家",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/6/schools/231",
+      "regionId": 6
+    },
+    {
+      "label": "私立賢德工商 停止辦學",
+      "name": "私立賢德工商",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/6/schools/233",
+      "regionId": 6
+    },
+    {
+      "label": "私立君毅高中",
+      "name": "私立君毅高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/6/schools/238",
+      "regionId": 6
+    },
+    {
+      "label": "仁德醫專",
+      "name": "仁德醫專",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/6/schools/239",
+      "regionId": 6
+    },
+    {
+      "label": "大湖農工",
+      "name": "大湖農工",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/6/schools/240",
+      "regionId": 6
+    },
+    {
+      "label": "私立中興商工",
+      "name": "私立中興商工",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/6/schools/241",
+      "regionId": 6
+    },
+    {
+      "label": "竹南高中",
+      "name": "竹南高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/6/schools/242",
+      "regionId": 6
+    },
+    {
+      "label": "苗栗高商",
+      "name": "苗栗高商",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/6/schools/243",
+      "regionId": 6
+    },
+    {
+      "label": "興華高中",
+      "name": "興華高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/6/schools/244",
+      "regionId": 6
+    },
+    {
+      "label": "苗栗大同高中",
+      "name": "苗栗大同高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/6/schools/514",
+      "regionId": 6
+    },
+    {
+      "label": "三義高中",
+      "name": "三義高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/6/schools/520",
+      "regionId": 6
+    },
+    {
+      "label": "東勢高工",
+      "name": "東勢高工",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/7/schools/6",
+      "regionId": 7
+    },
+    {
+      "label": "私立明道中學",
+      "name": "私立明道中學",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/7/schools/15",
+      "regionId": 7
+    },
+    {
+      "label": "私立嘉陽高中",
+      "name": "私立嘉陽高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/7/schools/17",
+      "regionId": 7
+    },
+    {
+      "label": "台中家商",
+      "name": "台中家商",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/7/schools/19",
+      "regionId": 7
+    },
+    {
+      "label": "台中女中",
+      "name": "台中女中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/7/schools/22",
+      "regionId": 7
+    },
+    {
+      "label": "私立宜寧中學",
+      "name": "私立宜寧中學",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/7/schools/26",
+      "regionId": 7
+    },
+    {
+      "label": "私立明德高中",
+      "name": "私立明德高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/7/schools/49",
+      "regionId": 7
+    },
+    {
+      "label": "私立明台高中",
+      "name": "私立明台高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/7/schools/60",
+      "regionId": 7
+    },
+    {
+      "label": "私立僑泰中學",
+      "name": "私立僑泰中學",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/7/schools/66",
+      "regionId": 7
+    },
+    {
+      "label": "惠文高中",
+      "name": "惠文高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/7/schools/75",
+      "regionId": 7
+    },
+    {
+      "label": "私立東海附中",
+      "name": "私立東海附中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/7/schools/81",
+      "regionId": 7
+    },
+    {
+      "label": "豐原高商",
+      "name": "豐原高商",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/7/schools/99",
+      "regionId": 7
+    },
+    {
+      "label": "豐原高中",
+      "name": "豐原高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/7/schools/104",
+      "regionId": 7
+    },
+    {
+      "label": "台中清水高中",
+      "name": "台中清水高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/7/schools/108",
+      "regionId": 7
+    },
+    {
+      "label": "台中一中",
+      "name": "台中一中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/7/schools/209",
+      "regionId": 7
+    },
+    {
+      "label": "文華高中",
+      "name": "文華高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/7/schools/210",
+      "regionId": 7
+    },
+    {
+      "label": "台中二中",
+      "name": "台中二中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/7/schools/211",
+      "regionId": 7
+    },
+    {
+      "label": "台中高工",
+      "name": "台中高工",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/7/schools/212",
+      "regionId": 7
+    },
+    {
+      "label": "興大附農",
+      "name": "興大附農",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/7/schools/213",
+      "regionId": 7
+    },
+    {
+      "label": "私立衛道高中",
+      "name": "私立衛道高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/7/schools/215",
+      "regionId": 7
+    },
+    {
+      "label": "光華高工",
+      "name": "光華高工",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/7/schools/216",
+      "regionId": 7
+    },
+    {
+      "label": "私立華盛頓高中",
+      "name": "私立華盛頓高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/7/schools/217",
+      "regionId": 7
+    },
+    {
+      "label": "私立葳格高中",
+      "name": "私立葳格高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/7/schools/218",
+      "regionId": 7
+    },
+    {
+      "label": "私立青年高中",
+      "name": "私立青年高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/7/schools/229",
+      "regionId": 7
+    },
+    {
+      "label": "興大附中",
+      "name": "興大附中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/7/schools/234",
+      "regionId": 7
+    },
+    {
+      "label": "市立大里高中",
+      "name": "市立大里高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/7/schools/235",
+      "regionId": 7
+    },
+    {
+      "label": "忠明高中",
+      "name": "忠明高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/7/schools/236",
+      "regionId": 7
+    },
+    {
+      "label": "大甲高中",
+      "name": "大甲高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/7/schools/237",
+      "regionId": 7
+    },
+    {
+      "label": "玉山高中",
+      "name": "玉山高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/7/schools/280",
+      "regionId": 7
+    },
+    {
+      "label": "私立大明高中",
+      "name": "私立大明高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/7/schools/282",
+      "regionId": 7
+    },
+    {
+      "label": "后綜高中",
+      "name": "后綜高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/7/schools/283",
+      "regionId": 7
+    },
+    {
+      "label": "私立新民高中",
+      "name": "私立新民高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/7/schools/305",
+      "regionId": 7
+    },
+    {
+      "label": "霧峰農工",
+      "name": "霧峰農工",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/7/schools/306",
+      "regionId": 7
+    },
+    {
+      "label": "私立曉明女中",
+      "name": "私立曉明女中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/7/schools/307",
+      "regionId": 7
+    },
+    {
+      "label": "大甲高工",
+      "name": "大甲高工",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/7/schools/308",
+      "regionId": 7
+    },
+    {
+      "label": "中港高中",
+      "name": "中港高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/7/schools/309",
+      "regionId": 7
+    },
+    {
+      "label": "西苑高中",
+      "name": "西苑高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/7/schools/314",
+      "regionId": 7
+    },
+    {
+      "label": "私立致用高中",
+      "name": "私立致用高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/7/schools/318",
+      "regionId": 7
+    },
+    {
+      "label": "私立常春藤中學",
+      "name": "私立常春藤中學",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/7/schools/322",
+      "regionId": 7
+    },
+    {
+      "label": "私立弘文中學",
+      "name": "私立弘文中學",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/7/schools/326",
+      "regionId": 7
+    },
+    {
+      "label": "私立慈明高中",
+      "name": "私立慈明高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/7/schools/327",
+      "regionId": 7
+    },
+    {
+      "label": "沙鹿高工",
+      "name": "沙鹿高工",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/7/schools/359",
+      "regionId": 7
+    },
+    {
+      "label": "台中東山高中",
+      "name": "台中東山高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/7/schools/387",
+      "regionId": 7
+    },
+    {
+      "label": "長億高中",
+      "name": "長億高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/7/schools/412",
+      "regionId": 7
+    },
+    {
+      "label": "私立嶺東高中",
+      "name": "私立嶺東高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/7/schools/442",
+      "regionId": 7
+    },
+    {
+      "label": "台中私立立人高中",
+      "name": "台中私立立人高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/7/schools/480",
+      "regionId": 7
+    },
+    {
+      "label": "新社高中",
+      "name": "新社高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/7/schools/487",
+      "regionId": 7
+    },
+    {
+      "label": "中科實驗高中",
+      "name": "中科實驗高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/7/schools/508",
+      "regionId": 7
+    },
+    {
+      "label": "國立臺中科技大學中護健康學院",
+      "name": "國立臺中科技大學中護健康學院",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/7/schools/524",
+      "regionId": 7
+    },
+    {
+      "label": "國立台中科技大學附設高商",
+      "name": "國立台中科技大學附設高商",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/7/schools/2852",
+      "regionId": 7
+    },
+    {
+      "label": "龍津高中 台中市市立龍津高級中學",
+      "name": "龍津高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/7/schools/5276",
+      "regionId": 7
+    },
+    {
+      "label": "葳格高中國際部",
+      "name": "葳格高中國際部",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/7/schools/7934",
+      "regionId": 7
+    },
+    {
+      "label": "臺中市立臺中特殊教育學校",
+      "name": "臺中市立臺中特殊教育學校",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/7/schools/11612",
+      "regionId": 7
+    },
+    {
+      "label": "水里商工",
+      "name": "水里商工",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/8/schools/34",
+      "regionId": 8
+    },
+    {
+      "label": "草屯商工",
+      "name": "草屯商工",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/8/schools/114",
+      "regionId": 8
+    },
+    {
+      "label": "私立五育高中",
+      "name": "私立五育高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/8/schools/115",
+      "regionId": 8
+    },
+    {
+      "label": "南投高中",
+      "name": "南投高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/8/schools/117",
+      "regionId": 8
+    },
+    {
+      "label": "南投高商",
+      "name": "南投高商",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/8/schools/118",
+      "regionId": 8
+    },
+    {
+      "label": "私立普台高中",
+      "name": "私立普台高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/8/schools/245",
+      "regionId": 8
+    },
+    {
+      "label": "埔里高工",
+      "name": "埔里高工",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/8/schools/246",
+      "regionId": 8
+    },
+    {
+      "label": "中興高中",
+      "name": "中興高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/8/schools/247",
+      "regionId": 8
+    },
+    {
+      "label": "竹山高中",
+      "name": "竹山高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/8/schools/248",
+      "regionId": 8
+    },
+    {
+      "label": "同德高中",
+      "name": "同德高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/8/schools/249",
+      "regionId": 8
+    },
+    {
+      "label": "旭光高中",
+      "name": "旭光高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/8/schools/251",
+      "regionId": 8
+    },
+    {
+      "label": "私立三育高中",
+      "name": "私立三育高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/8/schools/252",
+      "regionId": 8
+    },
+    {
+      "label": "仁愛高農",
+      "name": "仁愛高農",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/8/schools/253",
+      "regionId": 8
+    },
+    {
+      "label": "暨南大學附中",
+      "name": "暨南大學附中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/8/schools/254",
+      "regionId": 8
+    },
+    {
+      "label": "弘明實驗高中",
+      "name": "弘明實驗高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/8/schools/528",
+      "regionId": 8
+    },
+    {
+      "label": "南投縣復臨國際實驗教育機構",
+      "name": "南投縣復臨國際實驗教育機構",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/8/schools/5036",
+      "regionId": 8
+    },
+    {
+      "label": "私立達德商工",
+      "name": "私立達德商工",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/9/schools/25",
+      "regionId": 9
+    },
+    {
+      "label": "私立精誠中學",
+      "name": "私立精誠中學",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/9/schools/72",
+      "regionId": 9
+    },
+    {
+      "label": "員林高中",
+      "name": "員林高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/9/schools/262",
+      "regionId": 9
+    },
+    {
+      "label": "彰化高商",
+      "name": "彰化高商",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/9/schools/264",
+      "regionId": 9
+    },
+    {
+      "label": "二林工商",
+      "name": "二林工商",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/9/schools/265",
+      "regionId": 9
+    },
+    {
+      "label": "彰化藝術高中",
+      "name": "彰化藝術高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/9/schools/266",
+      "regionId": 9
+    },
+    {
+      "label": "彰化成功高中",
+      "name": "彰化成功高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/9/schools/268",
+      "regionId": 9
+    },
+    {
+      "label": "和美實驗學校",
+      "name": "和美實驗學校",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/9/schools/269",
+      "regionId": 9
+    },
+    {
+      "label": "秀水高工",
+      "name": "秀水高工",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/9/schools/270",
+      "regionId": 9
+    },
+    {
+      "label": "彰化高中",
+      "name": "彰化高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/9/schools/272",
+      "regionId": 9
+    },
+    {
+      "label": "彰化女中",
+      "name": "彰化女中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/9/schools/273",
+      "regionId": 9
+    },
+    {
+      "label": "二林高中",
+      "name": "二林高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/9/schools/274",
+      "regionId": 9
+    },
+    {
+      "label": "彰化啟智學校",
+      "name": "彰化啟智學校",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/9/schools/295",
+      "regionId": 9
+    },
+    {
+      "label": "鹿港高中",
+      "name": "鹿港高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/9/schools/313",
+      "regionId": 9
+    },
+    {
+      "label": "私立正德高中",
+      "name": "私立正德高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/9/schools/331",
+      "regionId": 9
+    },
+    {
+      "label": "私立大慶商工 停止辦學",
+      "name": "私立大慶商工",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/9/schools/356",
+      "regionId": 9
+    },
+    {
+      "label": "田中高中",
+      "name": "田中高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/9/schools/357",
+      "regionId": 9
+    },
+    {
+      "label": "員林家商",
+      "name": "員林家商",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/9/schools/364",
+      "regionId": 9
+    },
+    {
+      "label": "永靖高工",
+      "name": "永靖高工",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/9/schools/367",
+      "regionId": 9
+    },
+    {
+      "label": "崇實高工",
+      "name": "崇實高工",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/9/schools/368",
+      "regionId": 9
+    },
+    {
+      "label": "北斗家商",
+      "name": "北斗家商",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/9/schools/369",
+      "regionId": 9
+    },
+    {
+      "label": "溪湖高中",
+      "name": "溪湖高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/9/schools/375",
+      "regionId": 9
+    },
+    {
+      "label": "私立文興高中",
+      "name": "私立文興高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/9/schools/376",
+      "regionId": 9
+    },
+    {
+      "label": "員林農工",
+      "name": "員林農工",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/9/schools/377",
+      "regionId": 9
+    },
+    {
+      "label": "彰師大附工",
+      "name": "彰師大附工",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/9/schools/378",
+      "regionId": 9
+    },
+    {
+      "label": "和美高中",
+      "name": "和美高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/9/schools/512",
+      "regionId": 9
+    },
+    {
+      "label": "斗六高中",
+      "name": "斗六高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/10/schools/35",
+      "regionId": 10
+    },
+    {
+      "label": "北港高中",
+      "name": "北港高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/10/schools/175",
+      "regionId": 10
+    },
+    {
+      "label": "土庫商工",
+      "name": "土庫商工",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/10/schools/176",
+      "regionId": 10
+    },
+    {
+      "label": "私立大成商工",
+      "name": "私立大成商工",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/10/schools/177",
+      "regionId": 10
+    },
+    {
+      "label": "斗六家商",
+      "name": "斗六家商",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/10/schools/178",
+      "regionId": 10
+    },
+    {
+      "label": "斗南高中",
+      "name": "斗南高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/10/schools/179",
+      "regionId": 10
+    },
+    {
+      "label": "北港農工",
+      "name": "北港農工",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/10/schools/180",
+      "regionId": 10
+    },
+    {
+      "label": "私立正心高中",
+      "name": "私立正心高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/10/schools/181",
+      "regionId": 10
+    },
+    {
+      "label": "私立永年高中",
+      "name": "私立永年高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/10/schools/182",
+      "regionId": 10
+    },
+    {
+      "label": "西螺農工",
+      "name": "西螺農工",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/10/schools/183",
+      "regionId": 10
+    },
+    {
+      "label": "虎尾高中",
+      "name": "虎尾高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/10/schools/184",
+      "regionId": 10
+    },
+    {
+      "label": "維多利亞實中",
+      "name": "維多利亞實中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/10/schools/185",
+      "regionId": 10
+    },
+    {
+      "label": "虎尾農工",
+      "name": "虎尾農工",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/10/schools/186",
+      "regionId": 10
+    },
+    {
+      "label": "私立揚子高中",
+      "name": "私立揚子高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/10/schools/187",
+      "regionId": 10
+    },
+    {
+      "label": "私立巨人高中",
+      "name": "私立巨人高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/10/schools/188",
+      "regionId": 10
+    },
+    {
+      "label": "麥寮高中",
+      "name": "麥寮高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/10/schools/189",
+      "regionId": 10
+    },
+    {
+      "label": "私立義峰高中",
+      "name": "私立義峰高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/10/schools/190",
+      "regionId": 10
+    },
+    {
+      "label": "私立福智高中",
+      "name": "私立福智高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/10/schools/191",
+      "regionId": 10
+    },
+    {
+      "label": "天主教文生高中",
+      "name": "天主教文生高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/10/schools/192",
+      "regionId": 10
+    },
+    {
+      "label": "私立大德工商",
+      "name": "私立大德工商",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/10/schools/194",
+      "regionId": 10
+    },
+    {
+      "label": "私立崇先高中",
+      "name": "私立崇先高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/10/schools/7720",
+      "regionId": 10
+    },
+    {
+      "label": "私立協同中學",
+      "name": "私立協同中學",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/11/schools/37",
+      "regionId": 11
+    },
+    {
+      "label": "崇仁護專(大林)",
+      "name": "崇仁護專(大林)",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/11/schools/89",
+      "regionId": 11
+    },
+    {
+      "label": "嘉義高商",
+      "name": "嘉義高商",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/11/schools/173",
+      "regionId": 11
+    },
+    {
+      "label": "嘉義高中",
+      "name": "嘉義高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/11/schools/174",
+      "regionId": 11
+    },
+    {
+      "label": "私立宏仁女中",
+      "name": "私立宏仁女中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/11/schools/275",
+      "regionId": 11
+    },
+    {
+      "label": "嘉義女中",
+      "name": "嘉義女中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/11/schools/276",
+      "regionId": 11
+    },
+    {
+      "label": "私立協志工商",
+      "name": "私立協志工商",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/11/schools/277",
+      "regionId": 11
+    },
+    {
+      "label": "私立興華中學",
+      "name": "私立興華中學",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/11/schools/278",
+      "regionId": 11
+    },
+    {
+      "label": "嘉義高工",
+      "name": "嘉義高工",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/11/schools/294",
+      "regionId": 11
+    },
+    {
+      "label": "私立大同高商",
+      "name": "私立大同高商",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/11/schools/366",
+      "regionId": 11
+    },
+    {
+      "label": "私立立仁高中",
+      "name": "私立立仁高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/11/schools/400",
+      "regionId": 11
+    },
+    {
+      "label": "私立同濟高中 停止辦學",
+      "name": "私立同濟高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/11/schools/401",
+      "regionId": 11
+    },
+    {
+      "label": "東石高中",
+      "name": "東石高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/11/schools/402",
+      "regionId": 11
+    },
+    {
+      "label": "私立仁義高中",
+      "name": "私立仁義高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/11/schools/403",
+      "regionId": 11
+    },
+    {
+      "label": "民雄農工",
+      "name": "民雄農工",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/11/schools/404",
+      "regionId": 11
+    },
+    {
+      "label": "私立輔仁高中",
+      "name": "私立輔仁高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/11/schools/405",
+      "regionId": 11
+    },
+    {
+      "label": "私立萬能工商",
+      "name": "私立萬能工商",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/11/schools/406",
+      "regionId": 11
+    },
+    {
+      "label": "私立嘉華高中",
+      "name": "私立嘉華高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/11/schools/407",
+      "regionId": 11
+    },
+    {
+      "label": "華南高商",
+      "name": "華南高商",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/11/schools/416",
+      "regionId": 11
+    },
+    {
+      "label": "永慶高中",
+      "name": "永慶高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/11/schools/418",
+      "regionId": 11
+    },
+    {
+      "label": "竹崎高中",
+      "name": "竹崎高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/11/schools/419",
+      "regionId": 11
+    },
+    {
+      "label": "私立東吳高職",
+      "name": "私立東吳高職",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/11/schools/422",
+      "regionId": 11
+    },
+    {
+      "label": "嘉義家職",
+      "name": "嘉義家職",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/11/schools/423",
+      "regionId": 11
+    },
+    {
+      "label": "私立弘德工商",
+      "name": "私立弘德工商",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/11/schools/500",
+      "regionId": 11
+    },
+    {
+      "label": "新港藝術高中",
+      "name": "新港藝術高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/11/schools/510",
+      "regionId": 11
+    },
+    {
+      "label": "崇仁護專",
+      "name": "崇仁護專",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/11/schools/511",
+      "regionId": 11
+    },
+    {
+      "label": "嘉南高中",
+      "name": "嘉南高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/11/schools/7888",
+      "regionId": 11
+    },
+    {
+      "label": "家齊高中",
+      "name": "家齊高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/12/schools/18",
+      "regionId": 12
+    },
+    {
+      "label": "台南女中",
+      "name": "台南女中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/12/schools/48",
+      "regionId": 12
+    },
+    {
+      "label": "私立瀛海高中",
+      "name": "私立瀛海高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/12/schools/52",
+      "regionId": 12
+    },
+    {
+      "label": "台南高商",
+      "name": "台南高商",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/12/schools/55",
+      "regionId": 12
+    },
+    {
+      "label": "新營高中",
+      "name": "新營高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/12/schools/85",
+      "regionId": 12
+    },
+    {
+      "label": "私立長榮高中",
+      "name": "私立長榮高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/12/schools/91",
+      "regionId": 12
+    },
+    {
+      "label": "私立長榮女中",
+      "name": "私立長榮女中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/12/schools/201",
+      "regionId": 12
+    },
+    {
+      "label": "台南一中",
+      "name": "台南一中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/12/schools/202",
+      "regionId": 12
+    },
+    {
+      "label": "台南二中",
+      "name": "台南二中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/12/schools/203",
+      "regionId": 12
+    },
+    {
+      "label": "私立黎明中學",
+      "name": "私立黎明中學",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/12/schools/204",
+      "regionId": 12
+    },
+    {
+      "label": "私立亞洲餐旅學校",
+      "name": "私立亞洲餐旅學校",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/12/schools/205",
+      "regionId": 12
+    },
+    {
+      "label": "南寧高中",
+      "name": "南寧高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/12/schools/206",
+      "regionId": 12
+    },
+    {
+      "label": "私立南英商工",
+      "name": "私立南英商工",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/12/schools/207",
+      "regionId": 12
+    },
+    {
+      "label": "北門農工",
+      "name": "北門農工",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/12/schools/279",
+      "regionId": 12
+    },
+    {
+      "label": "白河商工",
+      "name": "白河商工",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/12/schools/281",
+      "regionId": 12
+    },
+    {
+      "label": "私立光華高中",
+      "name": "私立光華高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/12/schools/285",
+      "regionId": 12
+    },
+    {
+      "label": "新豐高中",
+      "name": "新豐高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/12/schools/286",
+      "regionId": 12
+    },
+    {
+      "label": "曾文家商",
+      "name": "曾文家商",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/12/schools/287",
+      "regionId": 12
+    },
+    {
+      "label": "私立聖功女中",
+      "name": "私立聖功女中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/12/schools/288",
+      "regionId": 12
+    },
+    {
+      "label": "成大南工 台南高工",
+      "name": "成大南工",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/12/schools/289",
+      "regionId": 12
+    },
+    {
+      "label": "私立天仁工商",
+      "name": "私立天仁工商",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/12/schools/290",
+      "regionId": 12
+    },
+    {
+      "label": "大灣高中",
+      "name": "大灣高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/12/schools/319",
+      "regionId": 12
+    },
+    {
+      "label": "私立新榮高中 停止辦學",
+      "name": "私立新榮高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/12/schools/329",
+      "regionId": 12
+    },
+    {
+      "label": "南大附中",
+      "name": "南大附中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/12/schools/330",
+      "regionId": 12
+    },
+    {
+      "label": "私立德光中學",
+      "name": "私立德光中學",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/12/schools/351",
+      "regionId": 12
+    },
+    {
+      "label": "北門高中",
+      "name": "北門高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/12/schools/352",
+      "regionId": 12
+    },
+    {
+      "label": "新化高中",
+      "name": "新化高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/12/schools/353",
+      "regionId": 12
+    },
+    {
+      "label": "玉井工商",
+      "name": "玉井工商",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/12/schools/354",
+      "regionId": 12
+    },
+    {
+      "label": "私立南光中學",
+      "name": "私立南光中學",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/12/schools/355",
+      "regionId": 12
+    },
+    {
+      "label": "永仁高中",
+      "name": "永仁高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/12/schools/358",
+      "regionId": 12
+    },
+    {
+      "label": "私立慈幼工商",
+      "name": "私立慈幼工商",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/12/schools/362",
+      "regionId": 12
+    },
+    {
+      "label": "土城高中",
+      "name": "土城高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/12/schools/424",
+      "regionId": 12
+    },
+    {
+      "label": "私立六信高中",
+      "name": "私立六信高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/12/schools/425",
+      "regionId": 12
+    },
+    {
+      "label": "私立崑山高中",
+      "name": "私立崑山高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/12/schools/426",
+      "regionId": 12
+    },
+    {
+      "label": "台南海事",
+      "name": "台南海事",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/12/schools/427",
+      "regionId": 12
+    },
+    {
+      "label": "私立華濟永安高中",
+      "name": "私立華濟永安高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/12/schools/428",
+      "regionId": 12
+    },
+    {
+      "label": "南科國際實驗高中",
+      "name": "南科國際實驗高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/12/schools/429",
+      "regionId": 12
+    },
+    {
+      "label": "私立鳳和高中 停止辦學",
+      "name": "私立鳳和高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/12/schools/430",
+      "regionId": 12
+    },
+    {
+      "label": "私立育德工家",
+      "name": "私立育德工家",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/12/schools/432",
+      "regionId": 12
+    },
+    {
+      "label": "敏惠護專",
+      "name": "敏惠護專",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/12/schools/433",
+      "regionId": 12
+    },
+    {
+      "label": "新營高工",
+      "name": "新營高工",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/12/schools/434",
+      "regionId": 12
+    },
+    {
+      "label": "台南護專",
+      "name": "台南護專",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/12/schools/439",
+      "regionId": 12
+    },
+    {
+      "label": "曾文農工",
+      "name": "曾文農工",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/12/schools/440",
+      "regionId": 12
+    },
+    {
+      "label": "善化高中",
+      "name": "善化高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/12/schools/441",
+      "regionId": 12
+    },
+    {
+      "label": "私立明達高中",
+      "name": "私立明達高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/12/schools/443",
+      "regionId": 12
+    },
+    {
+      "label": "新化高工",
+      "name": "新化高工",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/12/schools/444",
+      "regionId": 12
+    },
+    {
+      "label": "私立興國高中",
+      "name": "私立興國高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/12/schools/460",
+      "regionId": 12
+    },
+    {
+      "label": "私立慈濟高中",
+      "name": "私立慈濟高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/12/schools/469",
+      "regionId": 12
+    },
+    {
+      "label": "後壁高中",
+      "name": "後壁高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/12/schools/479",
+      "regionId": 12
+    },
+    {
+      "label": "私立港明高中",
+      "name": "私立港明高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/12/schools/482",
+      "regionId": 12
+    },
+    {
+      "label": "私立陽明工商",
+      "name": "私立陽明工商",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/12/schools/483",
+      "regionId": 12
+    },
+    {
+      "label": "台南應用科大",
+      "name": "台南應用科大",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/12/schools/531",
+      "regionId": 12
+    },
+    {
+      "label": "中華醫事科技大學",
+      "name": "中華醫事科技大學",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/12/schools/534",
+      "regionId": 12
+    },
+    {
+      "label": "私立長榮高級中學國際部",
+      "name": "私立長榮高級中學國際部",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/12/schools/16353",
+      "regionId": 12
+    },
+    {
+      "label": "私立瀛海中學國際部",
+      "name": "私立瀛海中學國際部",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/12/schools/16354",
+      "regionId": 12
+    },
+    {
+      "label": "高雄中山高中",
+      "name": "高雄中山高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/13/schools/38",
+      "regionId": 13
+    },
+    {
+      "label": "三民家商",
+      "name": "三民家商",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/13/schools/40",
+      "regionId": 13
+    },
+    {
+      "label": "私立華德工家",
+      "name": "私立華德工家",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/13/schools/47",
+      "regionId": 13
+    },
+    {
+      "label": "私立正義高中",
+      "name": "私立正義高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/13/schools/61",
+      "regionId": 13
+    },
+    {
+      "label": "私立中華藝校",
+      "name": "私立中華藝校",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/13/schools/76",
+      "regionId": 13
+    },
+    {
+      "label": "私立明誠高中",
+      "name": "私立明誠高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/13/schools/86",
+      "regionId": 13
+    },
+    {
+      "label": "私立樹德家商",
+      "name": "私立樹德家商",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/13/schools/87",
+      "regionId": 13
+    },
+    {
+      "label": "文山高中",
+      "name": "文山高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/13/schools/88",
+      "regionId": 13
+    },
+    {
+      "label": "高雄中學",
+      "name": "高雄中學",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/13/schools/92",
+      "regionId": 13
+    },
+    {
+      "label": "高雄高工",
+      "name": "高雄高工",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/13/schools/120",
+      "regionId": 13
+    },
+    {
+      "label": "私立立志高中",
+      "name": "私立立志高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/13/schools/121",
+      "regionId": 13
+    },
+    {
+      "label": "中山大學附屬國光高中",
+      "name": "中山大學附屬國光高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/13/schools/195",
+      "regionId": 13
+    },
+    {
+      "label": "仁武高中",
+      "name": "仁武高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/13/schools/196",
+      "regionId": 13
+    },
+    {
+      "label": "高雄師大附中",
+      "name": "高雄師大附中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/13/schools/197",
+      "regionId": 13
+    },
+    {
+      "label": "育英護專",
+      "name": "育英護專",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/13/schools/198",
+      "regionId": 13
+    },
+    {
+      "label": "私立高苑工商",
+      "name": "私立高苑工商",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/13/schools/199",
+      "regionId": 13
+    },
+    {
+      "label": "前鎮高中",
+      "name": "前鎮高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/13/schools/232",
+      "regionId": 13
+    },
+    {
+      "label": "高雄女中",
+      "name": "高雄女中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/13/schools/255",
+      "regionId": 13
+    },
+    {
+      "label": "楠梓高中",
+      "name": "楠梓高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/13/schools/267",
+      "regionId": 13
+    },
+    {
+      "label": "鳳山商工",
+      "name": "鳳山商工",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/13/schools/301",
+      "regionId": 13
+    },
+    {
+      "label": "鼓山高中",
+      "name": "鼓山高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/13/schools/302",
+      "regionId": 13
+    },
+    {
+      "label": "福誠高中",
+      "name": "福誠高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/13/schools/315",
+      "regionId": 13
+    },
+    {
+      "label": "鳳山高中",
+      "name": "鳳山高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/13/schools/316",
+      "regionId": 13
+    },
+    {
+      "label": "旗美高中",
+      "name": "旗美高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/13/schools/317",
+      "regionId": 13
+    },
+    {
+      "label": "高雄新莊高中",
+      "name": "高雄新莊高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/13/schools/374",
+      "regionId": 13
+    },
+    {
+      "label": "中正高工",
+      "name": "中正高工",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/13/schools/379",
+      "regionId": 13
+    },
+    {
+      "label": "鳳新高中",
+      "name": "鳳新高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/13/schools/380",
+      "regionId": 13
+    },
+    {
+      "label": "高雄新興高中",
+      "name": "高雄新興高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/13/schools/381",
+      "regionId": 13
+    },
+    {
+      "label": "左營高中",
+      "name": "左營高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/13/schools/435",
+      "regionId": 13
+    },
+    {
+      "label": "高雄中正高中",
+      "name": "高雄中正高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/13/schools/436",
+      "regionId": 13
+    },
+    {
+      "label": "小港高中",
+      "name": "小港高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/13/schools/437",
+      "regionId": 13
+    },
+    {
+      "label": "私立三信家商",
+      "name": "私立三信家商",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/13/schools/438",
+      "regionId": 13
+    },
+    {
+      "label": "私立大榮高中",
+      "name": "私立大榮高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/13/schools/447",
+      "regionId": 13
+    },
+    {
+      "label": "岡山高中",
+      "name": "岡山高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/13/schools/448",
+      "regionId": 13
+    },
+    {
+      "label": "私立新光高中",
+      "name": "私立新光高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/13/schools/449",
+      "regionId": 13
+    },
+    {
+      "label": "義大國際高中",
+      "name": "義大國際高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/13/schools/450",
+      "regionId": 13
+    },
+    {
+      "label": "林園高中",
+      "name": "林園高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/13/schools/451",
+      "regionId": 13
+    },
+    {
+      "label": "私立中山工商",
+      "name": "私立中山工商",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/13/schools/452",
+      "regionId": 13
+    },
+    {
+      "label": "旗山農工",
+      "name": "旗山農工",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/13/schools/453",
+      "regionId": 13
+    },
+    {
+      "label": "私立普門高中",
+      "name": "私立普門高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/13/schools/454",
+      "regionId": 13
+    },
+    {
+      "label": "私立旗美商工",
+      "name": "私立旗美商工",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/13/schools/455",
+      "regionId": 13
+    },
+    {
+      "label": "私立國際商工",
+      "name": "私立國際商工",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/13/schools/456",
+      "regionId": 13
+    },
+    {
+      "label": "岡山農工",
+      "name": "岡山農工",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/13/schools/457",
+      "regionId": 13
+    },
+    {
+      "label": "樹人醫專",
+      "name": "樹人醫專",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/13/schools/458",
+      "regionId": 13
+    },
+    {
+      "label": "六龜高中",
+      "name": "六龜高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/13/schools/459",
+      "regionId": 13
+    },
+    {
+      "label": "瑞祥高中",
+      "name": "瑞祥高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/13/schools/461",
+      "regionId": 13
+    },
+    {
+      "label": "私立高鳳工家",
+      "name": "私立高鳳工家",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/13/schools/462",
+      "regionId": 13
+    },
+    {
+      "label": "私立高英工商 停止辦學",
+      "name": "私立高英工商",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/13/schools/463",
+      "regionId": 13
+    },
+    {
+      "label": "高雄高商",
+      "name": "高雄高商",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/13/schools/464",
+      "regionId": 13
+    },
+    {
+      "label": "私立復華高中",
+      "name": "私立復華高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/13/schools/465",
+      "regionId": 13
+    },
+    {
+      "label": "路竹高中",
+      "name": "路竹高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/13/schools/466",
+      "regionId": 13
+    },
+    {
+      "label": "高雄三民高中",
+      "name": "高雄三民高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/13/schools/468",
+      "regionId": 13
+    },
+    {
+      "label": "海青工商",
+      "name": "海青工商",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/13/schools/470",
+      "regionId": 13
+    },
+    {
+      "label": "私立道明中學",
+      "name": "私立道明中學",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/13/schools/471",
+      "regionId": 13
+    },
+    {
+      "label": "高美醫專",
+      "name": "高美醫專",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/13/schools/515",
+      "regionId": 13
+    },
+    {
+      "label": "輔英科大五專部",
+      "name": "輔英科大五專部",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/13/schools/516",
+      "regionId": 13
+    },
+    {
+      "label": "文藻外語大學專科部",
+      "name": "文藻外語大學專科部",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/13/schools/521",
+      "regionId": 13
+    },
+    {
+      "label": "國立高雄餐旅大學",
+      "name": "國立高雄餐旅大學",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/13/schools/522",
+      "regionId": 13
+    },
+    {
+      "label": "高雄海洋科技大學",
+      "name": "高雄海洋科技大學",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/13/schools/532",
+      "regionId": 13
+    },
+    {
+      "label": "高餐附中",
+      "name": "高餐附中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/13/schools/540",
+      "regionId": 13
+    },
+    {
+      "label": "高苑科技大學",
+      "name": "高苑科技大學",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/13/schools/542",
+      "regionId": 13
+    },
+    {
+      "label": "中正預校 中正國防幹部預備學校",
+      "name": "中正預校",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/13/schools/14175",
+      "regionId": 13
+    },
+    {
+      "label": "屏北高中",
+      "name": "屏北高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/14/schools/39",
+      "regionId": 14
+    },
+    {
+      "label": "屏東女中",
+      "name": "屏東女中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/14/schools/166",
+      "regionId": 14
+    },
+    {
+      "label": "屏東高工",
+      "name": "屏東高工",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/14/schools/167",
+      "regionId": 14
+    },
+    {
+      "label": "屏東大同高中",
+      "name": "屏東大同高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/14/schools/168",
+      "regionId": 14
+    },
+    {
+      "label": "東港高中",
+      "name": "東港高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/14/schools/169",
+      "regionId": 14
+    },
+    {
+      "label": "枋寮高中",
+      "name": "枋寮高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/14/schools/170",
+      "regionId": 14
+    },
+    {
+      "label": "恆春工商",
+      "name": "恆春工商",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/14/schools/171",
+      "regionId": 14
+    },
+    {
+      "label": "屏東高中",
+      "name": "屏東高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/14/schools/256",
+      "regionId": 14
+    },
+    {
+      "label": "私立屏榮高中",
+      "name": "私立屏榮高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/14/schools/257",
+      "regionId": 14
+    },
+    {
+      "label": "私立民生家商",
+      "name": "私立民生家商",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/14/schools/258",
+      "regionId": 14
+    },
+    {
+      "label": "潮州高中",
+      "name": "潮州高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/14/schools/259",
+      "regionId": 14
+    },
+    {
+      "label": "東港海事",
+      "name": "東港海事",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/14/schools/260",
+      "regionId": 14
+    },
+    {
+      "label": "私立日新工商",
+      "name": "私立日新工商",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/14/schools/261",
+      "regionId": 14
+    },
+    {
+      "label": "私立陸興高中",
+      "name": "私立陸興高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/14/schools/383",
+      "regionId": 14
+    },
+    {
+      "label": "私立華洲工家",
+      "name": "私立華洲工家",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/14/schools/384",
+      "regionId": 14
+    },
+    {
+      "label": "內埔農工",
+      "name": "內埔農工",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/14/schools/385",
+      "regionId": 14
+    },
+    {
+      "label": "私立新基中學",
+      "name": "私立新基中學",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/14/schools/386",
+      "regionId": 14
+    },
+    {
+      "label": "佳冬高農",
+      "name": "佳冬高農",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/14/schools/388",
+      "regionId": 14
+    },
+    {
+      "label": "來義高中",
+      "name": "來義高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/14/schools/389",
+      "regionId": 14
+    },
+    {
+      "label": "美和高中",
+      "name": "美和高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/14/schools/391",
+      "regionId": 14
+    },
+    {
+      "label": "私立慈惠護專",
+      "name": "私立慈惠護專",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/14/schools/393",
+      "regionId": 14
+    },
+    {
+      "label": "美和科技大學",
+      "name": "美和科技大學",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/14/schools/506",
+      "regionId": 14
+    },
+    {
+      "label": "大仁科技大學",
+      "name": "大仁科技大學",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/14/schools/4620",
+      "regionId": 14
+    },
+    {
+      "label": "宜蘭高中",
+      "name": "宜蘭高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/15/schools/27",
+      "regionId": 15
+    },
+    {
+      "label": "羅東高中",
+      "name": "羅東高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/15/schools/28",
+      "regionId": 15
+    },
+    {
+      "label": "羅東高商",
+      "name": "羅東高商",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/15/schools/51",
+      "regionId": 15
+    },
+    {
+      "label": "蘇澳海事",
+      "name": "蘇澳海事",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/15/schools/71",
+      "regionId": 15
+    },
+    {
+      "label": "私立中道高中",
+      "name": "私立中道高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/15/schools/83",
+      "regionId": 15
+    },
+    {
+      "label": "宜蘭高商",
+      "name": "宜蘭高商",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/15/schools/116",
+      "regionId": 15
+    },
+    {
+      "label": "南澳高中",
+      "name": "南澳高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/15/schools/145",
+      "regionId": 15
+    },
+    {
+      "label": "蘭陽女中",
+      "name": "蘭陽女中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/15/schools/146",
+      "regionId": 15
+    },
+    {
+      "label": "羅東高工",
+      "name": "羅東高工",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/15/schools/147",
+      "regionId": 15
+    },
+    {
+      "label": "頭城家商",
+      "name": "頭城家商",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/15/schools/148",
+      "regionId": 15
+    },
+    {
+      "label": "私立慧燈中學",
+      "name": "私立慧燈中學",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/15/schools/149",
+      "regionId": 15
+    },
+    {
+      "label": "聖母專校",
+      "name": "聖母專校",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/15/schools/150",
+      "regionId": 15
+    },
+    {
+      "label": "蘭陽技術學院 停止辦學",
+      "name": "蘭陽技術學院",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/15/schools/6606",
+      "regionId": 15
+    },
+    {
+      "label": "花蓮女中",
+      "name": "花蓮女中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/16/schools/43",
+      "regionId": 16
+    },
+    {
+      "label": "花蓮高商",
+      "name": "花蓮高商",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/16/schools/110",
+      "regionId": 16
+    },
+    {
+      "label": "私立海星高中",
+      "name": "私立海星高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/16/schools/111",
+      "regionId": 16
+    },
+    {
+      "label": "私立上騰工商",
+      "name": "私立上騰工商",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/16/schools/151",
+      "regionId": 16
+    },
+    {
+      "label": "花蓮高農",
+      "name": "花蓮高農",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/16/schools/152",
+      "regionId": 16
+    },
+    {
+      "label": "私立四維高中",
+      "name": "私立四維高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/16/schools/153",
+      "regionId": 16
+    },
+    {
+      "label": "慈大附中",
+      "name": "慈大附中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/16/schools/154",
+      "regionId": 16
+    },
+    {
+      "label": "花蓮高工",
+      "name": "花蓮高工",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/16/schools/155",
+      "regionId": 16
+    },
+    {
+      "label": "光復商工",
+      "name": "光復商工",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/16/schools/156",
+      "regionId": 16
+    },
+    {
+      "label": "玉里高中",
+      "name": "玉里高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/16/schools/157",
+      "regionId": 16
+    },
+    {
+      "label": "花蓮體中",
+      "name": "花蓮體中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/16/schools/361",
+      "regionId": 16
+    },
+    {
+      "label": "花蓮高中",
+      "name": "花蓮高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/16/schools/502",
+      "regionId": 16
+    },
+    {
+      "label": "慈濟科技大學",
+      "name": "慈濟科技大學",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/16/schools/518",
+      "regionId": 16
+    },
+    {
+      "label": "台灣觀光學院",
+      "name": "台灣觀光學院",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/16/schools/535",
+      "regionId": 16
+    },
+    {
+      "label": "台東高商",
+      "name": "台東高商",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/17/schools/42",
+      "regionId": 17
+    },
+    {
+      "label": "台東女中",
+      "name": "台東女中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/17/schools/63",
+      "regionId": 17
+    },
+    {
+      "label": "台東高中",
+      "name": "台東高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/17/schools/159",
+      "regionId": 17
+    },
+    {
+      "label": "蘭嶼高中",
+      "name": "蘭嶼高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/17/schools/162",
+      "regionId": 17
+    },
+    {
+      "label": "私立育仁中學",
+      "name": "私立育仁中學",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/17/schools/163",
+      "regionId": 17
+    },
+    {
+      "label": "成功商水",
+      "name": "成功商水",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/17/schools/164",
+      "regionId": 17
+    },
+    {
+      "label": "關山工商",
+      "name": "關山工商",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/17/schools/165",
+      "regionId": 17
+    },
+    {
+      "label": "私立公東高工",
+      "name": "私立公東高工",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/17/schools/501",
+      "regionId": 17
+    },
+    {
+      "label": "台東專校",
+      "name": "台東專校",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/17/schools/505",
+      "regionId": 17
+    },
+    {
+      "label": "均一實驗高級中學",
+      "name": "均一實驗高級中學",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/17/schools/4130",
+      "regionId": 17
+    },
+    {
+      "label": "馬公高中",
+      "name": "馬公高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/18/schools/105",
+      "regionId": 18
+    },
+    {
+      "label": "澎湖海事",
+      "name": "澎湖海事",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/18/schools/160",
+      "regionId": 18
+    },
+    {
+      "label": "金門高中",
+      "name": "金門高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/19/schools/31",
+      "regionId": 19
+    },
+    {
+      "label": "金門農工",
+      "name": "金門農工",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/19/schools/161",
+      "regionId": 19
+    },
+    {
+      "label": "馬祖高中",
+      "name": "馬祖高中",
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/20/schools/158",
+      "regionId": 20
+    }
+  ]
+}

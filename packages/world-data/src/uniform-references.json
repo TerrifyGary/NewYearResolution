@@ -1,0 +1,2630 @@
+{
+  "101304": {
+    "label": "協同高中",
+    "source": {
+      "url": "https://www.cmsh.cyc.edu.tw/wp-content/uploads/doc/adm232/%E6%9C%8D%E8%A3%9D%E5%84%80%E5%AE%B9%E8%A6%8F%E5%AE%9A.pdf",
+      "year": null,
+      "kind": "official",
+      "checked": "2026-11-11",
+      "note": "採文件高中部；國中部的粉紅男上衣與灰短褲未混入。"
+    },
+    "variants": {
+      "male": {
+        "top": "#bad5e8",
+        "bottom": "#858892",
+        "description": "藍條紋短袖襯衫、灰色長褲。",
+        "cut": "trousers",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72",
+        "pattern": "stripe"
+      },
+      "female": {
+        "top": "#efd2d6",
+        "bottom": "#858892",
+        "description": "粉紅短袖襯衫、灰色裙。",
+        "cut": "a-line",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72"
+      }
+    }
+  },
+  "120303": {
+    "label": "鳳山高中",
+    "source": {
+      "url": "https://www.fssh.khc.edu.tw/resource/openfid.php?id=2542",
+      "year": 2021,
+      "kind": "official",
+      "checked": "2026-11-11",
+      "note": "校規提供卡其褲、黑褲、黑褶裙；圖稿僅示範兩種搭配，不新增性別限制。"
+    },
+    "variants": {
+      "male": {
+        "top": "#f4e6b2",
+        "bottom": "#c6b17c",
+        "description": "米黃色短袖上衣、卡其長褲。",
+        "cut": "trousers",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72"
+      },
+      "female": {
+        "top": "#f4e6b2",
+        "bottom": "#293038",
+        "description": "米黃色短袖上衣、黑色褶裙。",
+        "cut": "skirt",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72"
+      }
+    }
+  },
+  "120304": {
+    "label": "岡山高中",
+    "source": {
+      "url": "https://www.kssh.khc.edu.tw/var/file/1/1001/img/24/106903017.pdf",
+      "year": null,
+      "kind": "official",
+      "checked": "2026-11-11",
+      "note": "女款亦可選黑裙，本次採文件明訂的褲裝輪廓。"
+    },
+    "variants": {
+      "male": {
+        "top": "#d4dfbb",
+        "bottom": "#c6b17c",
+        "description": "淺綠色短袖上衣、卡其長褲。",
+        "cut": "trousers",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72"
+      },
+      "female": {
+        "top": "#d4dfbb",
+        "bottom": "#293038",
+        "description": "淺綠色短袖上衣、黑色長褲。",
+        "cut": "trousers",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72"
+      }
+    }
+  },
+  "124333": {
+    "label": "六龜高中",
+    "source": {
+      "url": "https://www.lgm.kh.edu.tw/osa/sites/default/files/doc/rule/%E5%AD%B8%E7%94%9F%E6%89%8B%E5%86%8A%E6%95%B4%E5%90%88%E7%89%88112_0908.pdf",
+      "year": 2023,
+      "kind": "official",
+      "checked": "2026-11-11",
+      "note": "採高中部黃上衣，不混入國中部白上衣。"
+    },
+    "variants": {
+      "male": {
+        "top": "#f2da99",
+        "bottom": "#293038",
+        "description": "黃色短袖襯衫、黑色長褲。",
+        "cut": "trousers",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72"
+      },
+      "female": {
+        "top": "#f2da99",
+        "bottom": "#293038",
+        "description": "黃色短袖襯衫、黑色長褲。",
+        "cut": "trousers",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72"
+      }
+    }
+  },
+  "140302": {
+    "label": "臺東女中",
+    "source": {
+      "url": "https://www.tgsh.ttct.edu.tw/ischool/rfile/89835e8756c9b9db8b883c9d158747d1",
+      "year": 2023,
+      "kind": "official",
+      "checked": "2026-11-11"
+    },
+    "variants": {
+      "female": {
+        "top": "#fffdf6",
+        "bottom": "#293038",
+        "description": "白色短袖上衣、黑色短裙。",
+        "cut": "a-line",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72"
+      }
+    }
+  },
+  "141406": {
+    "label": "公東高工",
+    "source": {
+      "url": "https://www.ktus.ttct.edu.tw/ischool/rfile/115cd09c1d4294060f91f46e3a845a62",
+      "year": null,
+      "kind": "official",
+      "checked": "2026-11-11",
+      "note": "採型式一；型式二淺藍水手服的領片細節仍待核。"
+    },
+    "variants": {
+      "male": {
+        "top": "#fffdf6",
+        "bottom": "#263b5e",
+        "description": "白色短袖上衣、藍色長褲。",
+        "cut": "trousers",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72"
+      }
+    }
+  },
+  "150302": {
+    "label": "花蓮女中",
+    "source": {
+      "url": "https://www.hlgs.hlc.edu.tw/wp-content/uploads/sites/74/2025/11/國立花蓮女子高級中學服裝儀容規範.pdf",
+      "year": 2025,
+      "kind": "official",
+      "checked": "2026-11-09"
+    },
+    "variants": {
+      "female": {
+        "top": "#fffdf6",
+        "bottom": "#293038",
+        "description": "白色短袖襯衫、黑色裙子。",
+        "cut": "skirt",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72"
+      }
+    }
+  },
+  "150303": {
+    "label": "花蓮高中",
+    "source": {
+      "url": "https://www.hlhs.hlc.edu.tw/static/webroot/G161095028512896/application/NN168906685943675.pdf",
+      "year": 2023,
+      "kind": "official",
+      "checked": "2026-11-11",
+      "note": "女生下身類型尚待確認，保留待補。"
+    },
+    "variants": {
+      "male": {
+        "top": "#bad5e8",
+        "bottom": "#263b5e",
+        "description": "淺藍色短袖上衣、深藍長褲，雙胸口袋。",
+        "cut": "trousers",
+        "collar": "double-pocket",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72"
+      }
+    }
+  },
+  "150309": {
+    "label": "玉里高中",
+    "source": {
+      "url": "https://www.ylsh.hlc.edu.tw/uploads/1656574028322BypsxAYP.pdf",
+      "year": 2022,
+      "kind": "official",
+      "checked": "2026-11-11",
+      "note": "校規提供粉紅上衣與紅黑格裙／藍青褲、淡藍上衣與藍褲兩種形式。本次僅繪可確認領色的淡藍款，不代表性別限制。"
+    },
+    "variants": {
+      "male": {
+        "top": "#bad5e8",
+        "bottom": "#355578",
+        "description": "淡藍短袖上衣、深藍衣領、藍色長褲。",
+        "cut": "trousers",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72",
+        "collarColor": "#263b5e"
+      }
+    }
+  },
+  "150404": {
+    "label": "花蓮高工",
+    "source": {
+      "url": "https://www.hlis.hlc.edu.tw/ezfiles/0/1000/attach/42/pta_46286_403163_71916.pdf",
+      "year": 2022,
+      "kind": "official",
+      "checked": "2026-11-11",
+      "note": "校規不限性別樣式；國民領及外放下襬採簡化輪廓。"
+    },
+    "variants": {
+      "male": {
+        "top": "#fffdf6",
+        "bottom": "#616773",
+        "description": "白色國民領短袖上衣、鐵灰長褲。",
+        "cut": "trousers",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72"
+      },
+      "female": {
+        "top": "#fffdf6",
+        "bottom": "#793c49",
+        "description": "白色國民領短袖上衣、暗紅褶裙。",
+        "cut": "skirt",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72"
+      }
+    }
+  },
+  "170301": {
+    "label": "基隆女中",
+    "source": {
+      "url": "https://www.klgsh.kl.edu.tw/wp-content/uploads/sites/67/2024/10/國立基隆女中學生手冊113.10.18-3.pdf",
+      "year": 2024,
+      "kind": "official",
+      "checked": "2026-11-09"
+    },
+    "variants": {
+      "female": {
+        "top": "#f3e7d0",
+        "bottom": "#30534a",
+        "description": "米色短袖上衣、綠格子裙褲。",
+        "cut": "skort",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72",
+        "pattern": "plaid"
+      }
+    }
+  },
+  "170403": {
+    "label": "基隆海事",
+    "source": {
+      "url": "https://www.klms.ntou.edu.tw/%E6%A0%A1%E5%8B%99%E7%B3%BB%E7%B5%B1/%E8%A1%A8%E4%BB%B6%E4%B8%8B%E8%BC%89?catid=32&id=114%3A%E6%9C%8D%E8%A3%9D%E5%84%80%E5%AE%B9%E7%AE%A1%E7%90%86%E5%AF%A6%E6%96%BD%E8%A6%81%E9%BB%9E&task=download.send",
+      "year": null,
+      "kind": "official",
+      "checked": "2026-11-11",
+      "note": "女款海軍領配色細節尚待核。"
+    },
+    "variants": {
+      "male": {
+        "top": "#bad5e8",
+        "bottom": "#263b5e",
+        "description": "淡藍色短袖上衣、深藍西裝長褲。",
+        "cut": "trousers",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72"
+      }
+    }
+  },
+  "171308": {
+    "label": "輔大聖心高中",
+    "source": {
+      "url": "https://www.shsh.kl.edu.tw/ischool/publish_page/20/?cid=2338",
+      "year": null,
+      "kind": "official",
+      "checked": "2026-11-11",
+      "note": "採高中部夏季A／B版已明訂的褲裝，未推測學生裙顏色。"
+    },
+    "variants": {
+      "male": {
+        "top": "#fffdf6",
+        "bottom": "#293038",
+        "description": "白色短袖上衣、黑色西裝長褲。",
+        "cut": "trousers",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72"
+      },
+      "female": {
+        "top": "#fffdf6",
+        "bottom": "#293038",
+        "description": "白色短袖上衣、黑色西裝長褲款。",
+        "cut": "trousers",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72"
+      }
+    }
+  },
+  "173306": {
+    "label": "安樂高中",
+    "source": {
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/3/schools/126/uniforms/141",
+      "year": null,
+      "kind": "secondary",
+      "checked": "2026-11-11",
+      "note": "依制服地圖／UniForme的文字記述簡化重繪，尚待校方核對；該站圖片標示AI示意，不作照片證據。",
+      "evidence": "third-party-description"
+    },
+    "variants": {
+      "female": {
+        "top": "#fffdf6",
+        "bottom": "#51674f",
+        "description": "白色細條紋水手上衣、綠色系格紋裙及格紋領飾。",
+        "cut": "skirt",
+        "collar": "sailor",
+        "trim": "url(#plaid)",
+        "tie": "#263b5e",
+        "stitch": "#344e72",
+        "collarColor": "#fffdf6",
+        "pattern": "plaid",
+        "topPattern": "stripe",
+        "stripeColor": "#d8ded9",
+        "patternColors": [
+          "#e5dbc1",
+          "#263c32"
+        ],
+        "tiePattern": "plaid"
+      }
+    }
+  },
+  "173314": {
+    "label": "八斗高中",
+    "source": {
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/3/schools/123/uniforms/98",
+      "year": null,
+      "kind": "secondary",
+      "checked": "2026-11-11",
+      "note": "依制服地圖／UniForme的文字記述簡化重繪，尚待校方核對；該站圖片標示AI示意，不作照片證據。該站記述2012年起的款式，起始年未獨立證實，不當作文件出版年。",
+      "evidence": "third-party-description"
+    },
+    "variants": {
+      "female": {
+        "top": "#efd2d6",
+        "bottom": "#e6c5be",
+        "description": "淡粉紅短袖襯衫、粉紅米色咖啡格紋褲裙、同色系領飾。",
+        "cut": "skort",
+        "collar": "shirt",
+        "trim": null,
+        "tie": "#6e544d",
+        "stitch": "#344e72",
+        "pattern": "plaid",
+        "patternColors": [
+          "#ddcdaa",
+          "#6e544d"
+        ],
+        "tieStyle": "bow",
+        "tiePattern": "plaid"
+      }
+    }
+  },
+  "180302": {
+    "label": "新竹女中",
+    "source": {
+      "url": "https://www.hgsh.hc.edu.tw/resource/openfid.php?id=59862",
+      "year": null,
+      "kind": "official",
+      "checked": "2026-11-11",
+      "note": "男款為校方文件明列的服裝選項，不據此推斷一般招生性別。"
+    },
+    "variants": {
+      "female": {
+        "top": "#fffdf6",
+        "bottom": "#293038",
+        "description": "白色短袖上衣、黑色裙。",
+        "cut": "a-line",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72"
+      },
+      "male": {
+        "top": "#fffdf6",
+        "bottom": "#263b5e",
+        "description": "白色短袖上衣、藏青長褲。",
+        "cut": "trousers",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72"
+      }
+    }
+  },
+  "180309": {
+    "label": "新竹高中",
+    "source": {
+      "url": "https://www.hchs.hc.edu.tw/ischool/news/attached/2294/%E5%AD%B8%E7%94%9F%E6%9C%8D%E8%A3%9D%E5%84%80%E5%AE%B9%E8%A6%8F%E7%AF%84.pdf",
+      "year": 2019,
+      "kind": "official",
+      "checked": "2026-11-11",
+      "note": "校規列第一式及第二式；插畫示範兩種款式，不代表性別穿著限制。"
+    },
+    "variants": {
+      "male": {
+        "top": "#c6b17c",
+        "bottom": "#c6b17c",
+        "description": "卡其色短袖上衣、卡其長褲。",
+        "cut": "trousers",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#3e664d"
+      },
+      "female": {
+        "top": "#fffdf6",
+        "bottom": "#616773",
+        "description": "白色短袖上衣、鐵灰裙。",
+        "cut": "a-line",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#3e664d"
+      }
+    }
+  },
+  "181305": {
+    "label": "新竹光復高中",
+    "source": {
+      "url": "https://www.kfsh.hc.edu.tw/uploads/article/8903/20240509124051.pdf",
+      "year": 2024,
+      "kind": "official",
+      "checked": "2026-11-09"
+    },
+    "variants": {
+      "male": {
+        "top": "#fffdf6",
+        "bottom": "#263b5e",
+        "description": "白色短袖襯衫、深藍色長褲。",
+        "cut": "trousers",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72"
+      }
+    }
+  },
+  "191313": {
+    "label": "曉明女中",
+    "source": {
+      "url": "https://www.smgsh.tc.edu.tw/officeweb/Content.aspx?c=234&s=2",
+      "year": null,
+      "kind": "official",
+      "checked": "2026-11-11",
+      "note": "採高中部暗紅裙，不採國中部淺藍裙；頁面未註明規定年份。"
+    },
+    "variants": {
+      "female": {
+        "top": "#fffdf6",
+        "bottom": "#793c49",
+        "description": "白色短袖上衣、暗紅百褶裙。",
+        "cut": "skirt",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72"
+      }
+    }
+  },
+  "193301": {
+    "label": "臺中女中",
+    "source": {
+      "url": "https://itcgs.tcgs.tc.edu.tw/ischool/wr/file/1/3555/b3d6bed11197765f5243bf9ad330125d.pdf",
+      "year": 2025,
+      "kind": "official",
+      "checked": "2026-11-11",
+      "note": "不加腰帶；黑長褲為另一校規選項。"
+    },
+    "variants": {
+      "female": {
+        "top": "#38684f",
+        "bottom": "#293038",
+        "description": "墨綠短袖襯衫、黑色裙褲、白色繡字。",
+        "cut": "skort",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#fffdf6"
+      }
+    }
+  },
+  "194303": {
+    "label": "臺中二中",
+    "source": {
+      "url": "https://web.tcssh.tc.edu.tw/files/news/11300_4f42c496.pdf",
+      "year": 2019,
+      "kind": "official",
+      "checked": "2026-11-11"
+    },
+    "variants": {
+      "male": {
+        "top": "#fffdf6",
+        "bottom": "#263b5e",
+        "description": "白色短袖上衣、深藍西裝長褲。",
+        "cut": "trousers",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72"
+      },
+      "female": {
+        "top": "#fffdf6",
+        "bottom": "#263b5e",
+        "description": "白色短袖上衣、深藍及膝褶裙。",
+        "cut": "skirt",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72"
+      }
+    }
+  },
+  "194315": {
+    "label": "文華高中",
+    "source": {
+      "url": "https://web.whsh.tc.edu.tw/ischool/wr/file/1/5780/9968f8afd7766728b4c2344e16dbf3ce.pdf",
+      "year": null,
+      "kind": "official",
+      "checked": "2026-11-11",
+      "note": "採校方本校制服條文；同校舊手冊引述他校表格未採用。背心與領帶細節另待補齊。"
+    },
+    "variants": {
+      "male": {
+        "top": "#fffdf6",
+        "bottom": "#263b5e",
+        "description": "白色短袖襯衫、深藍西裝長褲。",
+        "cut": "trousers",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72"
+      },
+      "female": {
+        "top": "#fffdf6",
+        "bottom": "#263b5e",
+        "description": "白色短袖襯衫、深藍褶裙。",
+        "cut": "skirt",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72"
+      }
+    }
+  },
+  "200406": {
+    "label": "嘉義高商",
+    "source": {
+      "url": "https://www.cyvs.cy.edu.tw/ischool/news/attached/16131/08-111%E5%AD%B8%E5%B9%B4%E5%88%B6%E6%9C%8D%E8%A8%82%E8%B3%BC%E5%96%AE.pdf",
+      "year": 2022,
+      "kind": "official",
+      "checked": "2026-11-11",
+      "note": "格線比例採簡化示意，未核實男款配色。"
+    },
+    "variants": {
+      "female": {
+        "top": "#fffdf6",
+        "bottom": "#293038",
+        "description": "白色國民領短袖上衣、黑白格領、黑色裙。",
+        "cut": "a-line",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72",
+        "collarPattern": "plaid",
+        "patternColors": [
+          "#fffdf6",
+          "#8b8b8b"
+        ]
+      }
+    }
+  },
+  "210305": {
+    "label": "臺南一中",
+    "source": {
+      "url": "https://www.tnfsh.tn.edu.tw/df_ufiles/024/113學年度學用品及制服訂購單.pdf",
+      "year": 2024,
+      "kind": "official",
+      "checked": "2026-11-09"
+    },
+    "variants": {
+      "male": {
+        "top": "#c6b17c",
+        "bottom": "#c6b17c",
+        "description": "卡其色短袖上衣、卡其長褲。",
+        "cut": "trousers",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72"
+      }
+    }
+  },
+  "210306": {
+    "label": "臺南女中",
+    "source": {
+      "url": "https://www.tngs.tn.edu.tw/wp-content/uploads/sites/54/2023/02/112學生手冊112.1.19校務會議修.pdf",
+      "year": 2023,
+      "kind": "official",
+      "checked": "2026-11-09"
+    },
+    "variants": {
+      "female": {
+        "top": "#fffdf6",
+        "bottom": "#293038",
+        "description": "白色短袖上衣、黑色百褶裙。",
+        "cut": "skirt",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72"
+      }
+    }
+  },
+  "210309": {
+    "label": "家齊高中",
+    "source": {
+      "url": "https://features.ltn.com.tw/english/article/breakingnews/2193819",
+      "year": 2017,
+      "kind": "media",
+      "checked": "2026-11-09"
+    },
+    "variants": {
+      "female": {
+        "top": "#b9dbea",
+        "bottom": "#294b70",
+        "description": "水藍色水手上衣、海軍領與粉紅藍色滾邊、深藍裙。",
+        "cut": "skirt",
+        "collar": "sailor",
+        "trim": "#dca9b7",
+        "tie": "#263b5e",
+        "stitch": "#344e72"
+      }
+    }
+  },
+  "210408": {
+    "label": "臺南高商",
+    "source": {
+      "url": "https://www.tncvs.tn.edu.tw/df_ufiles/sub01/%E5%9C%8B%E7%AB%8B%E8%87%BA%E5%8D%97%E9%AB%98%E7%B4%9A%E5%95%86%E6%A5%AD%E8%81%B7%E6%A5%AD%E5%AD%B8%E6%A0%A1%E5%AD%B8%E7%94%9F%E6%9C%8D%E8%A3%9D%E5%84%80%E5%AE%B9%E8%A6%8F%E7%AF%84_1130630%281%29.pdf",
+      "year": 2024,
+      "kind": "official",
+      "checked": "2026-11-11"
+    },
+    "variants": {
+      "male": {
+        "top": "#fffdf6",
+        "bottom": "#263b5e",
+        "description": "白色短袖襯衫、深藍長褲。",
+        "cut": "trousers",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72"
+      },
+      "female": {
+        "top": "#fffdf6",
+        "bottom": "#263b5e",
+        "description": "白色短袖襯衫、深藍裙。",
+        "cut": "a-line",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72"
+      }
+    }
+  },
+  "311401": {
+    "label": "臺北市育達高中",
+    "source": {
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/1/schools/64/uniforms/82",
+      "year": null,
+      "kind": "secondary",
+      "checked": "2026-11-11",
+      "note": "依制服地圖／UniForme的文字記述簡化重繪，尚待校方核對；該站圖片標示AI示意，不作照片證據。校方2022年改版公告亦說明海軍藍／洋紅撞色：https://www.yudah.tp.edu.tw/event?i=1629 。",
+      "evidence": "third-party-description"
+    },
+    "variants": {
+      "female": {
+        "top": "#fffdf6",
+        "bottom": "#263b5e",
+        "description": "白色短袖襯衫、海軍藍百褶裙、洋紅白斜紋海軍藍領結。",
+        "cut": "skirt",
+        "collar": "shirt",
+        "trim": null,
+        "tie": "#263b5e",
+        "stitch": "#344e72",
+        "tieStyle": "bow",
+        "tiePattern": "diagonal",
+        "patternColors": [
+          "#a83d6a",
+          "#fffdf6"
+        ]
+      }
+    }
+  },
+  "323301": {
+    "label": "松山高中",
+    "source": {
+      "url": "https://zh.wikipedia.org/wiki/臺北市立松山高級中學",
+      "year": 2026,
+      "kind": "secondary",
+      "checked": "2026-11-09"
+    },
+    "variants": {
+      "male": {
+        "top": "#c4d7b6",
+        "bottom": "#485a40",
+        "description": "淺綠色上衣、深橄欖綠色長褲。",
+        "cut": "trousers",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72"
+      },
+      "female": {
+        "top": "#c4d7b6",
+        "bottom": "#485a40",
+        "description": "淺綠色上衣、深橄欖綠色百褶裙。",
+        "cut": "skirt",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72"
+      }
+    }
+  },
+  "330301": {
+    "label": "師大附中",
+    "source": {
+      "url": "https://www.hs.ntnu.edu.tw/static/webroot/G162269152981136/application/NW175437392701270.pdf",
+      "year": 2023,
+      "kind": "official",
+      "checked": "2026-11-11",
+      "note": "依校規配色與輪廓重繪，螢幕色票為近似值，未宣稱Pantone精準轉換。"
+    },
+    "variants": {
+      "male": {
+        "top": "#bad5e8",
+        "bottom": "#263b5e",
+        "description": "水藍短袖上衣、藏青長褲。",
+        "cut": "trousers",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72"
+      },
+      "female": {
+        "top": "#f4efdf",
+        "bottom": "#8099b6",
+        "description": "米白短袖上衣、白色圓領、灰藍裙。",
+        "cut": "a-line",
+        "collar": "round",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72",
+        "collarColor": "#fffdf6"
+      }
+    }
+  },
+  "331302": {
+    "label": "金甌女中",
+    "source": {
+      "url": "https://www.cogsh.tp.edu.tw/ischool/wr/file/9/11/9ddf8a24a273b0a22995a44f35209925.pdf",
+      "year": null,
+      "kind": "official",
+      "checked": "2026-11-11",
+      "note": "也可搭黑長褲，圖稿採裙裝示意。"
+    },
+    "variants": {
+      "female": {
+        "top": "#fffdf6",
+        "bottom": "#293038",
+        "description": "白色短袖上衣、黑色裙。",
+        "cut": "a-line",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72"
+      }
+    }
+  },
+  "341402": {
+    "label": "稻江護家",
+    "source": {
+      "url": "https://www.tcnvs.tp.edu.tw/modules/tadnews/index.php?nsn=229",
+      "year": 2017,
+      "kind": "media",
+      "checked": "2026-11-11",
+      "note": "校方轉載自由時報報導；另對照制服地圖文字記述。省略選配米黃背心與稻穗領帶夾，不移用該站AI圖片。"
+    },
+    "variants": {
+      "female": {
+        "top": "#fffdf6",
+        "bottom": "#263b5e",
+        "description": "白色改良式水手領上衣、鈷藍格線百褶裙、深藍小領帶。",
+        "cut": "skirt",
+        "collar": "sailor",
+        "trim": null,
+        "tie": "#263b5e",
+        "stitch": "#344e72",
+        "collarColor": "#fffdf6",
+        "pattern": "plaid",
+        "patternColors": [
+          "#4c6ca7",
+          "#c6d0de"
+        ],
+        "tieStyle": "straight"
+      }
+    }
+  },
+  "343301": {
+    "label": "中山女高",
+    "source": {
+      "url": "https://www.csghs.tp.edu.tw/wp-content/uploads/doc/zs234/113-1%E7%AC%AC1%E6%AC%A1%E6%9C%8D%E5%84%80%E5%A7%94%E5%93%A1%E6%9C%83%E8%AD%B0%E6%9C%83%E8%AD%B0%E8%A8%98%E9%8C%84.pdf",
+      "year": 2024,
+      "kind": "official",
+      "checked": "2026-11-11",
+      "note": "採文件中山女高條文；沒有採同校會議附件引用的松山綠制服。"
+    },
+    "variants": {
+      "female": {
+        "top": "#fffdf6",
+        "bottom": "#293038",
+        "description": "白色短袖上衣、黑色及膝裙。",
+        "cut": "a-line",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72"
+      }
+    }
+  },
+  "353301": {
+    "label": "建國中學",
+    "source": {
+      "url": "https://www.ck.tp.edu.tw/uploads/1720492805183fS4Mu7dW.pdf",
+      "year": 2024,
+      "kind": "official",
+      "checked": "2026-11-09"
+    },
+    "variants": {
+      "male": {
+        "top": "#c6b17c",
+        "bottom": "#c6b17c",
+        "description": "短袖卡其上衣、同色長褲。",
+        "cut": "trousers",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72"
+      }
+    }
+  },
+  "353302": {
+    "label": "成功中學",
+    "source": {
+      "url": "https://www.cksh.tp.edu.tw/wp-content/uploads/doc/cg221/2.1.7、學生生活規範.pdf",
+      "year": 2008,
+      "kind": "official",
+      "checked": "2026-11-09"
+    },
+    "variants": {
+      "male": {
+        "top": "#fffdf6",
+        "bottom": "#293038",
+        "description": "白色短袖襯衫、黑長褲、深藍繡字。",
+        "cut": "trousers",
+        "collar": "shirt",
+        "trim": null,
+        "tie": "#293038",
+        "stitch": "#344e72"
+      }
+    }
+  },
+  "353303": {
+    "label": "北一女中",
+    "source": {
+      "url": "https://www.fg.tp.edu.tw/wp-content/uploads/doc/discipline/北一女中114學年度新生手冊(新生制服).pdf",
+      "year": 2025,
+      "kind": "official",
+      "checked": "2026-11-09"
+    },
+    "variants": {
+      "female": {
+        "top": "#43815c",
+        "bottom": "#293038",
+        "description": "綠色短袖上衣、黑色景褶裙與金黃色繡字。",
+        "cut": "skirt",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#f3d273"
+      }
+    }
+  },
+  "383301": {
+    "label": "景美女中",
+    "source": {
+      "url": "https://www.cmgsh.tp.edu.tw/uploads/1720487732622o3QB9aGy.pdf",
+      "year": 2024,
+      "kind": "official",
+      "checked": "2026-11-09"
+    },
+    "variants": {
+      "female": {
+        "top": "#f0cd73",
+        "bottom": "#293038",
+        "description": "黃色短袖上衣、黑裙。",
+        "cut": "skirt",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72"
+      }
+    }
+  },
+  "401303": {
+    "label": "達人高中",
+    "source": {
+      "url": "https://www1.trgsh.tp.edu.tw/static/webroot/G157407112394194/application/NW160145098110934.pdf",
+      "year": null,
+      "kind": "official",
+      "checked": "2026-11-11",
+      "note": "取自達人女中時期校規；文件年份未明，男款與改制後新款仍待查核。"
+    },
+    "variants": {
+      "female": {
+        "top": "#fffdf6",
+        "bottom": "#263b5e",
+        "description": "白色短袖上衣、藍色裙。",
+        "cut": "a-line",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72"
+      }
+    }
+  },
+  "403302": {
+    "label": "麗山高中",
+    "source": {
+      "url": "https://www-ws.gov.taipei/001/Upload/342/relfile/36967/8513949/192391be-266e-45fd-bf74-1873e5feb395.pdf",
+      "year": null,
+      "kind": "official",
+      "checked": "2026-11-11",
+      "note": "依臺北市政府公開校方要點，僅繪白襯衫灰長褲；領口、口袋修飾塊等細節待核對。"
+    },
+    "variants": {
+      "male": {
+        "top": "#fffdf6",
+        "bottom": "#858892",
+        "description": "白色短袖襯衫、灰色長褲。",
+        "cut": "trousers",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72"
+      },
+      "female": {
+        "top": "#fffdf6",
+        "bottom": "#858892",
+        "description": "白色短袖襯衫、灰色長褲款。",
+        "cut": "trousers",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72"
+      }
+    }
+  },
+  "423302": {
+    "label": "中正高中",
+    "source": {
+      "url": "https://zh.wikipedia.org/wiki/臺北市立中正高級中學",
+      "year": 2026,
+      "kind": "secondary",
+      "checked": "2026-11-09"
+    },
+    "variants": {
+      "male": {
+        "top": "#f4eddb",
+        "bottom": "#293038",
+        "description": "1997年起米白色上衣、黑色長褲。",
+        "cut": "trousers",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72"
+      }
+    }
+  },
+  "533301": {
+    "label": "左營高中",
+    "source": {
+      "url": "https://www.tyhs.kh.edu.tw/attach/5206349531.pdf",
+      "year": 2017,
+      "kind": "official",
+      "checked": "2026-11-11",
+      "note": "來源為106學年度規格，非2026新款保證。"
+    },
+    "variants": {
+      "male": {
+        "top": "#bad5e8",
+        "bottom": "#263b5e",
+        "description": "天藍短袖襯衫、藍色長褲。",
+        "cut": "trousers",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72"
+      },
+      "female": {
+        "top": "#bad5e8",
+        "bottom": "#293038",
+        "description": "天藍短袖襯衫、黑色褶裙。",
+        "cut": "skirt",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72"
+      }
+    }
+  },
+  "533402": {
+    "label": "三民家商",
+    "source": {
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/13/schools/40/uniforms/79",
+      "year": null,
+      "kind": "secondary",
+      "checked": "2026-11-11",
+      "note": "依制服地圖／UniForme的文字記述簡化重繪，尚待校方核對；該站圖片標示AI示意，不作照片證據。舊資料有不同裙色記述，尚須依入學年度再核對。",
+      "evidence": "third-party-description"
+    },
+    "variants": {
+      "female": {
+        "top": "#f1dce0",
+        "bottom": "#64666c",
+        "description": "淡粉短袖圓領襯衫、灰黑白格紋百褶裙與格紋蝴蝶結。",
+        "cut": "skirt",
+        "collar": "round",
+        "trim": null,
+        "tie": "#293038",
+        "stitch": "#344e72",
+        "pattern": "plaid",
+        "patternColors": [
+          "#fffdf6",
+          "#293038"
+        ],
+        "tieStyle": "bow",
+        "tiePattern": "plaid"
+      }
+    }
+  },
+  "540301": {
+    "label": "中山大學附屬國光高中",
+    "source": {
+      "url": "https://kksh.nsysu.edu.tw/static/file/47/1047/img/455639820.pdf",
+      "year": 2022,
+      "kind": "official",
+      "checked": "2026-11-11",
+      "note": "採高中部；國中部的淺灰短褲、紅綠格裙未混入。"
+    },
+    "variants": {
+      "male": {
+        "top": "#fffdf6",
+        "bottom": "#616773",
+        "description": "白色短袖上衣、鐵灰領、鐵灰長褲。",
+        "cut": "trousers",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72",
+        "collarColor": "#616773"
+      },
+      "female": {
+        "top": "#fffdf6",
+        "bottom": "#263b5e",
+        "description": "白色短袖上衣、藍紅白格領、藍紅白格裙（亦可選長褲）。",
+        "cut": "skirt",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72",
+        "pattern": "plaid",
+        "patternColors": [
+          "#b76067",
+          "#fffdf6"
+        ],
+        "collarPattern": "plaid"
+      }
+    }
+  },
+  "543302": {
+    "label": "楠梓高中",
+    "source": {
+      "url": "https://www.nths.kh.edu.tw/anno/110%E5%AD%B8%E7%94%9F%E6%89%8B%E5%86%8A.pdf",
+      "year": 2021,
+      "kind": "official",
+      "checked": "2026-11-11",
+      "note": "女款格子裙色待核。"
+    },
+    "variants": {
+      "male": {
+        "top": "#fffdf6",
+        "bottom": "#555863",
+        "description": "白色短袖上衣、灰黑長褲，不打領帶。",
+        "cut": "trousers",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72"
+      }
+    }
+  },
+  "563301": {
+    "label": "高雄新興高中",
+    "source": {
+      "url": "https://www.hhhs.kh.edu.tw/UploadFiles/File/2023/09-13/202309130346562047.pdf",
+      "year": 2023,
+      "kind": "official",
+      "checked": "2026-11-11",
+      "note": "採高中部樣式1／2，不混入國中部鐵灰短褲或棗紅褲裙。"
+    },
+    "variants": {
+      "male": {
+        "top": "#f5f0df",
+        "bottom": "#616773",
+        "description": "象牙白短袖上衣、鐵灰長褲。",
+        "cut": "trousers",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72"
+      },
+      "female": {
+        "top": "#f5f0df",
+        "bottom": "#793c49",
+        "description": "象牙白短袖上衣、棗紅裙。",
+        "cut": "a-line",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72"
+      }
+    }
+  },
+  "573301": {
+    "label": "高雄女中",
+    "source": {
+      "url": "https://www.kghs.kh.edu.tw/ischool/public/resource_view/openfid.php?id=10557",
+      "year": 2025,
+      "kind": "official",
+      "checked": "2026-11-09"
+    },
+    "variants": {
+      "female": {
+        "top": "#fffdf6",
+        "bottom": "#293038",
+        "description": "白色短袖上衣、黑色裙子。",
+        "cut": "skirt",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72"
+      }
+    }
+  },
+  "580301": {
+    "label": "高師大附中",
+    "source": {
+      "url": "https://zh.wikipedia.org/wiki/國立高雄師範大學附屬高級中學",
+      "year": 2026,
+      "kind": "secondary",
+      "checked": "2026-11-09"
+    },
+    "variants": {
+      "female": {
+        "top": "#fffdf6",
+        "bottom": "#94bed5",
+        "description": "白色方領上衣、水藍色百褶裙。",
+        "cut": "skirt",
+        "collar": "square",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72"
+      }
+    }
+  },
+  "710301": {
+    "label": "金門高中",
+    "source": {
+      "url": "https://www.kmsh.km.edu.tw/ischool/wr/file/1/2530/2cd3c105cf9c3ff962ce080485f14ee7.pdf",
+      "year": 2025,
+      "kind": "official",
+      "checked": "2026-11-09"
+    },
+    "variants": {
+      "male": {
+        "top": "#c6b17c",
+        "bottom": "#c6b17c",
+        "description": "黃卡其短袖上衣、黃卡其長褲、紅色繡字。",
+        "cut": "trousers",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#aa4146"
+      }
+    }
+  },
+  "070301": {
+    "label": "彰化女中",
+    "source": {
+      "url": "https://www.chgsh.chc.edu.tw/wp-content/uploads/sites/46/2025/08/114學生手冊.pdf",
+      "year": 2025,
+      "kind": "official",
+      "checked": "2026-11-09"
+    },
+    "variants": {
+      "female": {
+        "top": "#fffdf6",
+        "bottom": "#293038",
+        "description": "白色小翻領短袖上衣、雙袋蓋、黑色百褶裙。",
+        "cut": "skirt",
+        "collar": "double-pocket",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72"
+      }
+    }
+  },
+  "070307": {
+    "label": "彰化高中",
+    "source": {
+      "url": "https://www.chsh.chc.edu.tw/var/file/9/1009/attach/44/pta_194508_4995704_86706.pdf",
+      "year": 2025,
+      "kind": "official",
+      "checked": "2026-11-09"
+    },
+    "variants": {
+      "male": {
+        "top": "#fffdf6",
+        "bottom": "#263b5e",
+        "description": "白色短袖上衣、藍色長褲。",
+        "cut": "trousers",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72"
+      },
+      "female": {
+        "top": "#fffdf6",
+        "bottom": "#263b5e",
+        "description": "白色短袖上衣、藍色褲裙。",
+        "cut": "skort",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72"
+      }
+    }
+  },
+  "020301": {
+    "label": "蘭陽女中",
+    "source": {
+      "url": "https://www.lygsh.ilc.edu.tw/ischool/publish_page/12/?cid=352",
+      "year": 2025,
+      "kind": "official",
+      "checked": "2026-11-09"
+    },
+    "variants": {
+      "female": {
+        "top": "#8fbcdf",
+        "bottom": "#293038",
+        "description": "藍色短袖上衣、白色鈕扣、黑色摺裙。",
+        "cut": "skirt",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72"
+      }
+    }
+  },
+  "080302": {
+    "label": "南投高中",
+    "source": {
+      "url": "https://www.ntsh.ntct.edu.tw/ischool/news/attached/18410/114新生食衣住行-114.06.17.pdf",
+      "year": 2025,
+      "kind": "official",
+      "checked": "2026-11-09"
+    },
+    "variants": {
+      "male": {
+        "top": "#fffdf6",
+        "bottom": "#263b5e",
+        "description": "白底淺藍直條紋國民領短袖上衣、深藍色長褲。",
+        "cut": "trousers",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72",
+        "pattern": "stripe"
+      }
+    }
+  },
+  "011301": {
+    "label": "淡江高中",
+    "source": {
+      "url": "https://www.tksh.ntpc.edu.tw/uploads/1630032169417MIwFMVnH.pdf",
+      "year": 2021,
+      "kind": "official",
+      "checked": "2026-11-11",
+      "note": "校方規定稱灰色；非官方影像常稱芋頭紫。圖稿採灰紫示意色，不宣稱精準色票。"
+    },
+    "variants": {
+      "male": {
+        "top": "#c9c7ce",
+        "bottom": "#263b5e",
+        "description": "灰色短袖襯衫、深藍長褲。",
+        "cut": "trousers",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72"
+      },
+      "female": {
+        "top": "#c9c7ce",
+        "bottom": "#263b5e",
+        "description": "灰色短袖上衣、深藍百褶裙。",
+        "cut": "skirt",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72"
+      }
+    }
+  },
+  "011311": {
+    "label": "聖心女中",
+    "source": {
+      "url": "https://www.shgsh.ntpc.edu.tw/uploads/1553834348039yvirTr5F.pdf",
+      "year": 2018,
+      "kind": "official",
+      "checked": "2026-11-11"
+    },
+    "variants": {
+      "female": {
+        "top": "#fffdf6",
+        "bottom": "#97bfd2",
+        "description": "白色短袖Polo衫、淺藍色丹寧裙。",
+        "cut": "a-line",
+        "collar": "polo",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72"
+      }
+    }
+  },
+  "013304": {
+    "label": "板橋高中",
+    "source": {
+      "url": "https://sites.google.com/mail.pcsh.ntpc.edu.tw/pcsh300/生活輔導組/生輔組其他相關辦法",
+      "year": 2026,
+      "kind": "official",
+      "checked": "2026-11-11",
+      "note": "校方2026年5月維持原規定；褲裙可選，圖稿僅示範搭配，不代表性別限制。"
+    },
+    "variants": {
+      "male": {
+        "top": "#bad5e8",
+        "bottom": "#263b5e",
+        "description": "淺藍短袖上衣、藍色長褲。下著可依校規選藍或黑褲裙。",
+        "cut": "trousers",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72"
+      },
+      "female": {
+        "top": "#bad5e8",
+        "bottom": "#263b5e",
+        "description": "淺藍短袖上衣、藍色裙。下著可依校規選藍或黑褲裙。",
+        "cut": "skirt",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72"
+      }
+    }
+  },
+  "031421": {
+    "label": "永平工商",
+    "source": {
+      "url": "https://news.tvbs.com.tw/life/731791",
+      "year": 2017,
+      "kind": "media",
+      "checked": "2026-11-11",
+      "note": "主來源TVBS確認白上衣與水藍百褶裙；細淡藍條紋另參考校方夏季示範 https://www.ypvs.tyc.edu.tw/office/div_400/夏季制服示範/ 與自由時報報導 https://features.ltn.com.tw/english/article/breakingnews/2172407 。未將秋冬紅背心混入。"
+    },
+    "variants": {
+      "female": {
+        "top": "#eaf4fa",
+        "bottom": "#92bfde",
+        "description": "淺色短袖襯衫、細淡藍條紋、水藍百褶裙。",
+        "cut": "skirt",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72",
+        "pattern": "stripe"
+      }
+    }
+  },
+  "021310": {
+    "label": "中道高中",
+    "source": {
+      "url": "https://www.cdsh.ilc.edu.tw/index.php/2019-04-04-05-15-05/832-2021-06-28-01-22-11",
+      "year": 2021,
+      "kind": "official",
+      "checked": "2026-11-11",
+      "note": "校方刊載制服票選報導；條紋與格線比例為簡化繪製，未宣稱精準色票。"
+    },
+    "variants": {
+      "female": {
+        "top": "#f2d7db",
+        "bottom": "#7a3545",
+        "description": "粉紅條紋上衣、深紅格子裙、紅色領結。",
+        "cut": "skirt",
+        "collar": "shirt",
+        "trim": null,
+        "tie": "#a54554",
+        "stitch": "#344e72",
+        "pattern": "plaid",
+        "patternColors": [
+          "#c9838d",
+          "#3f3543"
+        ],
+        "tieStyle": "bow",
+        "topPattern": "stripe",
+        "stripeColor": "#d6a8b6"
+      }
+    }
+  },
+  "011322": {
+    "label": "崇光高中",
+    "source": {
+      "url": "https://web.ckgsh.ntpc.edu.tw/uploads/1661820336600HimfrJWa.pdf",
+      "year": 2022,
+      "kind": "official",
+      "checked": "2026-11-11",
+      "note": "只繪文件確認的白衫藍裙，未確認男款褲色。"
+    },
+    "variants": {
+      "female": {
+        "top": "#fffdf6",
+        "bottom": "#263b5e",
+        "description": "白色短袖上衣、藍色裙。",
+        "cut": "a-line",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72"
+      }
+    }
+  },
+  "011324": {
+    "label": "竹林高中",
+    "source": {
+      "url": "https://www.clsh.ntpc.edu.tw/var/file/0/1000/img/231591564.pdf",
+      "year": 2025,
+      "kind": "official",
+      "checked": "2026-11-11",
+      "note": "採高中部二片裙；國中部百褶裙未混入。"
+    },
+    "variants": {
+      "male": {
+        "top": "#bad5e8",
+        "bottom": "#263b5e",
+        "description": "藍色短袖上衣、深藍長褲。",
+        "cut": "trousers",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72"
+      },
+      "female": {
+        "top": "#bad5e8",
+        "bottom": "#263b5e",
+        "description": "藍色短袖上衣、深藍二片裙。",
+        "cut": "a-line",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72"
+      }
+    }
+  },
+  "013434": {
+    "label": "淡水商工",
+    "source": {
+      "url": "https://www.tsvs.ntpc.edu.tw/var/file/0/1000/img/143/317622466.pdf",
+      "year": 2022,
+      "kind": "official",
+      "checked": "2026-11-11",
+      "note": "女生校規亦准制式裙，裙色未確認，本次採已明訂的長褲款。"
+    },
+    "variants": {
+      "male": {
+        "top": "#fffdf6",
+        "bottom": "#263b5e",
+        "description": "白色短袖上衣、藍色長褲。",
+        "cut": "trousers",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72"
+      },
+      "female": {
+        "top": "#fffdf6",
+        "bottom": "#263b5e",
+        "description": "白色短袖上衣、藍色長褲款。",
+        "cut": "trousers",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72"
+      }
+    }
+  },
+  "014322": {
+    "label": "樹林高中",
+    "source": {
+      "url": "https://www.slsh.ntpc.edu.tw/app/index.php?Action=downloadfile&file=WVhSMFlXTm9MelkwTDNCMFlWOHlNekV6TUY4Mk1EUTBNVFJmTlRBME56SXVjR1Jt&fname=WW54RPOKRK4411HHHCPOSWZWMK30WTHGKLB0XSXSQPGDPO40FCUSLLB4WW54NKOKWW00ZX05VS0454KKMKOKTSIGRKB0MPWSQP35XWTSNK30CDPOGGA4RPUSPK44XX1100LK5410ZSB4JG35USROUSMPHD35UTVWWSQO45B4YSOKYSB0YW54PL15EDXWPK10",
+      "year": 2024,
+      "kind": "official",
+      "checked": "2026-11-11",
+      "note": "依高中部甲、乙式示意；褲色以深色簡化，非精準色票。"
+    },
+    "variants": {
+      "male": {
+        "top": "#fffdf6",
+        "bottom": "#293038",
+        "description": "白色短袖上衣、深色長褲。",
+        "cut": "trousers",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72"
+      },
+      "female": {
+        "top": "#fffdf6",
+        "bottom": "#293038",
+        "description": "白色短袖上衣、黑色裙。",
+        "cut": "a-line",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72"
+      }
+    }
+  },
+  "031312": {
+    "label": "治平高中",
+    "source": {
+      "url": "https://www.cpshs.tyc.edu.tw/ischool/rfile/569bf5d2042c082d4951eb4cb937165f",
+      "year": 2023,
+      "kind": "official",
+      "checked": "2026-11-11",
+      "note": "女款確認為海軍領，但本批尚未確認領片配色，保留待補。"
+    },
+    "variants": {
+      "male": {
+        "top": "#fffdf6",
+        "bottom": "#263b5e",
+        "description": "白色短袖上衣、藍色長褲。",
+        "cut": "trousers",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72"
+      }
+    }
+  },
+  "033327": {
+    "label": "內壢高中",
+    "source": {
+      "url": "https://www.nlhs.tyc.edu.tw/ischool/wr/file/1/5654/71c65e901e9ae0a3486f6976674d40f0.pdf",
+      "year": 2025,
+      "kind": "official",
+      "checked": "2026-11-11",
+      "note": "領帶／領結為選配，本次未繪。"
+    },
+    "variants": {
+      "male": {
+        "top": "#f5f0df",
+        "bottom": "#858892",
+        "description": "乳白色短袖上衣、灰色長褲。",
+        "cut": "trousers",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72"
+      },
+      "female": {
+        "top": "#f5f0df",
+        "bottom": "#858892",
+        "description": "乳白色短袖上衣、灰色寬百褶裙。",
+        "cut": "skirt",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72"
+      }
+    }
+  },
+  "040304": {
+    "label": "關西高中",
+    "source": {
+      "url": "https://www.khsh.hcc.edu.tw/ischool/publish_page/0/?cid=16607",
+      "year": null,
+      "kind": "official",
+      "checked": "2026-11-11",
+      "note": "女款含條紋褲裙與格布領結，尚待確認格布配色。"
+    },
+    "variants": {
+      "male": {
+        "top": "#fffdf6",
+        "bottom": "#263b5e",
+        "description": "白底淺藍條紋短袖上衣、深藍長褲。",
+        "cut": "trousers",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72",
+        "pattern": "stripe"
+      }
+    }
+  },
+  "050401": {
+    "label": "大湖農工",
+    "source": {
+      "url": "https://www.thvs.mlc.edu.tw/wp-content/uploads/sites/62/2022/10/111%E5%AD%B8%E5%B9%B4%E5%BA%A6%E5%A4%A7%E6%B9%96%E8%BE%B2%E5%B7%A5%E5%AD%B8%E7%94%9F%E6%89%8B%E5%86%8A.pdf",
+      "year": 2022,
+      "kind": "official",
+      "checked": "2026-11-11",
+      "note": "下襬口袋等細節仍為簡化輪廓，未標記其他性別款。"
+    },
+    "variants": {
+      "male": {
+        "top": "#f4e6b2",
+        "bottom": "#263b5e",
+        "description": "淡黃色短袖上衣、深藍直筒長褲。",
+        "cut": "trousers",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72"
+      }
+    }
+  },
+  "050407": {
+    "label": "苗栗高商",
+    "source": {
+      "url": "https://www.mlvs.mlc.edu.tw/resource/openfid.php?id=61362",
+      "year": null,
+      "kind": "official",
+      "checked": "2026-11-11",
+      "note": "校規明訂款式不限性別；海軍領採黑色輪廓，未推測領邊線與結飾。"
+    },
+    "variants": {
+      "male": {
+        "top": "#fffdf6",
+        "bottom": "#263b5e",
+        "description": "白色短袖上衣、深藍長褲。",
+        "cut": "trousers",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72"
+      },
+      "female": {
+        "top": "#fffdf6",
+        "bottom": "#293038",
+        "description": "白色短袖上衣、黑色海軍領、黑色裙。",
+        "cut": "a-line",
+        "collar": "sailor",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72",
+        "collarColor": "#293038"
+      }
+    }
+  },
+  "051302": {
+    "label": "君毅高中",
+    "source": {
+      "url": "https://www.cish.mlc.edu.tw/var/file/0/1000/img/13/106728534.pdf",
+      "year": 2022,
+      "kind": "official",
+      "checked": "2026-11-11",
+      "note": "採高中部；未沿用國中部淺綠水手款。"
+    },
+    "variants": {
+      "male": {
+        "top": "#fffdf6",
+        "bottom": "#293038",
+        "description": "白色短袖上衣、黑色長褲。",
+        "cut": "trousers",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72"
+      },
+      "female": {
+        "top": "#fffdf6",
+        "bottom": "#293038",
+        "description": "白色短袖上衣、黑色褶裙。",
+        "cut": "skirt",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72"
+      }
+    }
+  },
+  "054333": {
+    "label": "苗栗縣立大同高中",
+    "source": {
+      "url": "https://dtsh.mlc.edu.tw/FuncBlock/downloadfile.php?MCode=054333&aid=53&code=0ccb98bf3519519fdefc8da2e51a4df6&download=7870",
+      "year": null,
+      "kind": "official",
+      "checked": "2026-11-11",
+      "note": "高中部女款格子褲裙配色未確認。"
+    },
+    "variants": {
+      "male": {
+        "top": "#fffdf6",
+        "bottom": "#858892",
+        "description": "白色短袖上衣、灰色長褲，不打領帶。",
+        "cut": "trousers",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72"
+      }
+    }
+  },
+  "063407": {
+    "label": "沙鹿高工",
+    "source": {
+      "url": "https://slvs.tc.edu.tw/var/file/82/1082/img/1094/652786493.pdf",
+      "year": null,
+      "kind": "official",
+      "checked": "2026-11-11"
+    },
+    "variants": {
+      "male": {
+        "top": "#bad5e8",
+        "bottom": "#263b5e",
+        "description": "淡藍條紋短袖上衣、藍色長褲。",
+        "cut": "trousers",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72",
+        "pattern": "stripe"
+      },
+      "female": {
+        "top": "#efd2d6",
+        "bottom": "#263b5e",
+        "description": "粉紅條紋短袖上衣、藍色長褲。",
+        "cut": "trousers",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72",
+        "pattern": "stripe",
+        "stripeColor": "#ce9eac"
+      }
+    }
+  },
+  "080305": {
+    "label": "中興高中",
+    "source": {
+      "url": "https://www.chsh.ntct.edu.tw/ischool/news/attached/6725/110%E5%B9%B4%E4%B8%AD%E8%88%88%E9%AB%98%E4%B8%AD%E6%96%B0%E7%94%9F%E6%89%8B%E5%86%8A.pdf",
+      "year": 2021,
+      "kind": "official",
+      "checked": "2026-11-11",
+      "note": "本次只繪已確認的褲裝；未補猜裙款。"
+    },
+    "variants": {
+      "male": {
+        "top": "#bad5e8",
+        "bottom": "#575d68",
+        "description": "水藍直條紋襯衫、深灰長褲。",
+        "cut": "trousers",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72",
+        "pattern": "stripe"
+      }
+    }
+  },
+  "080403": {
+    "label": "埔里高工",
+    "source": {
+      "url": "https://www.plvs.ntct.edu.tw/ischool/publish_page/227/?cid=5452",
+      "year": null,
+      "kind": "official",
+      "checked": "2026-11-11"
+    },
+    "variants": {
+      "male": {
+        "top": "#bad5e8",
+        "bottom": "#263b5e",
+        "description": "水藍色短袖上衣、藍色長褲。",
+        "cut": "trousers",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72"
+      },
+      "female": {
+        "top": "#bad5e8",
+        "bottom": "#293038",
+        "description": "水藍色短袖上衣、黑色長褲。",
+        "cut": "trousers",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72"
+      }
+    }
+  },
+  "090305": {
+    "label": "斗六高中",
+    "source": {
+      "url": "https://www.tlsh.ylc.edu.tw/wp-content/uploads/sites/38/2025/03/113%E5%AD%B8%E7%94%9F%E6%89%8B%E5%86%8A-113.07.17%E4%BF%AE%E6%94%B9120%E7%89%88.pdf",
+      "year": 2024,
+      "kind": "official",
+      "checked": "2026-11-11",
+      "note": "女款蘇格蘭裙色尚未核對。"
+    },
+    "variants": {
+      "male": {
+        "top": "#fffdf6",
+        "bottom": "#263b5e",
+        "description": "白色短袖上衣、藍色長褲。",
+        "cut": "trousers",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72"
+      }
+    }
+  },
+  "090413": {
+    "label": "土庫商工",
+    "source": {
+      "url": "https://www.tkvs.ylc.edu.tw/upload/cht/81/18440_file_1.pdf",
+      "year": null,
+      "kind": "official",
+      "checked": "2026-11-11",
+      "note": "女款格子裙色尚未核對。"
+    },
+    "variants": {
+      "male": {
+        "top": "#fffdf6",
+        "bottom": "#263b5e",
+        "description": "藍白條紋短袖上衣、藍色長褲。",
+        "cut": "trousers",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72",
+        "pattern": "stripe"
+      }
+    }
+  },
+  "063404": {
+    "label": "東勢高工",
+    "source": {
+      "url": "https://tsvs.tc.edu.tw/var/file/83/1083/img/897/417469978.pdf",
+      "year": 2022,
+      "kind": "official",
+      "checked": "2026-11-11",
+      "note": "藍白斜紋領帶為選配，圖稿未繪；女款格裙配色待核。"
+    },
+    "variants": {
+      "male": {
+        "top": "#fffdf6",
+        "bottom": "#263b5e",
+        "description": "白色短袖襯衫、深藍長褲。",
+        "cut": "trousers",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72"
+      }
+    }
+  },
+  "040308": {
+    "label": "陽明交大附中（竹北高中）",
+    "source": {
+      "url": "https://www.cpshs.hcc.edu.tw/resource/openfid.php?id=12948",
+      "year": 2021,
+      "kind": "official",
+      "checked": "2026-11-11",
+      "note": "採竹北高中校規，女生亦可選條紋上衣配長褲。沒有採用制服地圖白衫配背心裙的描述；新校名後的細節仍待核對。"
+    },
+    "variants": {
+      "male": {
+        "top": "#fffdf6",
+        "bottom": "#263b5e",
+        "description": "白底藍條紋短袖上衣、藏青長褲。",
+        "cut": "trousers",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72",
+        "pattern": "stripe"
+      },
+      "female": {
+        "top": "#263b5e",
+        "bottom": "#263b5e",
+        "description": "藏青色連身裙、白色圓領。",
+        "cut": "dress",
+        "collar": "round",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72",
+        "collarColor": "#fffdf6"
+      }
+    }
+  },
+  "061317": {
+    "label": "弘文高中",
+    "source": {
+      "url": "https://www.hwhs.tc.edu.tw/ischool/publish_page/191/?cid=3494",
+      "year": null,
+      "kind": "official",
+      "checked": "2026-11-11",
+      "note": "採校史「民國109年—迄今」高中部，不混入國中部藍上衣或國際部白襯衫。男款領帶細節待核。"
+    },
+    "variants": {
+      "female": {
+        "top": "#f0d98e",
+        "bottom": "#263b5e",
+        "description": "黃色短袖襯衫、深藍短裙。",
+        "cut": "skirt",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#344e72"
+      }
+    }
+  },
+  "011431": {
+    "label": "莊敬工家",
+    "source": {
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/2/schools/5/uniforms/63",
+      "year": null,
+      "kind": "secondary",
+      "checked": "2026-11-11",
+      "evidence": "third-party-description",
+      "note": "依 Uniform Map 的第三方文字整理配色與輪廓；該站圖片為 AI 示意，尚待校方核對。"
+    },
+    "variants": {
+      "female": {
+        "top": "#fffdf6",
+        "bottom": "#354c62",
+        "description": "白短袖襯衫、紅藍格紋百褶裙與格紋蝴蝶結。",
+        "cut": "skirt",
+        "collar": "shirt",
+        "trim": null,
+        "tie": "#354c62",
+        "stitch": "#536674",
+        "pattern": "plaid",
+        "patternColors": [
+          "#a95c62",
+          "#5d785e"
+        ],
+        "tieStyle": "bow",
+        "tiePattern": "plaid"
+      }
+    }
+  },
+  "020403": {
+    "label": "宜蘭高商",
+    "source": {
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/15/schools/116/uniforms/13",
+      "year": null,
+      "kind": "secondary",
+      "checked": "2026-11-11",
+      "evidence": "third-party-description",
+      "note": "依 Uniform Map 的第三方文字整理配色與輪廓；該站圖片為 AI 示意，尚待校方核對。"
+    },
+    "variants": {
+      "female": {
+        "top": "#b2ccdf",
+        "bottom": "#26364f",
+        "description": "淺藍短袖襯衫與深藍百褶裙。",
+        "cut": "skirt",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#536674"
+      }
+    }
+  },
+  "173307": {
+    "label": "暖暖高中",
+    "source": {
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/3/schools/80/uniforms/146",
+      "year": null,
+      "kind": "secondary",
+      "checked": "2026-11-11",
+      "evidence": "third-party-description",
+      "note": "依 Uniform Map 的第三方文字整理配色與輪廓；該站圖片為 AI 示意，尚待校方核對。"
+    },
+    "variants": {
+      "female": {
+        "top": "#fffdf6",
+        "bottom": "#26374e",
+        "description": "白色圓弧領襯衫、深藍灰白格紋百褶裙與同款蝴蝶結。",
+        "cut": "skirt",
+        "collar": "round",
+        "trim": null,
+        "tie": "#26374e",
+        "stitch": "#536674",
+        "pattern": "plaid",
+        "patternColors": [
+          "#a6aab1",
+          "#e6e7e3"
+        ],
+        "tieStyle": "bow",
+        "tiePattern": "plaid"
+      }
+    }
+  },
+  "061313": {
+    "label": "明道高中",
+    "source": {
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/7/schools/15/uniforms/138",
+      "year": null,
+      "kind": "secondary",
+      "checked": "2026-11-11",
+      "evidence": "third-party-illustration",
+      "note": "依 Uniform Map 的 AI 示意圖整理配色與輪廓，未把示意圖當真實制服照片；尚待校方核對。"
+    },
+    "variants": {
+      "female": {
+        "top": "#7298d1",
+        "bottom": "#25374f",
+        "description": "參照制服地圖示意：藍色圓翻領短袖上衣與深藍百褶裙。",
+        "cut": "skirt",
+        "collar": "round",
+        "trim": null,
+        "tie": null,
+        "stitch": "#536674"
+      }
+    }
+  },
+  "181308": {
+    "label": "世界高中",
+    "source": {
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/5/schools/142/uniforms/210",
+      "year": null,
+      "kind": "secondary",
+      "checked": "2026-11-11",
+      "evidence": "third-party-illustration",
+      "note": "依 Uniform Map 的 AI 示意圖整理配色與輪廓，未把示意圖當真實制服照片；尚待校方核對。"
+    },
+    "variants": {
+      "female": {
+        "top": "#fffdf6",
+        "bottom": "#6c8dbd",
+        "description": "參照制服地圖示意：白色水手領上衣、深藍領線與藍色百褶裙。",
+        "cut": "skirt",
+        "collar": "sailor",
+        "trim": "#344c7c",
+        "tie": null,
+        "stitch": "#536674",
+        "collarColor": "#fffdf6"
+      }
+    }
+  },
+  "071318": {
+    "label": "正德高中",
+    "source": {
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/9/schools/331/uniforms/187",
+      "year": null,
+      "kind": "secondary",
+      "checked": "2026-11-11",
+      "evidence": "third-party-illustration",
+      "note": "依 Uniform Map 的 AI 示意圖整理配色與輪廓，未把示意圖當真實制服照片；尚待校方核對。"
+    },
+    "variants": {
+      "female": {
+        "top": "#fffdf6",
+        "bottom": "#52565f",
+        "description": "參照制服地圖示意：白色短袖襯衫、深灰直裙與酒紅灰斜紋領帶。",
+        "cut": "a-line",
+        "collar": "shirt",
+        "trim": null,
+        "tie": "#783b4e",
+        "stitch": "#536674",
+        "tiePattern": "diagonal",
+        "patternColors": [
+          "#a0a4a9",
+          "#783b4e"
+        ]
+      }
+    }
+  },
+  "034319": {
+    "label": "平鎮高中",
+    "source": {
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/4/schools/8/uniforms/68",
+      "year": null,
+      "kind": "secondary",
+      "checked": "2026-11-11",
+      "evidence": "third-party-illustration",
+      "note": "依 Uniform Map 的 AI 示意圖整理配色與輪廓，未把示意圖當真實制服照片；尚待校方核對。"
+    },
+    "variants": {
+      "female": {
+        "top": "#f3efd7",
+        "bottom": "#253249",
+        "description": "參照制服地圖示意：淡米黃上衣、深藍綠紫格紋百褶裙與同款領帶。",
+        "cut": "skirt",
+        "collar": "round",
+        "trim": null,
+        "tie": "#253249",
+        "stitch": "#536674",
+        "pattern": "plaid",
+        "patternColors": [
+          "#74936e",
+          "#7b5074"
+        ],
+        "tiePattern": "plaid"
+      }
+    }
+  },
+  "211317": {
+    "label": "崑山高中",
+    "source": {
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/12/schools/426/uniforms/239",
+      "year": null,
+      "kind": "secondary",
+      "checked": "2026-11-11",
+      "evidence": "third-party-illustration",
+      "note": "依 Uniform Map 的 AI 示意圖整理配色與輪廓，未把示意圖當真實制服照片；尚待校方核對。"
+    },
+    "variants": {
+      "female": {
+        "top": "#fffdf6",
+        "bottom": "#233e39",
+        "description": "參照制服地圖示意：白色水手服、深綠領片與百褶裙、米色蝴蝶結。",
+        "cut": "skirt",
+        "collar": "sailor",
+        "trim": "#fffdf6",
+        "tie": "#ebe3c8",
+        "stitch": "#536674",
+        "collarColor": "#233e39",
+        "tieStyle": "bow"
+      }
+    }
+  },
+  "323402": {
+    "label": "松山工農",
+    "source": {
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/1/schools/103/uniforms/245",
+      "year": null,
+      "kind": "secondary",
+      "checked": "2026-11-11",
+      "evidence": "third-party-illustration",
+      "note": "依 Uniform Map 的 AI 示意圖整理配色與輪廓，未把示意圖當真實制服照片；尚待校方核對。"
+    },
+    "variants": {
+      "female": {
+        "top": "#fffdf6",
+        "bottom": "#252935",
+        "description": "參照制服地圖示意：白色短袖襯衫與深色百褶裙。",
+        "cut": "skirt",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#536674"
+      }
+    }
+  },
+  "211304": {
+    "label": "聖功女中",
+    "source": {
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/12/schools/288/uniforms/40",
+      "year": null,
+      "kind": "secondary",
+      "checked": "2026-11-11",
+      "evidence": "third-party-illustration",
+      "note": "依 Uniform Map 的 AI 示意圖整理配色與輪廓，未把示意圖當真實制服照片；尚待校方核對。"
+    },
+    "variants": {
+      "female": {
+        "top": "#fffdf6",
+        "bottom": "#fffdf6",
+        "description": "參照制服地圖示意：白色短袖連身制服、藍色領帶與腰帶。",
+        "cut": "dress",
+        "collar": "shirt",
+        "trim": null,
+        "tie": "#5585b5",
+        "stitch": "#536674",
+        "beltColor": "#5585b5"
+      }
+    }
+  },
+  "180403": {
+    "label": "新竹高商",
+    "source": {
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/5/schools/59/uniforms/209",
+      "year": null,
+      "kind": "secondary",
+      "checked": "2026-11-11",
+      "evidence": "third-party-illustration",
+      "note": "依 Uniform Map 的 AI 示意圖整理配色與輪廓，未把示意圖當真實制服照片；尚待校方核對。"
+    },
+    "variants": {
+      "female": {
+        "top": "#f3edcd",
+        "bottom": "#272b31",
+        "description": "參照制服地圖示意：淡黃色短袖上衣與黑色百褶裙。",
+        "cut": "skirt",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#536674"
+      }
+    }
+  },
+  "044311": {
+    "label": "六家高中",
+    "source": {
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/5/schools/530/uniforms/203",
+      "year": null,
+      "kind": "secondary",
+      "checked": "2026-11-11",
+      "evidence": "third-party-illustration",
+      "note": "依 Uniform Map 的 AI 示意圖整理配色與輪廓，未把示意圖當真實制服照片；尚待校方核對。"
+    },
+    "variants": {
+      "female": {
+        "top": "#fffdf6",
+        "bottom": "#283348",
+        "description": "參照制服地圖示意：白色短袖襯衫與紅綠藍格紋裙。",
+        "cut": "skirt",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#536674",
+        "pattern": "plaid",
+        "patternColors": [
+          "#a43f52",
+          "#6c966b"
+        ]
+      }
+    }
+  },
+  "011407": {
+    "label": "復興商工",
+    "source": {
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/2/schools/350/uniforms/160",
+      "year": null,
+      "kind": "secondary",
+      "checked": "2026-11-11",
+      "evidence": "third-party-illustration",
+      "note": "依 Uniform Map 的 AI 示意圖整理配色與輪廓，未把示意圖當真實制服照片；尚待校方核對。"
+    },
+    "variants": {
+      "female": {
+        "top": "#fffdf6",
+        "bottom": "#74718b",
+        "description": "參照制服地圖示意：白色短袖襯衫、灰紫色裙與紅色領帶。",
+        "cut": "skirt",
+        "collar": "shirt",
+        "trim": null,
+        "tie": "#a42e4e",
+        "stitch": "#536674"
+      }
+    }
+  },
+  "213303": {
+    "label": "南寧高中",
+    "source": {
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/12/schools/206/uniforms/242",
+      "year": null,
+      "kind": "secondary",
+      "checked": "2026-11-11",
+      "evidence": "third-party-illustration",
+      "note": "依 Uniform Map 的 AI 示意圖整理配色與輪廓，未把示意圖當真實制服照片；尚待校方核對。"
+    },
+    "variants": {
+      "female": {
+        "top": "#fffdf6",
+        "bottom": "#282c31",
+        "description": "參照制服地圖示意：白色短袖襯衫、黑色百褶裙與深色領帶。",
+        "cut": "skirt",
+        "collar": "shirt",
+        "trim": null,
+        "tie": "#282c31",
+        "stitch": "#536674"
+      }
+    }
+  },
+  "031318": {
+    "label": "啟英高中",
+    "source": {
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/4/schools/68/uniforms/133",
+      "year": null,
+      "kind": "secondary",
+      "checked": "2026-11-11",
+      "evidence": "third-party-description",
+      "note": "依 Uniform Map 的第三方文字整理配色與輪廓；該站圖片為 AI 示意，尚待校方核對。"
+    },
+    "variants": {
+      "female": {
+        "top": "#fffdf6",
+        "bottom": "#737477",
+        "description": "白色圓弧領襯衫，搭配黑白細格紋袖邊、領飾與裙裝。",
+        "cut": "a-line",
+        "collar": "round",
+        "trim": null,
+        "tie": "#737477",
+        "stitch": "#536674",
+        "pattern": "plaid",
+        "patternColors": [
+          "#eeeade",
+          "#35383e"
+        ],
+        "patternScale": 0.3,
+        "tiePattern": "plaid",
+        "cuffPattern": "plaid"
+      }
+    }
+  },
+  "423301": {
+    "label": "臺北復興高中",
+    "source": {
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/1/schools/293/uniforms/42",
+      "year": null,
+      "kind": "secondary",
+      "checked": "2026-11-11",
+      "evidence": "third-party-description",
+      "note": "依 Uniform Map 的第三方文字整理配色與輪廓；該站圖片為 AI 示意，尚待校方核對。"
+    },
+    "variants": {
+      "female": {
+        "top": "#e9e4ef",
+        "bottom": "#30423d",
+        "description": "淡紫細直紋短袖襯衫，搭配深綠、深藍與紫色格紋百褶裙。",
+        "cut": "skirt",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#536674",
+        "pattern": "plaid",
+        "patternColors": [
+          "#293e59",
+          "#73617f"
+        ],
+        "topPattern": "stripe",
+        "stripeColor": "#b3a0c8"
+      }
+    }
+  },
+  "061318": {
+    "label": "臺中立人高中",
+    "source": {
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/7/schools/480/uniforms/50",
+      "year": null,
+      "kind": "secondary",
+      "checked": "2026-11-11",
+      "evidence": "third-party-illustration",
+      "note": "依 Uniform Map 的 AI 示意圖整理配色與輪廓，未把示意圖當真實制服照片；尚待校方核對。"
+    },
+    "variants": {
+      "female": {
+        "top": "#fffdf6",
+        "bottom": "#2e4682",
+        "description": "參照制服地圖示意：白色上衣、深藍翻領與藍色百褶裙。",
+        "cut": "skirt",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#536674",
+        "collarColor": "#2e4682"
+      }
+    }
+  },
+  "191309": {
+    "label": "明德高中",
+    "source": {
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/7/schools/49/uniforms/175",
+      "year": null,
+      "kind": "secondary",
+      "checked": "2026-11-11",
+      "evidence": "third-party-illustration",
+      "note": "依 Uniform Map 的 AI 示意圖整理配色與輪廓，未把示意圖當真實制服照片；尚待校方核對。"
+    },
+    "variants": {
+      "female": {
+        "top": "#fffdf6",
+        "bottom": "#303033",
+        "description": "參照制服地圖示意：白色雙排扣短袖上衣與黑色百褶裙。",
+        "cut": "skirt",
+        "collar": "double-breasted",
+        "trim": null,
+        "tie": null,
+        "stitch": "#536674"
+      }
+    }
+  },
+  "061315": {
+    "label": "華盛頓高中部",
+    "source": {
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/7/schools/217/uniforms/25",
+      "year": null,
+      "kind": "secondary",
+      "checked": "2026-11-11",
+      "evidence": "third-party-illustration",
+      "note": "依 Uniform Map 的 AI 示意圖整理配色與輪廓，未把示意圖當真實制服照片；尚待校方核對。"
+    },
+    "variants": {
+      "female": {
+        "top": "#253647",
+        "bottom": "#ded3bf",
+        "description": "參照制服地圖示意：深海軍藍短袖襯衫與米色裙。",
+        "cut": "a-line",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#536674"
+      }
+    }
+  },
+  "070408": {
+    "label": "員林農工",
+    "source": {
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/9/schools/377/uniforms/227",
+      "year": null,
+      "kind": "secondary",
+      "checked": "2026-11-11",
+      "evidence": "third-party-illustration",
+      "note": "依 Uniform Map 的 AI 示意圖整理配色與輪廓，未把示意圖當真實制服照片；尚待校方核對。"
+    },
+    "variants": {
+      "female": {
+        "top": "#fffdf6",
+        "bottom": "#58636f",
+        "description": "參照制服地圖示意：白色上衣、灰色圓領與領飾、灰色百褶裙。",
+        "cut": "skirt",
+        "collar": "round",
+        "trim": null,
+        "tie": "#58636f",
+        "stitch": "#536674",
+        "collarColor": "#58636f"
+      }
+    }
+  },
+  "193313": {
+    "label": "西苑高中",
+    "source": {
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/7/schools/314/uniforms/84",
+      "year": null,
+      "kind": "secondary",
+      "checked": "2026-11-11",
+      "evidence": "third-party-illustration",
+      "note": "依 Uniform Map 的 AI 示意圖整理配色與輪廓，未把示意圖當真實制服照片；尚待校方核對。"
+    },
+    "variants": {
+      "female": {
+        "top": "#fffdf6",
+        "bottom": "#303747",
+        "description": "參照制服地圖示意：白色短袖襯衫、格紋袖邊與藍白紅格紋裙。",
+        "cut": "skirt",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#536674",
+        "pattern": "plaid",
+        "patternColors": [
+          "#e4ddd0",
+          "#9f5662"
+        ],
+        "cuffPattern": "plaid"
+      }
+    }
+  },
+  "581302": {
+    "label": "道明中學",
+    "source": {
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/13/schools/471/uniforms/218",
+      "year": null,
+      "kind": "secondary",
+      "checked": "2026-11-11",
+      "evidence": "third-party-illustration",
+      "note": "依 Uniform Map 的 AI 示意圖整理配色與輪廓，未把示意圖當真實制服照片；尚待校方核對。"
+    },
+    "variants": {
+      "female": {
+        "top": "#6b7580",
+        "bottom": "#6b7580",
+        "description": "參照制服地圖示意：灰色短袖百褶連身制服，搭配白色領片與袖邊。",
+        "cut": "dress",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#536674",
+        "collarColor": "#fffdf6",
+        "cuffColor": "#fffdf6",
+        "dressPleats": true,
+        "beltColor": "#6b7580"
+      }
+    }
+  },
+  "061306": {
+    "label": "明台高中",
+    "source": {
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/7/schools/60/uniforms/26",
+      "year": null,
+      "kind": "secondary",
+      "checked": "2026-11-11",
+      "evidence": "third-party-illustration",
+      "note": "依 Uniform Map 的 AI 示意圖整理配色與輪廓，未把示意圖當真實制服照片；尚待校方核對。"
+    },
+    "variants": {
+      "female": {
+        "top": "#fffdf6",
+        "bottom": "#288f97",
+        "description": "參照制服地圖示意：白色短袖水手服、藍綠領片與百褶裙、白色領線。",
+        "cut": "skirt",
+        "collar": "sailor",
+        "trim": "#fffdf6",
+        "tie": null,
+        "stitch": "#536674",
+        "collarColor": "#288f97"
+      }
+    }
+  },
+  "070316": {
+    "label": "鹿港高中",
+    "source": {
+      "url": "https://uniform.wingzero.tw/zh-TW/schools/tw/categories/1/regions/9/schools/313/uniforms/243",
+      "year": null,
+      "kind": "secondary",
+      "checked": "2026-11-11",
+      "evidence": "third-party-description",
+      "note": "依 Uniform Map 的第三方文字整理配色與輪廓；該站圖片為 AI 示意，尚待校方核對。"
+    },
+    "variants": {
+      "female": {
+        "top": "#c5d1da",
+        "bottom": "#555d68",
+        "description": "淺灰藍細直紋襯衫與深灰色褲裙；採來源所列現行款，啟用年份未確定。",
+        "cut": "skort",
+        "collar": "shirt",
+        "trim": null,
+        "tie": null,
+        "stitch": "#536674",
+        "topPattern": "stripe",
+        "stripeColor": "#a3afba"
+      }
+    }
+  }
+}

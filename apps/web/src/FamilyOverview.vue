@@ -12,11 +12,13 @@ const finances=computed(()=>originFinances(props.state));
 const money=(value:number|null|undefined)=>value==null?l('未建檔','Not recorded'):'NT$ '+value.toLocaleString();
 const l=(zh:string,en:string)=>immersive(props.lang==='zh'?zh:en),text=(t:Text)=>immersive(t[props.lang]);
 function fertility(n:Person){return !n.fertility.assessed?l('生育狀態：尚未評估','Fertility: not assessed'):n.fertility.profile==='reduced'?l('生育困難（未校準遊戲設定）','Fertility difficulty (uncalibrated game setting)'):l('評估未見預設困難（遊戲設定）','No preset difficulty (game assessment)');}
+const personName=(id:string)=>props.state.people.find(n=>n.id===id)?.name??l('未記錄','Not recorded');
 </script>
 <template>
  <details class="family-overview">
   <summary><span>{{f.formed?l('我的家庭','My household'):l('原生家庭','Family of origin')}}</span><small>{{f.formed?f.partner?.name??l('與子女組成家庭','Family with children'):f.parents.map(n=>n.name).join('、')}}</small></summary>
   <div class="family-overview-body">
+   <details v-if="p.life?.separations?.length"><summary>{{l('分開後的家庭照顧紀錄','Family care after separation')}}</summary><article v-for="record in p.life.separations" :key="record.date+record.formerPartnerId"><p>{{record.date}} · {{personName(record.formerPartnerId)}}</p><p v-for="plan in record.children" :key="plan.childId">{{personName(plan.childId)}} · {{l('主要照顧：','Primary caregiver: ')}}{{personName(plan.caregiverId)}} · {{l('每月扶養費：','Monthly support: ')}}{{money(plan.monthlySupport)}} · {{l('支付者：','Paid by: ')}}{{personName(plan.payerId)}}</p></article></details>
    <h3>{{text(f.name)}}</h3><p class="family-status">{{text(f.status)}}</p>
    <template v-if="f.formed"><div class="current-family-assets"><h3>{{l('目前家庭資產','Current household assets')}}</h3><p>{{l('家庭現金：','Household cash: ')}}{{money(f.members.filter(n=>n.alive).reduce((v,n)=>v+n.cash,0))}}</p><p>{{l('住宅：','Home: ')}}{{currentHome?.tenure==='owned'?l('自有住宅','Owned'):l('租屋','Rented')}} · {{money(currentHome?.value)}}</p><p>{{l('房貸餘額：','Mortgage: ')}}{{money(currentHome?.mortgage)}}</p><p>{{l('車輛：','Vehicles: ')}}{{p.life?.car?.owned?l('二手汽車','Used car'):''}} {{p.life?.scooter?.owned?l('機車','Scooter'):''}}</p></div>
     <div v-if="f.partner" class="family-member"><span>{{f.partner.gender==='female'?l('伴侶／妻子','Partner / wife'):l('伴侶','Partner')}}</span><b>{{f.partner.name}}</b><small>{{f.partner.alive?text(jobs[f.partner.job]):l('已故','Deceased')}}</small><small v-if="f.partner.alive">{{fertility(f.partner)}}</small></div>

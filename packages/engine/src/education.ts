@@ -3,11 +3,11 @@ import {locations,jobs} from '../../world-data/src';
 import {instruments} from './music';
 import {sports} from './sports';
 import {schools,cityForDistrict,type School} from '../../world-data/src/schools';
-import {t,type World,type Person,type EducationLevel,type Enrollment} from '../../shared/src/types';
+import {t,type World,type Person,type EducationLevel,type Enrollment,type Gender} from '../../shared/src/types';
 export const lengths:Record<EducationLevel,number>={kindergarten:3,primary:6,junior:3,senior:3,vocational:3,juniorCollege:5,university:4,master:4};
 const zh:Record<EducationLevel,string>={kindergarten:'幼兒園',primary:'國小',junior:'國中',senior:'高中',vocational:'高職',juniorCollege:'五專',university:'大學',master:'碩士班'};
 export function stableNumber(value:string){let n=2166136261;for(const c of value)n=Math.imul(n^c.charCodeAt(0),16777619);return n>>>0;}
-export function identityDefaults(seed:string,id:string){const gender=stableNumber(seed+':gender:'+id)%2?'male' as const:'female' as const;let n=stableNumber(seed+':orientation-independent:'+id);n=Math.imul(n^(n>>>16),0x7feb352d);n=Math.imul(n^(n>>>15),0x846ca68b);n=(n^(n>>>16))>>>0;return {gender,attractedTo:n/4294967296<.4?gender:gender==='male'?'female' as const:'male' as const};}
+export function identityDefaults(seed:string,id:string,genderOverride?:Gender){const gender=genderOverride??(stableNumber(seed+':gender:'+id)%2?'male' as const:'female' as const);let n=stableNumber(seed+':orientation-independent:'+id);n=Math.imul(n^(n>>>16),0x7feb352d);n=Math.imul(n^(n>>>15),0x846ca68b);n=(n^(n>>>16))>>>0;return {gender,attractedTo:n/4294967296<.4?gender:gender==='male'?'female' as const:'male' as const};}
 
 export function schoolCandidates(s:World,level:EducationLevel):School[]{
  const city=cityForDistrict[s.locationId];

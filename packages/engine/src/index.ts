@@ -1,8 +1,13 @@
+import {cancerYear,cancerFollowup,cancerLabel} from './cancer';
+import {stableWork,higherStudent,fullTimeJob,thesisReady} from './student-life';
+import {turnYears,blockKey,blockEvents,continuation} from './time-block';
+import {crisisEvent,recordStrain,nextPlanningYear} from './adult-life';
 import {weightedLocation} from '../../world-data/src/geography';
+export {playbackStage} from './playback';
 import {scheduleChapter,memories,mortgageRate,mortgagePayment} from './chapters';
 export {discardItem} from './chapters';
 import {capResult,capBand} from './progression';
-import {surnames,givenNames} from '../../world-data/src/names';
+import {surnames,givenNames,givenNamesFor} from '../../world-data/src/names';
 import {lifeYear,lifeOptions,resolveLife,lifeMonthly,enqueue,lifeEvent,musicStudent,type LifeContext} from './life-events';
 import {ensureLife,life,supportedExpense,subjectProficiency,termReport} from './life-finance';
 import {friendScene} from './life-scenes';
@@ -33,12 +38,13 @@ export const age=(s:World,p=player(s))=>s.year-p.birthYear;
 function random(s:World){s.rng=(Math.imul(s.rng,1664525)+1013904223)>>>0;return s.rng/4294967296;}
 function pick<T>(s:World,items:readonly T[]):T{return items[Math.floor(random(s)*items.length)];}
 function hash(str:string){let n=2166136261;for(const c of str)n=Math.imul(n^c.charCodeAt(0),16777619);return n>>>0;}
-function person(s:World,id:string,birthYear:number,name?:string):Person{
+function person(s:World,id:string,birthYear:number,genderOverride?:Person['gender']):Person{
+ const identity=identityDefaults(s.seed,id,genderOverride);
  const attributes={} as Record<Attribute,number>;
  for(const a of ['str','dex','con','int','wis','cha'] as const)attributes[a]=8+Math.floor(random(s)*9);
- return {id,name:name??pick(s,surnames)+pick(s,givenNames),birthYear,alive:true,health:90,stress:15,fatigue:10,attributes,
+ return {id,name:pick(s,surnames)+pick(s,givenNamesFor(identity.gender)),birthYear,alive:true,health:90,stress:15,fatigue:10,attributes,
  skills:{academic:15,music:10,coffee:0,social:15,sports:10},cash:0,debt:0,job:'none',parentIds:[],legalParentIds:[],guardianIds:[],householdId:'home-1',children:[],credentials:[],inventory:[],agencyAge:2+Math.floor((attributes.wis+attributes.int+Math.floor(random(s)*12))/16)%3,
- employedMonths:0,pensionBalance:0,insuredYears:0,history:[],partnerId:null,familyName:null,fertility:initialFertility(s.seed,id),...identityDefaults(s.seed,id),originHouseholdId:'home-1',enrollments:[],specialty:'music'};
+ employedMonths:0,pensionBalance:0,insuredYears:0,history:[],partnerId:null,familyName:null,fertility:initialFertility(s.seed,id),...identity,originHouseholdId:'home-1',enrollments:[],specialty:'music'};
 }
 function date(s:World,month:number,day:number){return `${s.year}-${String(month).padStart(2,'0')}-${String(day).padStart(2,'0')}`;}
 function event(s:World,month:number,day:number,kind:GameEvent['kind'],title:Text,text:Text,tone=0,data?:string):GameEvent{
@@ -58,11 +64,11 @@ export function createGame(seed='new-year',birthYear=2008):World{
  if(!seed.trim()||seed.length>100)throw Error('Invalid seed');
  const s:World={schemaVersion:7,rulesVersion:'slice-7',dataVersion:'snapshot-2026-2',seed,rng:hash(seed),year:birthYear,date:`${birthYear}-01-01`,playerId:'p1',generation:1,locationId:'',phase:'story',people:[],journal:[],ledger:[],reports:[],queue:[],cursor:0,current:null,resolution:null,focus:null,openingCash:0,openingDebt:0,taxDue:{},estate:{},pregnancy:null,pendingChildId:null,housing:[]};
  s.locationId=weightedLocation(random(s));
- const dad=person(s,'father',birthYear-27-Math.floor(random(s)*10));
- const mom=person(s,'mother',birthYear-25-Math.floor(random(s)*8));
+ const dad=person(s,'father',birthYear-27-Math.floor(random(s)*10),'male');
+ const mom=person(s,'mother',birthYear-25-Math.floor(random(s)*8),'female');
  dad.job=pick(s,['service','technology'] as const);mom.job=pick(s,['service','technology','none'] as const);
  dad.cash=80000+Math.floor(random(s)*400000);mom.cash=50000+Math.floor(random(s)*250000);
- if(mom.name===dad.name)mom.name=mom.name[0]+givenNames[(givenNames.indexOf(mom.name.slice(1))+1)%givenNames.length];
+ if(mom.name===dad.name){const names=givenNamesFor(mom.gender);mom.name=mom.name[0]+names[(names.indexOf(mom.name.slice(1))+1)%names.length];}
  const p=person(s,'p1',birthYear);p.name=(random(s)<.05?mom.name[0]:dad.name[0])+p.name.slice(1);
  p.parentIds=[dad.id,mom.id];p.legalParentIds=[...p.parentIds];p.guardianIds=[...p.parentIds];p.inventory=['birth-record','blanket'];
  // Family contexts are fictional scenarios until the official generation distributions are imported.
@@ -108,7 +114,7 @@ function buildYear(s:World):GameEvent[]{
   const risk={service:.07,technology:.1,creative:.12}[p.job];
   if(!life(p).business?.active&&random(s)<risk)add(8,15,'career',t('公司的變動','Changes at work'),t('雇主縮減人力，你的職位受到影響。','Your employer is reducing staff, and your position is affected.'),-2,'layoff');
  }
- if(a>=18&&!p.partnerId&&life(p).relationship?.active&&s.year-(life(p).relationship?.startYear??s.year)>=3)add(8,12,'partnership',t('一起建立一個家','Build a home together'),t('你與一位相處已久的伴侶討論共同生活。是否把彼此放進未來的安排裡？這是簡化成家劇情，不代表完成法律婚姻登記。','You and a long-term partner discuss sharing a home. This simplified family story is not a legal marriage-registration simulation.'),0);
+ if(stableWork(s,p)&&!p.partnerId&&life(p).relationship?.active&&s.year-(life(p).relationship?.startYear??s.year)>=3)add(8,12,'partnership',t('一起建立一個家','Build a home together'),t('你與一位相處已久的伴侶討論共同生活。是否把彼此放進未來的安排裡？這是簡化成家劇情，不代表完成法律婚姻登記。','You and a long-term partner discuss sharing a home. This simplified family story is not a legal marriage-registration simulation.'),0);
  let level=entryLevel(a);if(level==='university'&&!p.enrollments.some(e=>['senior','vocational'].includes(e.level)&&e.startYear<=s.year-3))level=null;if(level==='master'&&!p.enrollments.some(e=>e.level==='university'&&e.startYear+enrollmentLength(e)<=s.year))level=null;
  if(a>=15&&a<=17&&!p.enrollments.some(e=>['senior','vocational','juniorCollege'].includes(e.level)))level='senior';
  if(a>=18&&a<=30&&!p.enrollments.some(e=>e.level==='university')&&p.enrollments.some(e=>['senior','vocational'].includes(e.level)&&e.startYear<=s.year-3))level='university';
@@ -117,7 +123,7 @@ function buildYear(s:World):GameEvent[]{
  else if(level)add(6,20,'enrollment',t('選擇下一段學習旅程','Choose your next school'),t('高中一般入學使用 D20 與各校遊戲難度，不設固定會考分數門檻。音樂、體育途徑僅進行相應術科檢定；學校名稱有來源，未核實的班別與招生條件皆為遊戲情境。','Senior-high general entry uses D20 and fictional school difficulty, without a fixed CAP score cutoff. Music and sports use specialty checks. School names are sourced; unverified programs and eligibility are game scenarios.'),0,level);
  if(p.enrollments.some(e=>e.level==='kindergarten'&&e.startYear===s.year))add(9,1,'story',t('幼兒園的新生活','Starting kindergarten'),t('家人替你安排了幼兒園，新的教室和同伴正等著你。','Your caregivers arrange kindergarten; a new classroom and companions await.'),1,'kindergarten-admitted');
  const senior=p.enrollments.find(e=>e.level==='senior'&&e.track==='general'&&!e.outcome);if(senior&&s.year>=senior.startYear+1&&s.year<=senior.startYear+2&&!senior.group)add(8,25,'schoolstory',t('升高二：選擇類組','Choose a senior-high study group'),t('你和老師討論接下來的學習方向。類組為簡化遊戲設定，不代表各校當年的實際分組。','Discuss your study direction. Groups are simplified gameplay settings, not verified historical school arrangements.'),0,'group');
- const master=p.enrollments.find(e=>e.level==='master'&&!e.outcome);if(master&&s.year>=master.startYear+2&&s.year<=master.startYear+4)add(6,15,'schoolstory',t('碩士論文與教授審查','Master’s thesis and supervisor review'),t('碩二起可每年嘗試畢業檢定。D20、學科能力與難度均為遊戲設定，不代表真實學位審查；試玩最多四年。','From year two, attempt an annual graduation check. The D20 model is fictional, not an actual degree assessment; this pilot allows four years.'),0,'graduate');
+ const master=p.enrollments.find(e=>e.level==='master'&&!e.outcome);if(master&&s.year>=master.startYear+2&&s.year<=master.startYear+4)add(6,15,'schoolstory',t('碩士論文與教授審查','Master’s thesis and supervisor review'),t('碩二起可以完成並繳交論文，完成後取得碩士學位。','From year two, attempt an annual graduation check. The D20 model is fictional, not an actual degree assessment; this pilot allows four years.'),0,'graduate');
  const partner=s.people.find(n=>n.id===p.partnerId);
  if(a>=30&&a<=45&&p.children.length<3&&partner?.alive&&!s.pregnancy&&!s.adoption)add(9,6,'child',t('關於孩子，你們怎麼想？','What do you think about children?'),t(partner?.gender===p.gender?'你與伴侶討論是否開始領養與照顧孩子的準備。':'你與伴侶討論是否嘗試生育。結果使用未校準的遊戲機率，不保證懷孕；未成功也不等於醫學上的不孕診斷。','You discuss trying for a child. Uncalibrated game probabilities do not guarantee pregnancy; an unsuccessful attempt is not a medical infertility diagnosis.'),0);
  if(s.adoption?.dueDate.startsWith(String(s.year)))q.push({...event(s,6,6,'birth',t('領養孩子來到家中','Welcoming your adopted child'),t('完成這段準備，孩子來到你們的家。','After preparation, you welcome your adopted child.'),2,'adoption'),date:s.adoption.dueDate});
@@ -125,9 +131,9 @@ function buildYear(s:World):GameEvent[]{
  if(a>=55&&p.job!=='retired')add(10,12,'career',t('下一階段的人生','The next chapter'),t('你想繼續工作，還是先用現有資源安排退休？試玩版尚未計算法定退休給付。','Would you keep working or retire using your current resources? Statutory retirement benefits are not modeled yet.'),0,'retire');
  // One all-cause draw, then one cause; no overlapping cause-specific death rolls.
  const mortality=mortalityRisk(a);
- if(random(s)<mortality){const month=1+Math.floor(random(s)*12),day=2+Math.floor(random(s)*24);add(month,day,'mortality',t('人生的最後一頁','The final page'),t('這段生命因疾病或意外而結束。','This life ends through illness or accident.'),-3,random(s)<.8?'disease':'accident');}
+ if(cancerFollowup(p,s.year)===null&&random(s)<mortality){const month=1+Math.floor(random(s)*12),day=2+Math.floor(random(s)*24);add(month,day,'mortality',t('人生的最後一頁','The final page'),t('這段生命因疾病或意外而結束。','This life ends through illness or accident.'),-3,random(s)<.8?'disease':'accident');}
  q.push(...lifeYear(s));
- return q.sort((x,y)=>x.date.localeCompare(y.date)||(x.kind==='mortality'?-1:y.kind==='mortality'?1:x.id.localeCompare(y.id)));
+ q.push(event(s,1,15,'life',t('年度健康追蹤','Annual health follow-up'),t('健康追蹤','Health follow-up'),0,'cancer-check'));return q.sort((x,y)=>x.date.localeCompare(y.date)||(x.kind==='mortality'?-1:y.kind==='mortality'?1:x.id.localeCompare(y.id)));
 }
 export function focuses(s:World):Option[]{
  if(s.phase!=='focus'||age(s)<player(s).agencyAge)return [];
@@ -137,7 +143,7 @@ export function focuses(s:World):Option[]{
 }
 export function chooseFocus(input:World,focus:Focus):World{
  if(!focuses(input).some(o=>o.id===focus))throw Error('Focus is not available');
- const s=clone(input),p=player(s),beforePoints=subjectProficiency(p);s.focus=focus;if(focus==='talent')s.queue=s.queue.filter(e=>e.kind!=='academic');
+ const s=clone(input),p=player(s),beforePoints=subjectProficiency(p),beforeStrain={stress:p.stress,fatigue:p.fatigue};s.focus=focus;if(age(s)>=25){const st=ensureLife(p);if(!st.timeBlock||s.year>st.timeBlock.endYear)st.timeBlock={version:1,startYear:s.year,endYear:s.year+turnYears(age(s))-1};st.resolutionPlan={focus,nextYear:st.timeBlock.endYear+1};}if(focus==='talent')s.queue=s.queue.filter(e=>e.kind!=='academic');
  if(focus==='study'){if(p.employment){const work=ensureLife(p);work.workProficiency=clamp((work.workProficiency??0)+7);work.hobbies={...work.hobbies,reading:(work.hobbies?.reading??0)+2};}if((['junior','senior','vocational'].includes(educationView(s,p).enrollment?.level??'')||educationView(s,p).enrollment?.level==='primary'&&age(s)>=10)){const points={...beforePoints};for(const key of Object.keys(points) as JuniorSubject[])if(!p.juniorFocus||p.juniorFocus==='all'||p.juniorFocus===key)points[key]=Math.min(20,points[key]+1);ensureLife(p).subjectPoints=points;}if(educationView(s,p).enrollment?.level==='junior')growSubjects(p,7,true);else p.skills.academic=clamp(p.skills.academic+7);p.fatigue=clamp(p.fatigue+4);}
  if(focus==='talent'){p.skills[p.specialty]=clamp(p.skills[p.specialty]+7);p.fatigue=clamp(p.fatigue+4);}
  if(focus==='social'){p.skills.social=clamp(p.skills.social+6);p.stress=clamp(p.stress-3);}
@@ -145,7 +151,7 @@ export function chooseFocus(input:World,focus:Focus):World{
  if(focus==='career'){p.skills.academic=clamp(p.skills.academic+3);p.skills.social=clamp(p.skills.social+3);}
  if(focus==='balanced'){if(educationView(s,p).enrollment?.level==='junior')growSubjects(p,3);else p.skills.academic=clamp(p.skills.academic+3);p.skills.music=clamp(p.skills.music+3);p.health=clamp(p.health+2);}
  if(age(s)>=5&&p.specialty==='music'&&p.job==='none'&&((age(s)<18&&focus==='talent'&&(!!p.musicTraining||p.clubs?.includes('music')))||p.enrollments.some(e=>e.track==='music'&&s.year-e.startYear<enrollmentLength(e)))){scheduleMusic(s,2,15);}
- s.phase='story';s.current=event(s,1,1,'story',focus==='study'&&p.employment?t('工作進修與專業閱讀','Professional learning and reading'):focusLabels[focus],t('你寫下了今年的希望。接下來的生活仍會有意料之外的變化。','You write down your resolution. Life will still bring unexpected turns.'),1);log(s,s.current);return s;
+ s.phase='story';s.current=event(s,1,1,'story',focus==='study'&&p.employment?t('工作進修與專業閱讀','Professional learning and reading'):focusLabels[focus],t('你寫下了今年的希望。接下來的生活仍會有意料之外的變化。','You write down your resolution. Life will still bring unexpected turns.'),1);recordStrain(p,beforeStrain,s.current.title);log(s,s.current);return s;
 }
 function admissionStep(s:World,data:string){const day=new Date(s.date+'T00:00:00Z');day.setUTCDate(day.getUTCDate()+1);const e=event(s,day.getUTCMonth()+1,day.getUTCDate(),'schoolstory',data==='route'?t('會考後：選擇升學路線','After the exam: choose your route'):t('選擇科別並分發','Choose a department and receive placement'),t('保留這次五科總分，接下來的路線與科別選擇不會重擲考試。','Your five-subject total is retained; route and department choices do not reroll the exam.'),0,data);s.queue.push(e);s.queue.sort((a,b)=>a.date.localeCompare(b.date));}
 function scheduleMusic(s:World,month:number,day:number){
@@ -154,7 +160,7 @@ function scheduleMusic(s:World,month:number,day:number){
  s.queue.sort((a,b)=>a.date.localeCompare(b.date));
 }
 function monthFinance(s:World,e:GameEvent){
- const p=player(s),a=age(s),month=Number(e.date.slice(5,7));const study=educationView(s,p);if(study.active&&study.enrollment?.level==='master')p.job='none';
+ const p=player(s),a=age(s),month=Number(e.date.slice(5,7));const study=educationView(s,p);if(higherStudent(s,p))p.job='none';
  for(const n of s.people.filter(n=>n.alive)){
   const na=age(s,n);if(n.id!==p.id){
    // Lightweight NPC economies and history exist before they become playable.
@@ -201,12 +207,17 @@ function closeYear(s:World){
 export function advance(input:World):World{
  if(!['story','resolved'].includes(input.phase))throw Error('Resolve the current decision first');
  const s=clone(input);s.resolution=null;s.current=null;
+ const initialCrisis=crisisEvent(s);if(initialCrisis){s.current=initialCrisis;s.phase='event';return s;}
  while(s.cursor<s.queue.length){
-  const e=s.queue[s.cursor++];s.date=e.date;
-  if(e.kind==='finance'){monthFinance(s,e);continue;}
+  const crisis=crisisEvent(s);if(crisis){s.current=crisis;s.phase='event';return s;}const e=s.queue[s.cursor++];s.date=e.date;
+  if(e.kind==='partnership'&&!stableWork(s))continue;
+  if(e.data?.startsWith('profile:work:')&&!fullTimeJob(s))continue;
+  if(e.data?.startsWith('child-plan:')&&life(player(s)).childPlanReviewed?.[e.data.slice(11)]===blockKey(s))continue;
+ if(e.kind==='life'&&e.data==='cancer-check'){const outcome=cancerYear(s,random);if(outcome.risk!==null&&outcome.risk!==undefined)s.queue=s.queue.filter((n,i)=>i<s.cursor||n.kind!=='mortality');if(outcome.death){s.queue.push(event(s,12,15,'mortality',t('生命的終章','Life’s final chapter'),t('家人陪著你走到最後。','Your family stays beside you.'),-3,'cancer'));s.queue.sort((a,b)=>a.date.localeCompare(b.date));}if(outcome.diagnosed){s.current={...e,title:t('檢查後，生活需要重新安排','A diagnosis changes your plans'),text:cancerLabel(player(s))!};log(s,s.current);s.phase='story';return s;}continue;}
+ if(e.kind==='finance'){const before={stress:player(s).stress,fatigue:player(s).fatigue};monthFinance(s,e);recordStrain(player(s),before,t('每月工作、生活與照顧負擔','Monthly work, living and caregiving load'));continue;}
   if(e.kind==='termexam'){if(['junior','senior','vocational'].includes(educationView(s,player(s)).enrollment?.level??'')){const r=termReport(s,player(s),random);s.current=e;log(s,e,t('段考成績：'+Object.entries(r.subjects).map(([k,v])=>juniorSubjects[k as JuniorSubject].zh+' '+v.score+'分').join('、'),'Term examination results are recorded in your report card.'));s.phase='story';return s;}continue;}
   if(e.kind==='mortality'){
-   const p=player(s);p.alive=false;p.deathDate=e.date;p.deathCause=e.data==='accident'?t('意外','Accident'):t('疾病','Illness');
+   const p=player(s);p.alive=false;p.deathDate=e.date;p.deathCause=e.data==='cancer'?t('肺癌確診後過世（未細分死因）','Death following lung cancer diagnosis (cause unspecified)'):e.data==='accident'?t('意外','Accident'):t('疾病','Illness');
    s.estate[p.id]=p.cash;s.phase='dead';s.current=e;log(s,e,t('這段人生停在了這一天。留下的家人與記憶，仍是這個世界的一部分。','This life stopped on this day. Family and memories remain part of the world.'));s.queue=[];s.cursor=0;return s;
   }
   if(e.kind==='birth'){
@@ -224,7 +235,7 @@ export function advance(input:World):World{
    p.fatigue=clamp(p.fatigue+12);post(s,p,e.id+':care',-12000,'activity',t(adopted?'領養孩子初期照顧費':'新生兒初期照顧費估值',adopted?'Initial care for an adopted child':'Estimated newborn care cost'));
    s.current=e;s.phase='naming';s.pendingChildId=child.id;log(s,e,t(adopted?'孩子來到你們的家，你們準備一起確認孩子的名字。':'孩子平安出生，你們準備替孩子取個名字。',adopted?'You welcome your adopted child and prepare to confirm a name.':'Your child is born, and you prepare to choose a name.'));return s;
   }
-  s.current=e;if(e.kind==='friend'&&e.data?.startsWith('social:')){const scene=friendScene(s,player(s),e.id);e.title=scene.title;e.text=scene.story;}if(e.kind==='illness'&&e.data){const p=player(s);p.health=clamp(p.health-(e.data==='enterovirus'?8:e.data==='gastroenteritis'?7:e.data==='cold'?4:0));p.stress=clamp(p.stress+4);if(e.data==='stress-overload')p.sanity=clamp(sanity(p)-6);}
+  s.current=e;if(continuation(s)&&e.kind==='life'&&['bonus','course-grades'].includes(e.data??'')){const result=resolveLife(s,'acknowledge',lifeContext);log(s,e,result?.text);s.current=null;continue;}if(e.kind==='friend'&&e.data?.startsWith('social:')){const scene=friendScene(s,player(s),e.id);e.title=scene.title;e.text=scene.story;}if(e.kind==='illness'&&e.data){const p=player(s);p.health=clamp(p.health-(e.data==='enterovirus'?8:e.data==='gastroenteritis'?7:e.data==='cold'?4:0));p.stress=clamp(p.stress+4);if(e.data==='stress-overload')p.sanity=clamp(sanity(p)-6);}
   if(e.kind==='story'){if(e.data==='partner-message'){const id='partner-card:'+e.date+':'+(life(player(s)).relationship?.personId??'unknown');if(!player(s).inventory.includes(id)){player(s).inventory.push(id);ensureLife(player(s)).itemNotes={...life(player(s)).itemNotes,[id]:e.text};}}if(e.data==='kindergarten-admitted')admissionNotice(s,e.id,t(educationView(s,player(s)).label.zh.split('就讀')[0].replace(/^在/,''),'Kindergarten'));
    if(e.data==='travel'){
     const payer=s.people.find(n=>player(s).guardianIds.includes(n.id)&&n.alive&&n.cash>=100000);
@@ -235,7 +246,8 @@ export function advance(input:World):World{
   if(age(s)<player(s).agencyAge){if(e.kind==='illness'){const quote=medicalQuote(s,'care');post(s,quote.payer,e.id+':cost',-quote.amount,'medical',t('照顧者安排普通門診（遊戲估值）','Caregiver-arranged routine visit (game estimate)'));player(s).health=clamp(player(s).health+4);log(s,e,t('家人替你安排就醫與休息。'+quote.detail.zh,'Your caregivers arrange care and rest. '+quote.detail.en));s.phase='story';return s;}log(s,e);continue;}
   s.phase='event';return s;
  }
- closeYear(s);return s;
+ const endingCrisis=crisisEvent(s);if(endingCrisis){s.current=endingCrisis;s.phase='event';return s;}
+ closeYear(s);const block=life(player(s)).timeBlock;if(block&&s.year<block.endYear){const carried=nextYear(s);return advance(carried);}if(block&&s.year===block.endYear){block.reviewAtNextYear=true;s.year++;s.date=date(s,1,1);}return s;
 }
 export function options(s:World):Option[]{
  if(s.phase!=='event'||!s.current||age(s)<player(s).agencyAge)return [];
@@ -259,10 +271,10 @@ export function options(s:World):Option[]{
    if(e.data==='vocational-department'||e.data==='college-department')return ['商管科','美顏科','資訊科',...(e.data==='college-department'?['護理科']:[])].map((name,i)=>o('specialty-department:'+i,t(name,['Business management','Beauty care','Information technology','Nursing'][i]),t('模擬科別／學校，以保留會考總分分發，不重擲','Simulated department/school; use the saved total without rerolling')));
    if(e.data==='group')return [o('humanities',t('一類','Group I'),t('人文、社會、商管方向','Humanities, social sciences and business')),o('science',t('二類','Group II'),t('數學、物理、工程與資訊方向','Mathematics, physics, engineering and computing')),o('health-science',t('三類','Group III'),t('生物、生命科學與健康方向','Biology, life and health sciences'))];
    if(e.data==='department')return (p.enrollments.at(-1)?.track==='music'?['音樂']:['資訊工程','企業管理','音樂','體育']).map((name,i)=>o('department:'+i,t(name+'學系（模擬）',['Computer Science','Business Administration','Music','Physical Education'][i]+' (simulated department)'),t('科系選項為遊戲情境；實際校系開設待查','Simulated department; actual school offerings unverified')));
-   if(e.data==='graduate')return [o('defend',t('提交論文，接受教授審查（D20）','Submit thesis for review (D20)'),t('智力＋學科 · DC15（遊戲值）','INT + academics · DC15 (game value)')),o('defer-graduation',t('暫不申請畢業','Defer graduation'),t('碩四後以未畢業離校結束此階段','After year four, leave this stage without a degree'))];return [];
+   if(e.data==='graduate'&&thesisReady(s))return [o('defend',t('完成並繳交碩士論文','Complete and submit the thesis'),t('碩二起完成論文即可畢業','Complete the thesis from year two')),o('defer-graduation',t('暫不申請畢業','Defer graduation'),t('碩四後以未畢業離校結束此階段','After year four, leave this stage without a degree'))];return [];
   case 'musicpractice':return musicOptions(s);
   case 'enrollment':if(e.id.endsWith(':fallback'))return admissionOptions(s,'senior').filter(o=>o.id.endsWith(':general'));return [...admissionOptions(s,e.data as import('../../shared/src/types').EducationLevel),...(e.data==='master'?[o('skip',t('先不讀碩班','Do not enter a master’s program'),t('保留工作安排','Keep work arrangements'))]:[])];
-  case 'partnership':return [o('form',t('與伴侶共同成家','Form a household together'),t('建立伴侶 NPC 與家庭名稱 · 不強制生育','Create a partner and household name · Children are optional')),o('skip',t('暫時維持目前生活','Keep your current living arrangements'),t('未來仍可再次討論','You can discuss this again later'))];
+  case 'partnership':return !stableWork(s)?[]: [o('form',t('與伴侶共同成家','Form a household together'),t('建立伴侶 NPC 與家庭名稱 · 不強制生育','Create a partner and household name · Children are optional')),o('skip',t('暫時維持目前生活','Keep your current living arrangements'),t('未來仍可再次討論','You can discuss this again later'))];
   case 'child':{
    const partner=s.people.find(n=>n.id===p.partnerId);
    if(!partner?.alive)return [o('skip',t('先維持目前生活','Keep current arrangements'),t('生育規劃需要在世伴侶；舊存檔可在後續成家事件繼續','A living partner is needed; migrated saves can use a later household event'))];
@@ -278,7 +290,7 @@ function check(s:World,attribute:Attribute,skill:Skill,dc:number):Check{
 export function decide(input:World,id:string):World{
  if(!options(input).some(o=>o.id===id&&!o.disabled))throw Error('Choice unavailable');
  const s=clone(input),p=player(s),e=s.current!;let result:Text=t('你調整了接下來的安排。','You adjusted your plans.');let roll:Check|undefined;let subjectChecks:Check[]|undefined;let admissionTotal:number|undefined;
- const richResult=resolveLife(s,id,lifeContext);if(richResult){scheduleChapter(s);memories(s);log(s,e,richResult.text);s.resolution=richResult;s.phase='resolved';return s;}
+ const beforeStrain={stress:p.stress,fatigue:p.fatigue};const richResult=resolveLife(s,id,lifeContext);if(richResult){recordStrain(p,beforeStrain,e.title);scheduleChapter(s);memories(s);log(s,e,richResult.text);s.resolution=richResult;s.phase='resolved';return s;}
  const charge=(n:number)=>{const payer=age(s)<18?s.people.find(v=>p.guardianIds.includes(v.id)&&v.alive)??p:p;post(s,payer,e.id+':cost',-n,(e.kind==='illness'||e.kind==='child'&&id==='consult')?'medical':'activity',e.title);};
  if(e.kind==='illness'){p.health=clamp(p.health+(id==='rest'?4:6));p.fatigue=clamp(p.fatigue-8);const quote=medicalQuote(s,id as 'rest'|'care');if(quote.amount)post(s,quote.payer,e.id+':cost',-quote.amount,'medical',t('普通門診自付（遊戲估值）','Routine outpatient cost (game estimate)'));result=t('你留了時間恢復，也重新安排接下來的活動。'+quote.detail.zh,'You made room for recovery and adjusted your activities. '+quote.detail.en);}
  if(e.kind==='family'){p.fatigue=clamp(p.fatigue+(id==='visit'?4:1));if(id==='visit')p.skills.social=clamp(p.skills.social+2);result=id==='visit'?t('你陪家人度過等候的時間，原本的練習延到明天。','You kept your family company and moved practice to tomorrow.'):t('你確認照顧人手，約好之後能陪伴的時間。','You checked care arrangements and agreed on another time to visit.');}
@@ -305,7 +317,7 @@ export function decide(input:World,id:string):World{
   if(e.data==='vocational-department'||e.data==='college-department'){const department=options(input).find(o=>o.id===id)!.title;result=placeAdmission(s,e.id,department);}
   if(e.data==='group'){const entry=p.enrollments.find(e=>e.level==='senior')!;entry.group=options(input).find(o=>o.id===id)!.title;result=t('你選擇了'+entry.group.zh+'，接下來的角色狀態會保留這個方向。','Your chosen study group is recorded: '+entry.group.en);}
   if(e.data==='department'){const entry=p.enrollments.at(-1)!;entry.department=options(input).find(o=>o.id===id)!.title;result=t('已記錄就讀科系：'+entry.department.zh,'Department recorded: '+entry.department.en);}
-  if(e.data==='graduate'){const entry=p.enrollments.find(e=>e.level==='master'&&!e.outcome)!;if(id==='defend')roll=check(s,'int','academic',15);if(roll?.success){entry.outcome='graduated';entry.endYear=s.year;p.credentials.push('master-degree');enqueue(s,lifeEvent(s,9,10,'career',t('畢業後的職涯選擇','Career choices after graduation'),t('看看適合目前學習與經驗的職位。','Explore roles that fit your education and experience.')));result=t('論文審查通過，你取得碩士學位（模擬）。','Thesis review passed; you earn a simulated master’s degree.');}else if(s.year-entry.startYear>=4){entry.outcome='withdrawn';entry.endYear=s.year;result=t('本次未取得畢業資格，碩四後以未畢業離校結束。','No degree was awarded; you leave after year four.');}else result=t('本年尚未畢業，明年繼續研究並可再次接受審查。','You continue research and may seek review again next year.');}
+  if(e.data==='graduate'){const entry=p.enrollments.find(e=>e.level==='master'&&!e.outcome)!;if(id==='defend'&&thesisReady(s)){entry.outcome='graduated';entry.endYear=s.year;p.credentials.push('master-degree');enqueue(s,lifeEvent(s,9,10,'career',t('畢業後的職涯選擇','Career choices after graduation'),t('看看適合目前學習與經驗的職位。','Explore roles that fit your education and experience.')));result=t('論文審查通過，你取得碩士學位（模擬）。','Thesis review passed; you earn a simulated master’s degree.');}else if(s.year-entry.startYear>=4){entry.outcome='withdrawn';entry.endYear=s.year;result=t('本次未取得畢業資格，碩四後以未畢業離校結束。','No degree was awarded; you leave after year four.');}else result=t('本年尚未畢業，明年繼續研究並可再次接受審查。','You continue research and may seek review again next year.');}
  }
  if(e.kind==='musicpractice'){if(id==='renew'){const m=p.musicTraining!,price=instruments.find(i=>i[0]===m.major)![4];post(s,musicPayer(s),e.id+':renew',-price,'education',t('更新主修樂器','Instrument replacement'));m.purchaseYear=s.year;result=t('更新樂器，原有練習與教學安排保留。','Instrument replaced; current lesson arrangement retained.');}else if(id!=='defer'){const mode=id as import('../../shared/src/types').MusicMode,m=p.musicTraining!;post(s,musicPayer(s),e.id+':music',-musicCost(s,mode),'education',t('樂器與本年練習資源（遊戲估值）','Instrument and annual practice resources (game estimate)'));if(mode!=='school-loan'){if(!m.owned)m.purchaseYear=s.year;m.owned=true;}m.mode=mode;m.lastPaidYear=s.year;p.skills.music=clamp(p.skills.music+(mode==='private-teacher'?5:3));result=t('已安排本年練習資源。自購打擊樂器以馬林巴木琴為主；資源不保證術科錄取。','Annual practice resources arranged. Purchased percussion centers on a marimba; resources do not guarantee admission.');}else result=t('本年暫緩付費安排，保留基礎練習與升學選擇。','Paid arrangements deferred; basic practice and admission options remain.');}
  if(e.kind==='enrollment'&&id.startsWith('enroll:')){
@@ -320,9 +332,9 @@ export function decide(input:World,id:string):World{
   else {if(level==='senior'&&!subjectChecks){const fallback=event(s,6,21,'enrollment',t('術科後的一般升學準備','General admission after the audition'),t('術科未通過，仍可以在今年參加會考與普通升學。','You can still take the general entrance examination this year.'),0,'senior');fallback.id+=':fallback';s.queue.push(fallback);s.queue.sort((a,b)=>a.date.localeCompare(b.date));}if(level==='primary'||level==='junior')recordEnrollment(p,{level,schoolId:localAssignment(s,level),track:'general',startYear:s.year});result=t('這次術科未通過；國小、國中仍保留一般就學安排，其他升學機會不因專長身分被封鎖。','The specialty check did not pass. Primary/junior pupils retain general schooling; specialty status does not lock other routes.');}
   if(subjectChecks)result=t(`會考五科總分 ${admissionTotal} 分（遊戲值）。接下來選高中、高職或五專，再進行分發；總分已保留。`,`Five-subject total: ${admissionTotal} (game points). Next choose senior high, vocational high or five-year college, then receive placement. Your total is saved.`);
  }
- if(e.kind==='partnership'&&id==='form'){
-  const existingDate=life(p).relationship?.active?s.people.find(n=>n.id===life(p).relationship?.personId):undefined;const partner=existingDate??person(s,`partner-${s.people.length}`,p.birthYear+1);if(!existingDate)partner.name=partner.name[0]+pick(s,givenNames);partner.job='service';partner.cash=60000;
-  partner.gender=p.attractedTo;partner.attractedTo=p.gender;partner.partnerId=p.id;p.partnerId=partner.id;p.familyName=`${p.name}與${partner.name}的家`;partner.familyName=p.familyName;
+ if(e.kind==='partnership'&&id==='form'&&stableWork(s,p)){
+  const existingDate=life(p).relationship?.active?s.people.find(n=>n.id===life(p).relationship?.personId):undefined;const partner=existingDate??person(s,`partner-${s.people.length}`,p.birthYear+1,p.attractedTo);if(!existingDate)partner.name=partner.name[0]+pick(s,givenNamesFor(partner.gender));partner.job='service';partner.cash=60000;
+  partner.attractedTo=p.gender;partner.partnerId=p.id;p.partnerId=partner.id;p.familyName=`${p.name}與${partner.name}的家`;partner.familyName=p.familyName;
   p.householdId=`family-${p.id}-${partner.id}`;partner.householdId=p.householdId;if(!existingDate)s.people.push(partner);s.housing.push({householdId:p.householdId,tenure:'rent',value:0,mortgage:0,monthlyRent:12000});
   enqueue(s,lifeEvent(s,8,13,'family-assets',t('成家後的住處計畫','A home for your new family'),t('討論租屋、購屋及自備款。','Discuss renting, purchasing and savings.')));result=t(`你與${partner.name}建立共同家庭。原生家庭的紀錄依然保留。`,`You and ${partner.name} form a shared household. Your family-of-origin records remain.`);
  }
@@ -342,7 +354,7 @@ export function decide(input:World,id:string):World{
  if(e.kind==='enrollment'&&player(s).enrollments.some(n=>n.startYear===s.year&&n.level===e.data)){const n=player(s).enrollments.find(n=>n.startYear===s.year&&n.level===e.data)!;admissionNotice(s,e.id,t(schools.find(school=>school.id===n.schoolId)?.name??'所在地模擬學校（校名待查）',schools.find(school=>school.id===n.schoolId)?.name??'Simulated local school'));}
  if(e.kind==='career'&&id==='apply'&&roll?.success)admissionNotice(s,e.id,p.employment!.company);
  if(e.kind==='enrollment'&&subjectChecks)result=t('會考結果：'+capResult(subjectChecks)+'。接下來選高中、高職或五專。','CAP result: '+capResult(subjectChecks)+'. Choose your route next.');
- log(s,e,result);scheduleChapter(s);memories(s);s.resolution={text:result,...(roll?{check:roll}:{}),...(subjectChecks?{checks:subjectChecks,admissionTotal}:{})};s.phase='resolved';return s;
+ recordStrain(p,beforeStrain,e.title);log(s,e,result);scheduleChapter(s);memories(s);s.resolution={text:result,...(roll?{check:roll}:{}),...(subjectChecks?{checks:subjectChecks,admissionTotal}:{})};s.phase='resolved';return s;
 }
 export function nameChild(input:World,givenName:string,surnameParentId?:string):World{
  if(input.phase!=='naming'||!input.pendingChildId||!input.current||!player(input).alive)throw Error('No child awaiting a name');
@@ -356,14 +368,14 @@ export function nameChild(input:World,givenName:string,surnameParentId?:string):
 }
 export function nextYear(input:World):World{
  if(input.phase!=='review')throw Error('Year is not complete');
- const s=clone(input);delete s.pendingAdmission;s.year++;s.date=date(s,1,1);const p=player(s);s.focus=null;s.current=null;s.resolution=null;s.cursor=0;s.openingCash=p.cash;s.openingDebt=p.debt;
+ const s=clone(input);delete s.pendingAdmission;const endpoint=life(player(s)).timeBlock?.reviewAtNextYear;if(endpoint)delete ensureLife(player(s)).timeBlock;else s.year++;s.date=date(s,1,1);const p=player(s);s.focus=null;s.current=null;s.resolution=null;s.cursor=0;s.openingCash=p.cash;s.openingDebt=p.debt;
  for(const n of s.people.filter(v=>v.alive)){
   if(n.life)delete n.life.tutoring;
   const a=age(s,n);if(a===3&&!n.enrollments.some(e=>e.level==='kindergarten'))recordEnrollment(n,{level:'kindergarten',schoolId:localAssignment({...s,playerId:n.id},'kindergarten'),track:'general',startYear:s.year});n.health=clamp(n.health-(a>60?1:0));n.fatigue=clamp(n.fatigue-5);
   if(n.id!==p.id){if(a>=6&&a<=22){n.skills.academic=clamp(n.skills.academic+3);n.skills.music=clamp(n.skills.music+2);}const level=entryLevel(a);if(level&&level!=='master'&&!n.enrollments.some(e=>e.level===level))recordEnrollment(n,{level,schoolId:localAssignment({...s,playerId:n.id},level),track:'general',startYear:s.year});n.history.push({year:s.year,text:t('這一年，你也有自己的生活與選擇。','You lived another year with your own experiences.')});if(a>65&&random(s)<Math.min(.9,.02*Math.exp((a-65)/12))){recordNpcDeath(s,n,random(s)<.8?t('疾病','Illness'):t('意外','Accident'));if(life(p).relationship?.personId===n.id)ensureLife(p).relationship!.active=false;}}
  }
  s.queue=buildYear(s);scheduleChapter(s);memories(s);s.phase=age(s)>=p.agencyAge?'focus':'story';
- if(s.phase==='story'){s.current=event(s,1,1,'story',t('又長大了一點','Growing a little more'),t('家人繼續安排你的生活。自主決策尚未開始。','Your family continues arranging your care. Personal choices have not begun yet.'),0);log(s,s.current);}
+ if(s.phase==='focus'&&continuation(s)){const continued=chooseFocus(s,life(p).resolutionPlan?.focus??'balanced');continued.queue=blockEvents(continued,continued.queue);return continued;}if(s.phase==='story'){s.current=event(s,1,1,'story',t('又長大了一點','Growing a little more'),t('家人繼續安排你的生活。自主決策尚未開始。','Your family continues arranging your care. Personal choices have not begun yet.'),0);log(s,s.current);}
  return s;
 }
 export function successors(s:World):Person[]{

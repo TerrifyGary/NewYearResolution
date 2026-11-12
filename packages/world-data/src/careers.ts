@@ -1,5 +1,5 @@
 import {t} from '../../shared/src/types';
-export interface CareerRecord {id:string;company:ReturnType<typeof t>;role:ReturnType<typeof t>;kind:'service'|'technology'|'creative';monthly:number;partTime:boolean;skill:'academic'|'music'|'sports'|'coffee'|'social';dc:number;degree?:'music'|'sports';source:string;salaryBasis:'estimate'|'advertised-range';range?:[number,number];checked:string}
+export interface CareerRecord {fields?:string[];minDegree?:'master';id:string;company:ReturnType<typeof t>;role:ReturnType<typeof t>;kind:'service'|'technology'|'creative';monthly:number;partTime:boolean;skill:'academic'|'music'|'sports'|'coffee'|'social';dc:number;degree?:'music'|'sports';source:string;salaryBasis:'estimate'|'advertised-range';range?:[number,number];checked:string}
 const record=(id:string,company:string,role:string,kind:CareerRecord['kind'],monthly:number,partTime:boolean,skill:CareerRecord['skill'],dc:number,source:string,degree?:CareerRecord['degree']):CareerRecord=>({id,company:t(company,company),role:t(role,role),kind,monthly,partTime,skill,dc,source,degree,salaryBasis:'estimate',checked:'2026-11-09'});
 export const careers:CareerRecord[]=[
  record('music-tutor','社區音樂教室','樂器家教','creative',10000,true,'music',12,'https://careercenter.ntnu.edu.tw/list-detail.php?lang=zh-tw&sid=15544&type=info-job','music'),
@@ -28,5 +28,19 @@ export const teachingReference={year:2026,region:'new-taipei',vacancies:156,appl
 const roleEnglish:Record<string,string>={'music-tutor':'Instrument tutor','academic-tutor':'Academic tutor','cafe-part':'Part-time café team member','restaurant-part':'Restaurant server',delivery:'Delivery partner','fitness-part':'Part-time fitness instructor','music-center':'Music center coordinator','music-teacher':'Instrument teacher','gym-coach':'Personal trainer',worldgym:'Fitness consultant','cafe-full':'Café team member',office:'Administrative coordinator',software:'Junior software engineer'};
 const companies:Record<string,string>={'music-tutor':'Community music studio','academic-tutor':'Local tutoring network','cafe-part':'Louisa Coffee','restaurant-part':'Neighborhood restaurant',delivery:'Delivery platform','fitness-part':'Community fitness studio','music-center':'KHS Music Center','music-teacher':'The Ball Music Academy','gym-coach':'Fitness Factory',worldgym:'World Gym','cafe-full':'Louisa Coffee',office:'Local business',software:'IT services company'};
 Object.assign(roleEnglish,{'software-mid':'Software engineer','software-senior':'Senior software engineer','software-foreign':'Software engineer','project-lead':'Technical project lead','service-lead':'Store operations manager','creative-lead':'Education program lead'});Object.assign(companies,{'software-mid':'Galaxy Software Services','software-senior':'Trend Micro','software-foreign':'Microsoft Taiwan','project-lead':'Taiwan IT company','service-lead':'Service company','creative-lead':'Arts education organization'});for(const r of careers){r.role.en=roleEnglish[r.id];r.company.en=companies[r.id];}
+
+
+
+const fieldRoles:[string,string,string,string,number,string,boolean?][]=[
+ ['lab-assistant','研究機構','實驗室研究助理','bio',38000,'Laboratory research assistant'],
+ ['food-quality','食品製造企業','食品品管專員','bio',36000,'Food quality specialist'],
+ ['research-associate','生技研發企業','研發研究員','bio',52000,'Research associate',true],
+ ['marketing','品牌與行銷企業','行銷企劃專員','business',36000,'Marketing specialist'],
+ ['operations-analyst','企業營運部門','營運分析師','business',48000,'Operations analyst',true],
+ ['editor','出版與內容企業','文字編輯','language',34000,'Editor'],
+ ['content-planner','教育與內容企業','內容企劃','language',36000,'Content planner']
+];
+for(const [id,company,role,field,monthly,en,master] of fieldRoles){const r=record(id,company,role,field==='bio'?'technology':'service',monthly,false,'academic',master?16:13,'https://jobooks.taiwanjobs.gov.tw/');r.fields=[field];if(master)r.minDegree='master';r.role.en=en;r.company.en='Local employer';careers.push(r);}
+for(const r of careers){if(r.id.startsWith('software')||r.id==='project-lead')r.fields=['it'];if(['music-center','music-teacher','creative-lead'].includes(r.id))r.fields=['music'];}
 
 export const careersById:Readonly<Record<string,CareerRecord>>=Object.fromEntries(careers.map(r=>[r.id,r]));

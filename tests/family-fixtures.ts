@@ -1,6 +1,7 @@
 import {advance,chooseFocus,createGame,decide,nextYear,player,type World} from '../packages/engine/src';
 export function partnered(seed='family-fixture'):World{
  const s=createGame(seed);s.year=2036;s.date='2036-08-12';s.phase='event';s.queue=[];s.cursor=0;
+ Object.assign(player(s),{job:'service',employedMonths:24,employment:{company:{zh:'公司',en:'Company'},position:{zh:'專員',en:'Staff'},startYear:2034,monthlySalary:36000}});
  s.current={id:'household-fixture',date:s.date,kind:'partnership',title:{zh:'成家',en:'Household'},text:{zh:'測試',en:'Fixture'},tone:0,grade:'D'};
  return decide(s,'form');
 }

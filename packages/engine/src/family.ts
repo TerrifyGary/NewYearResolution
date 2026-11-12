@@ -1,4 +1,4 @@
-import {givenNames} from '../../world-data/src/names';
+import {givenNamesFor} from '../../world-data/src/names';
 import {t,type FertilityState,type Person,type Text,type World} from '../../shared/src/types';
 /** Separate deterministic stream: generating a profile or viewing suggestions never moves world RNG. */
 function familyHash(value:string){let n=2166136261;for(const c of value)n=Math.imul(n^c.charCodeAt(0),16777619);return n>>>0;}
@@ -7,9 +7,9 @@ export function initialFertility(seed:string,id:string):FertilityState{
  return {profile:familyHash(`${seed}:fertility:${id}`)/4294967296<.12?'reduced':'typical',assessed:false,attempts:0,lastAttemptYear:null};
 }
 export function nameSuggestions(s:World,childId:string):string[]{
- const names=givenNames;
- const start=familyHash(`${s.seed}:names:${childId}`)%names.length;
- return [0,7,19,31,43,59].map(offset=>names[(start+offset)%names.length]);
+ const child=s.people.find(n=>n.id===childId),available=[...givenNamesFor(child?.gender)];
+ // Without replacement: all six suggestions remain distinct even if pool sizes change.
+ return Array.from({length:Math.min(6,available.length)},(_,i)=>available.splice(familyHash(`${s.seed}:names:${childId}:${i}`)%available.length,1)[0]);
 }
 export function validateGivenName(input:string):string{
  const name=input.normalize('NFC').trim();
